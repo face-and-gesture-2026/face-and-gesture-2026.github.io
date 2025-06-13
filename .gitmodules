@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-event"]
+	path = themes/hugo-theme-event
+	url = https://github.com/medialesson/hugo-theme-event.git
