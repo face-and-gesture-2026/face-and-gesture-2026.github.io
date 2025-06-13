@@ -1,4 +1,47 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-theme-event'
+baseURL: '/'
+theme: 'hugo-theme-event'
+
+defaultContentLanguage: en
+languages:
+    _merge: deep
+    en:
+        disabled: false
+
+params:
+    themes:
+        event:
+          title: 'The 20th IEEE International Conference on Automatic Face and Gesture Recognition'
+          slogan: FG 2026 # overwrite template string
+          shortTitle: Home # overwrite title in header menu
+          description: |
+            The IEEE conference series on Automatic Face and Gesture Recognition is the premier international forum for research in image and video-based face, gesture, and body movement recognition.
+            It is co-sponsored by [IEEE Biometrics Council](https://ieee-biometrics.org/) and [IEEE Computer Society](https://www.computer.org/).
+            Its broad scope includes advances in fundamental computer vision, pattern recognition, and computer graphics;
+            machine learning techniques relevant to face, gesture, and body motion;
+            interdisciplinary research on behavioral analysis;
+            new algorithms and applications.
+            Topics of interest include but are not limited to:
+
+            - Face recognition & biometrics
+            - Face analysis and synthesis
+            - Body action and activity recognition
+            - Gesture recognition, analysis, and synthesis
+            - Affective computing and multi-modal interaction
+            - Psychological and behavioral analysis
+            - Perceptual and cognitive aspects of non-verbal interaction
+            - Databases and tools for FG
+            - Technologies and applications related to FG
+            - Privacy and ethical issues of FG
+          startDate: 2026-05-25
+          endDate: 2026-05-29
+          location: Kyoto, Japan
+          images:
+                logo: logos/biometricsCouncil.png
+                titleBackground: images/kyoto.jpg # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
+          callToAction:
+                other:
+                    # 👇 Enter the URL of your ticket shop here.
+                    url:
+                enableBanner: false
+          colors:
+                primary: '#9E241E' # ieee biometrics red
