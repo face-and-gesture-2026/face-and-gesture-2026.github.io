@@ -12,7 +12,7 @@ params:
         event:
           title: 'The 20th IEEE International Conference on Automatic Face and Gesture Recognition'
           slogan: FG 2026 # overwrite template string
-          shortTitle: Home # overwrite title in header menu
+          shortTitle: FG 2026 # overwrite title in header menu
           description: |
             The IEEE conference series on Automatic Face and Gesture Recognition is the premier international forum for research in image and video-based face, gesture, and body movement recognition.
             It is co-sponsored by [IEEE Biometrics Council](https://ieee-biometrics.org/) and [IEEE Computer Society](https://www.computer.org/).
