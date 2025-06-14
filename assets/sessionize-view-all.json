@@ -1,0 +1,225 @@
+{
+  "sessions": [
+    {
+      "id": "14022",
+      "title": "Aiden's Keynote",
+      "description": "Usually, you would find a session description here. But, this is not a real session submission, so description is missing. Ha!",
+      "startsAt": "2023-09-16T09:00:00Z",
+      "endsAt": "2023-09-16T10:00:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": true,
+      "speakers": [
+        "00000000-0000-0000-0000-000000000004"
+      ],
+      "categoryItems": [
+        4373,
+        10663,
+        10666,
+        10672
+      ],
+      "roomId": 215,
+      "status": "Accepted",
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "14019",
+      "title": "Jackson's Session",
+      "description": "Usually, you would find a session description here. But, this is not a real session submission, so description is missing. Ha!",
+      "startsAt": "2023-09-16T10:15:00Z",
+      "endsAt": "2023-09-16T11:15:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "00000000-0000-0000-0000-000000000001"
+      ],
+      "categoryItems": [
+        4372,
+        4375,
+        10667,
+        "lang-en"
+      ],
+      "roomId": 216,
+      "status": "Accepted",
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "f91513e5-6e73-4910-9ee5-070a6ab04035",
+      "title": "Lunch",
+      "description": "Fooooood!",
+      "startsAt": "2023-09-16T12:30:00Z",
+      "endsAt": "2023-09-16T13:30:00Z",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "roomId": 217,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    }
+  ],
+  "speakers": [
+    {
+      "id": "00000000-0000-0000-0000-000000000004",
+      "firstName": "Aiden",
+      "lastName": "Test",
+      "bio": "Pop culture fanatic. Friend of animals everywhere. Student. Thinker. Bacon practitioner.",
+      "tagLine": "Professional public speaker",
+      "profilePicture": "https://sessionize.com/image/8db9-400o400o1-test4.jpg",
+      "isTopSpeaker": true,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/sessionizecom",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "http://linkedin.com/in/domagojpa",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        14022
+      ],
+      "fullName": "Aiden Test",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "firstName": "Jackson",
+      "lastName": "Test",
+      "bio": "Thinker. Food trailblazer. Organizer. Student. Pop culture fanatic. Writer. Passionate twitter lover. Music advocate.",
+      "tagLine": "Tech guy",
+      "profilePicture": "https://sessionize.com/image/e863-400o400o1-test1.jpg",
+      "isTopSpeaker": true,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/sessionizecom",
+          "linkType": "Twitter"
+        }
+      ],
+      "sessions": [
+        14019
+      ],
+      "fullName": "Jackson Test",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 2124,
+      "title": "Session format",
+      "items": [
+        {
+          "id": 4372,
+          "name": "Lightning talk",
+          "sort": 1
+        },
+        {
+          "id": 4373,
+          "name": "Session",
+          "sort": 2
+        },
+        {
+          "id": 4374,
+          "name": "Workshop",
+          "sort": 3
+        },
+        {
+          "id": 4376,
+          "name": "Poster",
+          "sort": 4
+        }
+      ],
+      "sort": 0,
+      "type": "session"
+    },
+    {
+      "id": 2125,
+      "title": "Track",
+      "items": [
+        {
+          "id": 10663,
+          "name": "Technical",
+          "sort": 1
+        },
+        {
+          "id": 10664,
+          "name": "Scientific",
+          "sort": 2
+        },
+        {
+          "id": 4375,
+          "name": "Business",
+          "sort": 3
+        }
+      ],
+      "sort": 1,
+      "type": "session"
+    },
+    {
+      "id": 2126,
+      "title": "Level",
+      "items": [
+        {
+          "id": 10665,
+          "name": "Introductory and overview",
+          "sort": 1
+        },
+        {
+          "id": 10666,
+          "name": "Intermediate",
+          "sort": 2
+        },
+        {
+          "id": 10667,
+          "name": "Advanced",
+          "sort": 3
+        },
+        {
+          "id": 10668,
+          "name": "Expert",
+          "sort": 4
+        }
+      ],
+      "sort": 2,
+      "type": "session"
+    },
+    {
+      "id": 2127,
+      "title": "Language",
+      "items": [
+        {
+          "id": "lang-en",
+          "name": "English",
+          "sort": 1
+        }
+      ],
+      "sort": 3,
+      "type": "session"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 215,
+      "name": "Green Room",
+      "sort": 0
+    },
+    {
+      "id": 216,
+      "name": "Yellow Room",
+      "sort": 1
+    },
+    {
+      "id": 217,
+      "name": "Restaurant",
+      "sort": 2
+    }
+  ]
+}
