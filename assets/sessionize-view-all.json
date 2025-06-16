@@ -67,7 +67,7 @@
       "lastName": "Test",
       "bio": "Pop culture fanatic. Friend of animals everywhere. Student. Thinker. Bacon practitioner.",
       "tagLine": "Professional public speaker",
-      "profilePicture": "images/kyoto.jpg",
+      "profilePicture": "images/kyoto.webp",
       "isTopSpeaker": true,
       "links": [
         {
@@ -94,7 +94,7 @@
       "lastName": "Test",
       "bio": "Thinker. Food trailblazer. Organizer. Student. Pop culture fanatic. Writer. Passionate twitter lover. Music advocate.",
       "tagLine": "Tech guy",
-      "profilePicture": "images/kyoto.jpg",
+      "profilePicture": "images/kyoto.webp",
       "isTopSpeaker": true,
       "links": [
         {
