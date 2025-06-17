@@ -44,4 +44,6 @@ params:
                     url:
                 enableBanner: false
           colors:
-                primary: '#9E241E' # ieee biometrics red
+                primary: '#102F4B' # dark blue
+                primaryLighter: '#154065' # blue
+                track: '#154065' # blue
