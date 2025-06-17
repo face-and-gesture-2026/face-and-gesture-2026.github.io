@@ -37,7 +37,7 @@ params:
           location: Kyoto, Japan
           images:
                 logo: logos/biometricsCouncil.png
-                titleBackground: images/kyoto.jpg # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
+                titleBackground: images/kyoto.webp # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
           callToAction:
                 other:
                     # 👇 Enter the URL of your ticket shop here.
