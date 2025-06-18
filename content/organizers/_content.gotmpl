@@ -1,0 +1,19 @@
+{{ .EnableAllLanguages }}
+
+{{ $context := . }}
+
+{{ with partial "organizers-all.html" }}
+
+    {{ with partial "content-adapters/create-organizers-content.html" (
+        dict
+        "sessionize" .
+        )
+    }}
+        {{ range .pages }}
+            {{ $.AddPage . }}
+        {{ end }}
+        {{ range .resources }}
+            {{ $.AddResource . }}
+        {{ end }}
+    {{ end }}
+{{ end }}

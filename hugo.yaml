@@ -6,6 +6,11 @@ languages:
     _merge: deep
     en:
         disabled: false
+        menu:
+          main:
+            - identifier: organizers
+              pageRef: /organizers
+              weight: 10
 
 params:
     themes:
