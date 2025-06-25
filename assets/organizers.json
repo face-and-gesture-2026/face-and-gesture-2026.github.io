@@ -1,16 +1,339 @@
 {
-    "General": [],
-    "Program": [],
-    "SpecialSession": [],
-    "DemoAndExhibition": [],
-    "Publication": [],
-    "Competition": [],
-    "WorkshopsTutorials": [],
-    "Publicity": [],
-    "Website": [],
-    "FinanceAndLocal": [],
-    "Awards": [],
-    "Sponsorship": [],
-    "DoctoralConsortium": [],
-    "organizers": []
+  "General": ["daigo_muramatsu", "laszlo_jeni", "monica_perusquia-hernandez", "takeo_kanade"],
+  "Program": ["mohammad_soleymani", "yingli_tian", "alice_otoole", "iacopo_masi"],
+  "SpecialSession": ["shiqi_yu", "matteo_ferrara"],
+  "DemoAndExhibition": ["kevin_elhaddad", "katsutoshi_masai"],
+  "Publication": ["miao_cheng", "joseph_robinson"],
+  "Competition": ["chirag_raman", "jyoti_joshi"],
+  "WorkshopsTutorials": ["shiro_kumano", "koichiro_niinuma"],
+  "Publicity": ["marwa_mahmoud", "ryo_yonetani"],
+  "Website": ["felix_dollack", "matthias_norden"],
+  "FinanceAndLocal": ["shohei_nobuhara", "yuta_nakashima"],
+  "Awards": ["itir_ertugrul", "abhinav_dhall"],
+  "Sponsorship": ["chie_hieida", "hiromi_narimatsu"],
+  "DoctoralConsortium": ["kalin_stefanov", "yasutomo_kawanishi"],
+  "organizers": [
+    {
+      "id": "daigo_muramatsu",
+      "firstName": "Daigo",
+      "lastName": "Muramatsu",
+      "bio": "Daigo Muramatsu is a Professor with the Faculty of Science and Technology, Seikei University, where he leads the Learning-based Perceptional Data Processing Lab. His research interests are pattern recognition, computer vision, and behavior-based biometrics including gait and cyclist recognition. He received the B.S., M.E., and Ph.D. degree in engineering from Waseda University, Tokyo, Japan, in 1997, 1999, and 2006, respectively. Dr. Muramatsu has been recognized with several awards, including an honorable mention paper award at the 9th IAPR International Conference on Biometrics (ICB2016), and a best paper award at the 2nd International Workshop on Biometrics and Forensics (IWBF2014). He is a member of the IEEE and an associate editor for the IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM).",
+      "tagLine": "Professor, Pattern Recognition and Computer Vision",
+      "profilePicture": "images/image1.png",
+      "links": [],
+      "fullName": "Daigo Muramatsu"
+    },
+    {
+      "id": "laszlo_jeni",
+      "firstName": "Laszlo",
+      "lastName": "Jeni",
+      "bio": "László A. Jeni is an Assistant Research Professor at the Robotics Institute at Carnegie Mellon University, where he leads the CUBE Lab. His research lies at the intersection of computer vision and behavioral science, focusing on modeling, understanding, and synthesizing human motion and behavior through advanced sensor technologies. He earned his master's degree in Computer Science from Eötvös Loránd University in Hungary and his Ph.D. from the University of Tokyo, Japan, in 2012. Dr. Jeni has been recognized with several Best Paper awards, including honors at the IEEE Conference on Human System Interaction (HSI'2011) and the IEEE Conference on Automatic Face and Gesture Recognition (FG'2015). Additionally, he has received Outstanding Reviewer awards at conferences such as NeurIPS 2019, CVPR 2017, and IEEE FG 2015. With a portfolio of over 80 peer-reviewed journal and conference publications, his research contributions span a wide range of applications. His work has been supported by leading funding agencies, including the NIH, NSF, DoD, and DARPA, as well as industry giants like Facebook, Apple, Amazon, Google, and Fujitsu.",
+      "tagLine": "Assistant Research Professor, Computer Vision and Behavioral Science",
+      "profilePicture": "images/image11.jpg",
+      "links": [],
+      "fullName": "László A. Jeni"
+    },
+    {
+      "id": "monica_perusquia-hernandez",
+      "firstName": "Monica",
+      "lastName": "Perusquia-Hernandez",
+      "bio": "Monica Perusquia-Hernandez is an assistant professor of HCI and Affective Science at the Nara Institute of Science and Technology, Japan. She specializes in Affective Computing and User Experience Quantification to improve Human-Computer Interaction. Her work relies on Computer Vision, EMG, EEG, ECG, and EDA for congruence estimation between facial expressions and emotions. She is member of the IEEE, ACM, AAAC, ISRE, SAS, JSRE, and IFESS academic associations and an associate editor for the IEEE Transactions on Affective Computing.",
+      "tagLine": "Assistant Professor, HCI and Affective Science",
+      "profilePicture": "images/image3.jpg",
+      "links": [],
+      "fullName": "Monica Perusquia-Hernandez"
+    },
+    {
+      "id": "takeo_kanade",
+      "firstName": "Takeo",
+      "lastName": "Kanade",
+      "bio": "Dr. Kanade was the U. A. and Helen Whitaker University Professor of Computer Science and Robotics and the director of Quality of Life Technology Engineering Research Center at Carnegie Mellon University. He received his Doctoral degree in Electrical Engineering from Kyoto University, Japan, in 1974. After holding a faculty position in the Department of Information Science, Kyoto University, he joined Carnegie Mellon University in 1980. He was the Director of the Robotics Institute from 1992 to 2001. He also founded the Digital Human Research Center in Tokyo and served as founding director. He received the prestigious 2016 Kyoto Prize for Advanced Technology, presented by the Inamori Foundation to individuals such as Kanade who have contributed significantly to the scientific, cultural and spiritual betterment of humankind. Kanade's prize recognizes his pioneering contributions to computer vision and robotics. Dr. Kanade works in multiple areas of robotics: computer vision, multimedia, manipulators, autonomous mobile robots, medical robotics and sensors. He has written more than 400 technical papers and reports in these areas, and holds more than 20 patents. He has been the principal investigator of more than a dozen major vision and robotics projects at Carnegie Mellon. Dr. Kanade's other professional honors include: election to the National Academy of Engineering, the American Academy of Arts and Sciences, a Fellow of IEEE, a Fellow of ACM, and a Fellow of American Association of Artificial Intelligence; several awards including Kyoto Prize, the Benjamin Franklin Institute Medal and Bower Prize, C&C Award, Okawa Award, ACM/AAAI Allen Newell Award, Joseph Engelberger Award, IEEE Robotics and Automation Society Pioneer Award, IEEE Foundation Medal and ICCV Azriel Rosenfeld Lifetime Accomplishment Award. He was a keynote of IEEE FG in 2015, and published 14 papers in past editions of FG.",
+      "tagLine": "Honorary Chair, Computer Vision and Robotics Pioneer",
+      "profilePicture": "images/image8.jpg",
+      "links": [],
+      "fullName": "Takeo Kanade"
+    },
+    {
+      "id": "mohammad_soleymani",
+      "firstName": "Mohammad",
+      "lastName": "Soleymani",
+      "bio": "Mohammad Soleymani is a Research Associate Professor of computer science at the USC Institute for Creative Technologies. He received his PhD in computer science from the University of Geneva in 2011. From 2012 to 2014, he was a Marie Curie fellow at Imperial College London. Prior to joining ICT, he was a research scientist at the Swiss Center for Affective Sciences, University of Geneva. His research is focused on machine learning for automatic human behavior analysis, including computational analysis His team has developed OpenSense, a multimodal sensing platform that can be leveraged to acquire and code human behaviors. He has published more than 90 papers on emotion recognition, natural language understanding, computer vision and multimodal machine learning. He is a recipient of the Swiss National Science Foundation Ambizione grant and the EU Marie Curie fellowship. He has served on multiple conference organization committees and editorial roles, most notably as an associate editor for the IEEE Transactions on Affective Computing (2016-2021), general chair for ICMI 2024 and ACII 2021 and technical program chair for ACM ICMI 2018 and ACII 2017. From 2019 to 2021, he was the president of the Association for the Advancement of Affective Computing (AAAC).",
+      "tagLine": "Research Associate Professor, Machine Learning and Human Behavior Analysis",
+      "profilePicture": "images/image6.jpg",
+      "links": [],
+      "fullName": "Mohammad Soleymani"
+    },
+    {
+      "id": "yingli_tian",
+      "firstName": "Yingli",
+      "lastName": "Tian",
+      "bio": "Yingli Tian is a Distinguished Professor in Electrical Engineering Department at the City College of New York (CCNY) and Computer Science Department at Graduate Center of the City University of New York (CUNY). She is a fellow of Institute of Electrical and Electronics Engineers (IEEE), International Association of Pattern Recognition (IAPR), Asia-Pacific Artificial Intelligence Association (AAIA), and American Association for the Advancement of Science (AAAS). She is a pioneer in automatic facial expression analysis, human activity understanding, and assistive technology. Her research on automatic facial expression analysis and database development with Takeo Kanade and Jeff Cohn has made significant impact in the research community and received the \"Test of Time Award\" at FG'19. She has published more than 250 peer-reviewed papers in journals and conferences in these areas with 27,200+ citations and holds 29 issued patents. She received her PhD from the Department of Electronic Engineering at the Chinese University of Hong Kong in 1996. Before joining CCNY, Dr. Tian was a research staff member at IBM T. J. Watson Research Center and led the video analytics team. Her contributions to video surveillance technology and solutions have earned her the IBM Outstanding Innovation Achievement Award and multiple Invention Achievement Award. She was the PC for FG'23. She serves as Associate Editor in Chief for Computer Vision and Image Understanding (CVIU), and Associate Editor for IEEE Trans. on Multimedia (TMM), Journal of Visual Communication and Image Representation (JVCI), and Machine Vision and Applications (MVAP).",
+      "tagLine": "Distinguished Professor, Computer Vision and Facial Expression Analysis",
+      "profilePicture": "images/image22.jpg",
+      "links": [],
+      "fullName": "Yingli Tian"
+    },
+    {
+      "id": "alice_otoole",
+      "firstName": "Alice",
+      "lastName": "O'Toole",
+      "bio": "Alice O'Toole is a professor in the School of Behavioral and Brain Sciences at The University of Texas at Dallas and currently holds the Aage and Margareta Møller Endowed Chair. Her research interests include human perception, memory, and cognition, with an emphasis on computational approaches to modeling the perception of faces, bodies, and people. The goal of these efforts is to understand how high level visual representations encode identity information from in-the-wild images of people. Her work incorporates modeling of visual representations of faces and bodies using deep neural networks and machine learning. Current projects in her lab include comparisons between human and machine-based face recognition, the analysis of deep learning representations of human faces and bodies, person recognition from face and body, and modeling the relationship between language and human body shapes. She has served as Associate Editor of multiple journals including Psychological Science, the IEEE Transactions of Biometrics, Behavior, and Identity Science, the British Journal of Psychology, and the Journal of Vision. Her work has received funding from the National Institutes of Health, the National Institute of Standards and Technology, DARPA, and IARPA.",
+      "tagLine": "Professor, Human Perception and Computational Modeling",
+      "profilePicture": "images/image18.jpg",
+      "links": [],
+      "fullName": "Alice O'Toole"
+    },
+    {
+      "id": "iacopo_masi",
+      "firstName": "Iacopo",
+      "lastName": "Masi",
+      "bio": "Iacopo Masi is Associate Professor in the Computer Science Department at Sapienza, University of Rome, PI and founder of the OmnAI Lab. Till August 2022, he was also Adjunct Research Assistant Professor in the Computer Science Department at the University of Southern California (USC). Previously, Masi was Research Assistant Professor and Research Computer Scientist at the USC Information Sciences Institute (ISI). He has served as an Area Chair for several computer vision conferences (WACVs, ICCV 21, ECCV 22, CVPR 24). Additionally, he organized an International Workshop on Human Identification at ICCV'17, co-organized the Unlearning and Model Editing (U&Me) workshop at ECCV 24, and is a general chair for ICIAP 25. In 2018, Masi was honored with the prestigious Rita Levi Montalcini Award by the Italian government. His primary research interests revolve around the intersection of machine learning, computer vision, and biometrics. Currently, he is exploring various interconnected lines of research, including adversarial robustness, proactive defense against image manipulation, inverse problems, and generative AI in both the vision and NLP domains.",
+      "tagLine": "Associate Professor, Computer Vision and Machine Learning",
+      "profilePicture": "images/image15.png",
+      "links": [
+        {
+          "title": "OmnAI Lab",
+          "url": "https://omnai.di.uniroma1.it/",
+          "linkType": "Website"
+        }
+      ],
+      "fullName": "Iacopo Masi"
+    },
+    {
+      "id": "shiqi_yu",
+      "firstName": "Shiqi",
+      "lastName": "Yu",
+      "bio": "Dr. Yu Shiqi is an Associate Professor at the Department of Computer Science and Engineering at the Southern University of Science and Technology (SUSTech). His main research areas include gait recognition and object detection. In the field of gait recognition, he created the CASIA-B gait database, which is widely used in gait recognition, and the OpenGait open-source project, which has become a major algorithm evaluation framework. He has published almost 100 papers in gait recognition at IEEE TPAMI, IEEE TIFS, IEEE TBIOM, PR, CVPR, ECCV, IJCB, etc. In terms of object detection, his face detection algorithm was adopted by numerous enterprises. Additionally, he received the second prize of the Guangdong Provincial Science and Technology Award in 2021 for his work in remote sensing image processing. He is among the Top 2% Scientists since 2022. Dr. Yu currently serves as a supervisor of China Society of Image and Graphics, Chair of IAPR TC4, Vice President of IEEE Biometrics Council, and a Board Member of the OpenCV Foundation. He has previously served as the program chair of CCBR 2017 and IJCB 2021, as well as the chair of CCBR 2023. Moreover, he has been the main organizer of the IAPR/IEEE Winter School on Biometrics held annually in Shenzhen since 2018.",
+      "tagLine": "Associate Professor, Gait Recognition and Object Detection",
+      "profilePicture": "images/image13.jpg",
+      "links": [],
+      "fullName": "Shiqi Yu"
+    },
+    {
+      "id": "matteo_ferrara",
+      "firstName": "Matteo",
+      "lastName": "Ferrara",
+      "bio": "Matteo Ferrara is an Associate Professor in the Department of Computer Science and Engineering (DISI) at the University of Bologna. His research focuses on Pattern Recognition, Computer Vision, Image Processing, and Machine Learning. He earned his Bachelor's degree cum laude in Computer Science from the University of Bologna in 2004, followed by a Master's degree cum laude in 2005, and a Ph.D. in Computer Science in 2009. His applied research is primarily centered on Biometric Systems, including fingerprint recognition, performance evaluation of biometric technologies, scanner quality assessment, face and palmprint recognition, and template protection. He is a member of the Biometric System Laboratory (BioLab), an internationally recognized research group in the field of biometrics. He is one of the organizers of FVC-onGoing, a prominent international initiative for the performance evaluation of fingerprint recognition algorithms. He also co-authored the widely cited Minutia Cylinder-Code (MCC) fingerprint recognition algorithm. Notably, he was the first to demonstrate that face morphing can be used to deceive automated border control (ABC) systems. He has authored numerous scientific publications and has contributed to both national and European research projects. He has served as a reviewer for leading international journals and conferences, including the IEEE Transactions on Pattern Analysis and Machine Intelligence. He is also the holder of a patent in fingerprint recognition.",
+      "tagLine": "Associate Professor, Biometric Systems and Pattern Recognition",
+      "profilePicture": "images/image20.jpg",
+      "links": [],
+      "fullName": "Matteo Ferrara"
+    },
+    {
+      "id": "kevin_elhaddad",
+      "firstName": "Kevin",
+      "lastName": "El Haddad",
+      "bio": "Kevin El Haddad is a senior researcher at the ISIA Lab of the University of Mons (Mons, Belgium) and the Head of the R&D department at Diabolocom (Paris, France). His research interests focus on the development of smart agents. He currently serves as the Project Management Officer (PMO) of the Wal4XR project, a four-year long project funded by the Walloon region which aims to develop the research activity and expertise in eXtended Reality in Wallonia. He is active in several Horizon Europe projects regrouping several partners across Europe, such as the AI4Debunk project focusing on developing disinformation identification tools.",
+      "tagLine": "Senior Researcher, Smart Agents and Extended Reality",
+      "profilePicture": "",
+      "links": [],
+      "fullName": "Kevin El Haddad"
+    },
+    {
+      "id": "katsutoshi_masai",
+      "firstName": "Katsutoshi",
+      "lastName": "Masai",
+      "bio": "Katsutoshi Masai received a Ph.D. in Engineering from the Graduate School of Science and Technology, Keio University in 2018. After working as a Research Fellow of the Japan Society for the Promotion of Science (DC2) and an Assistant Professor at the Department of Information Engineering, Faculty of Science and Technology, Keio University, and a Research Associate at NTT Communication Science Laboratories, Nippon Telegraph and Telephone Corporation, he is currently an assistant professor at Department of Advanced Information Technology, Kyushu University. His research interests include wearable interfaces and human-computer interaction.",
+      "tagLine": "Assistant Professor, Wearable Interfaces and HCI",
+      "profilePicture": "images/image12.png",
+      "links": [],
+      "fullName": "Katsutoshi Masai"
+    },
+    {
+      "id": "miao_cheng",
+      "firstName": "Miao",
+      "lastName": "Cheng",
+      "bio": "Dr. Miao Cheng is a specially appointed assistant professor at Tohoku University. Her research focuses on nonverbal communication social neuroscience. She completed her Ph.D. in psychology at the University of Hong Kong, where she studied how people synchronize their behavior and brain activity during interpersonal coordination. Following her post-doctoral work at NTT Communication Science Laboratories, Dr. Cheng joined Tohoku University, working in the Interdisciplinary ICT Research Center for Cyber and Real Spaces. Her current work focuses on nonverbal communication, with a special interest in how social cues are expressed through body movement and eye movement. She is also interested in the nuances of nonverbal communication across cultural and gender contexts, aiming to uncover how such variations influence digital and real-world interactions.",
+      "tagLine": "Assistant Professor, Nonverbal Communication and Social Neuroscience",
+      "profilePicture": "images/image25.png",
+      "links": [],
+      "fullName": "Miao Cheng"
+    },
+    {
+      "id": "joseph_robinson",
+      "firstName": "Joseph",
+      "lastName": "Robinson",
+      "bio": "Dr. Joseph P. Robinson received his B.S. in Electrical and Computer Engineering (2014) and Ph.D. in Computer Engineering (2020) from Northeastern University (NEU), where he was honored with the Outstanding Teacher Award for his instruction in Data Analytics. His doctoral research focused on applied machine vision, including automatic face understanding, deep learning, multimodal fusion, fairness in AI, and large-scale data analysis. Dr. Robinson has authored over 35 peer-reviewed publications and has played an active role in organizing conferences, workshops, and challenges, including FG 2020, NECV 2017, RFIW@ACM-MM/FG (2017–2020), AMFG@CVPR (2018–2019), and FacesMM. He has led tutorials at ACM MM, CVPR, and FG, and has served as a PC member for top venues such as CVPR, FG, ICCV, MIRP, MMEDIA, and AAAI, as well as a reviewer for journals including IEEE TPAMI, TIP, and TBioCAS. He served as President of IEEE@NEU and as Relations Officer for IEEE SAC Region 1. Professionally, he has completed two NSF REUs, co-ops at Analogic Corporation and Raytheon BBN, and internships at MIT Lincoln Laboratory, STR, Snap Inc., and ISMConnect. Dr. Robinson has worked as a Machine Learning Systems Performance Engineer at NEU's High-Performance Computing Center, as a part-time ML lecturer at Tufts University, and as Head of RAPID at BitHuman. He currently develops vision-based solutions at Amazon Robotics.",
+      "tagLine": "Machine Learning Engineer, Computer Vision and AI",
+      "profilePicture": "images/image17.png",
+      "links": [
+        {
+          "title": "Personal Website",
+          "url": "https://www.jrobs-vision.com/",
+          "linkType": "Website"
+        },
+        {
+          "title": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=oyniIh8AAAAJ&hl=en",
+          "linkType": "Google Scholar"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jrobby/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "fullName": "Joseph P. Robinson"
+    },
+    {
+      "id": "chirag_raman",
+      "firstName": "Chirag",
+      "lastName": "Raman",
+      "bio": "Competition Chair for FG'26.",
+      "tagLine": "Competition Chair",
+      "profilePicture": "",
+      "links": [],
+      "fullName": "Chirag Raman"
+    },
+    {
+      "id": "jyoti_joshi",
+      "firstName": "Jyoti",
+      "lastName": "Joshi",
+      "bio": "Competition Chair for FG'26.",
+      "tagLine": "Competition Chair",
+      "profilePicture": "",
+      "links": [],
+      "fullName": "Jyoti Joshi"
+    },
+    {
+      "id": "shiro_kumano",
+      "firstName": "Shiro",
+      "lastName": "Kumano",
+      "bio": "Dr. Shiro Kumano received his Ph.D. in Information Science and Technology from the University of Tokyo, Japan, in 2009. He served as an Honorary Research Associate at University College London, U.K., from 2016 to 2017, and is currently a Senior Research Scientist at Nippon Telegraph and Telephone (NTT) Communication Science Laboratories, NTT Corporation, Japan, as well as a Visiting Associate Professor at the University of Tsukuba, Japan. His research interests span affective computing, computer vision, cognitive science, and mathematical psychology. Dr. Kumano has contributed significantly to the research community, serving as General Co-Chair of ACII 2021 and 2022, Blue Sky Paper Chair for ICMI 2024, Sponsorship Co-Chair for ACII 2019 and 2024, and Web Co-Chair for MVA 2015, Senior Program Committee Member for ACII (2017, 2019), ICMI (2018, 2020, 2022-24), and AAAI (2022), among other roles. He has also been an Associate Editor of IEEE TAFFC since 2024 and an Executive Board Member of the Association for the Advancement of Affective Computing (AAAC) since 2024 Dr. Kumano is a member of IEEE, AAAC and other Japanese research societies.",
+      "tagLine": "Senior Research Scientist, Affective Computing and Computer Vision",
+      "profilePicture": "images/image9.jpg",
+      "links": [],
+      "fullName": "Shiro Kumano"
+    },
+    {
+      "id": "koichiro_niinuma",
+      "firstName": "Koichiro",
+      "lastName": "Niinuma",
+      "bio": "Koichiro Niinuma, Ph.D., is a Research Director at Fujitsu Research of America in Pittsburgh, USA. He earned his M.S. from Kyoto University and his Ph.D. from the University of Tsukuba, and he was a visiting scholar at Michigan State University from 2009 to 2010. His research focuses on human behavior understanding, affective computing, biometrics, and 3D vision. He is also deeply engaged in the social implementation of these technologies. Dr. Niinuma contributed to over 50 U.S. and international patents, and his innovations, including patented technologies for fingerprint and continuous authentication, have been widely adopted in commercial products.",
+      "tagLine": "Research Director, Human Behavior Understanding and Biometrics",
+      "profilePicture": "images/image19.png",
+      "links": [],
+      "fullName": "Koichiro Niinuma"
+    },
+    {
+      "id": "marwa_mahmoud",
+      "firstName": "Marwa",
+      "lastName": "Mahmoud",
+      "bio": "Marwa Mahmoud is an Assistant Professor (Lecturer) in Socially Intelligent Technologies at the School of Computing Science, University of Glasgow. Prior to joining the University of Glasgow, she spent 10 years at the University of Cambridge, where she obtained her PhD in 2015, held a postdoctoral researcher position from 2015–2016, and was awarded the King's College Junior Research Fellowship (JRF) from 2016–2021. Dr Mahmoud's research is at the intersection of computer vision, social signal processing, and multimodal perception, with a particular focus on affective computing, behaviour analytics, and human and animal behaviour understanding. As the Director of the Behavioural AI Lab at University of Glasgow, she leads efforts to develop cutting-edge technologies aimed at 'AI for Social Good,' integrating computer vision and multimodal machine learning to enhance human well-being and animal welfare. She is the President of the Association for the Advancement of Affective Computing (AAAC), and has served on multiple conference organisation committees in the field, most notably as a General Chair for ACII 2024, Area Chair for ICMI 2022 and 2023 and Competition chair for FG2024.",
+      "tagLine": "Assistant Professor, Socially Intelligent Technologies",
+      "profilePicture": "images/image5.jpg",
+      "links": [],
+      "fullName": "Marwa Mahmoud"
+    },
+    {
+      "id": "ryo_yonetani",
+      "firstName": "Ryo",
+      "lastName": "Yonetani",
+      "bio": "Ryo Yonetani is a senior research scientist at CyberAgent, Inc., Japan. His expertise lies in machine learning, robotics, and computer vision, especially related to human activity sensing and understanding. He served as a program co-chair at MVA 2025, a tutorial chair at MVA 2023, a publication chair at MVA 2021, and a publicity chair at ACCV 2020.",
+      "tagLine": "Senior Research Scientist, Machine Learning and Computer Vision",
+      "profilePicture": "images/image16.jpg",
+      "links": [],
+      "fullName": "Ryo Yonetani"
+    },
+    {
+      "id": "felix_dollack",
+      "firstName": "Felix",
+      "lastName": "Dollack",
+      "bio": "Felix Dollack is an engineer at VIE Inc. and a Visiting Assistant Professor at the Nara Institute of Science and Technology, Japan. He specializes in Signal Processing, Affective Computing and Neuroscience in a Human-Computer Interaction context. His work relies on physiological signals like EMG and EEG, as well as computer vision. Dr. Dollack received his PhD in Human Informatics from the University of Tsukuba in 2020. He also worked as a postdoctoral researcher at Kyoto Sangyo University in 2022. He is a member of the ACM.",
+      "tagLine": "Engineer and Visiting Assistant Professor, Signal Processing and Affective Computing",
+      "profilePicture": "images/image14.jpg",
+      "links": [],
+      "fullName": "Felix Dollack"
+    },
+    {
+      "id": "matthias_norden",
+      "firstName": "Matthias",
+      "lastName": "Norden",
+      "bio": "Matthias Norden is a medical doctor working as a full-time researcher at the Center for Cognitive Interaction Technology (CITEC) at Bielefeld University (Germany). His research covers the fields of medical informatics, affective computing and computational psychology. Dr. med Matthias Norden received his MD scientific degree from Charité - Universitätsmedizin Berlin. He also gathered experience as a study physician, supervising early clinical trials for the evaluation of pharmaceutical drugs.",
+      "tagLine": "Medical Doctor and Researcher, Medical Informatics and Affective Computing",
+      "profilePicture": "images/image24.jpg",
+      "links": [],
+      "fullName": "Matthias Norden"
+    },
+    {
+      "id": "shohei_nobuhara",
+      "firstName": "Shohei",
+      "lastName": "Nobuhara",
+      "bio": "Shohei Nobuhara is a professor at the Faculty of Information and Human Sciences at Kyoto Institute of Technology. He received his B.Eng., M. Sc., and Ph.D. from Kyoto University in 2000, 2002, and 2005 respectively. Before joining Kyoto Institute of Technology in 2023, he was an assistant professor, senior lecturer, and associate professor at the Graduate School of Informatics at Kyoto University from 2005 to 2023, and also a visiting scholar at the Robotics Institute of Carnegie Mellon University from 2010 to 2011. His research interests include computer vision and human / animal 3D shape and motion analysis. He organized CV4Animals workshop in CVPR from 2021 to 2023 and is contributing as an advisory member from 2024. He served as a program chair at 3DV 2020 and 3DRW 2018, and an area chair at CVPR, WACV, and 3DV.",
+      "tagLine": "Professor, Computer Vision and 3D Motion Analysis",
+      "profilePicture": "images/image2.jpg",
+      "links": [],
+      "fullName": "Shohei Nobuhara"
+    },
+    {
+      "id": "yuta_nakashima",
+      "firstName": "Yuta",
+      "lastName": "Nakashima",
+      "bio": "Yuta Nakashima received a Ph.D. degree in engineering from Osaka University, Japan. He is currently a Professor at D3 Center, Osaka University. His research interests include computer vision and machine learning, as well as their applications.",
+      "tagLine": "Professor, Computer Vision and Machine Learning",
+      "profilePicture": "images/image21.jpg",
+      "links": [],
+      "fullName": "Yuta Nakashima"
+    },
+    {
+      "id": "itir_ertugrul",
+      "firstName": "Itir",
+      "lastName": "Ertugrul",
+      "bio": "Itir Onal Ertugrul is an Assistant Professor at Social and Affective Computing Group, Department of Information and Computing Sciences at Utrecht University. Prior to joining UU, she was an Assistant Professor at the Department of Cognitive Science and Artificial Intelligence at Tilburg University. She was previously a Postdoctoral Researcher at the Robotics Institute, Carnegie Mellon University, a Postdoctoral Researcher at Affect Analysis Group, University of Pittsburgh, and a visiting Ph.D. student at Pattern Recognition and Bioinformatics Group, TU Delft. She received her B.Sc., M.Sc. and Ph.D. degrees from the Computer Engineering Department at Middle East Technical University. Her research interests are in the broad areas of computer vision, machine learning, and affective computing, with a specific focus on automated analysis and synthesis of facial actions to understand human behavior, emotion, pain, and psychopathology.",
+      "tagLine": "Assistant Professor, Social and Affective Computing",
+      "profilePicture": "images/image26.jpg",
+      "links": [],
+      "fullName": "Itir Onal Ertugrul"
+    },
+    {
+      "id": "abhinav_dhall",
+      "firstName": "Abhinav",
+      "lastName": "Dhall",
+      "bio": "Awards Chair for FG'26.",
+      "tagLine": "Awards Chair",
+      "profilePicture": "",
+      "links": [],
+      "fullName": "Abhinav Dhall"
+    },
+    {
+      "id": "chie_hieida",
+      "firstName": "Chie",
+      "lastName": "Hieida",
+      "bio": "Chie Hieida received her BE, ME, and phD degrees from the University of Electro-Communications in 2013, 2015, and2019, respectively. From 2016 to 2019, she was a research fellow of the Japan Society for the Promotion of Science. From 2016 to 2019, she was a specially appointed researcher at the Symbi-otic Intelligent Systems Research Center, Institute for Open and Transdisciplinary Research Initiatives, Osaka University. Since2020, She has been with the Division of Information Science,Graduate School of Science and Technology, Nara Institute of Science and Technology as a assistant professor. She has received IEEE Robotics and Automation Society Japan ChapterYoung Award. Her research is focused on modeling of emotions for robots.",
+      "tagLine": "Assistant Professor, Emotional Modeling for Robotics",
+      "profilePicture": "images/image4.jpg",
+      "links": [],
+      "fullName": "Chie Hieida"
+    },
+    {
+      "id": "hiromi_narimatsu",
+      "firstName": "Hiromi",
+      "lastName": "Narimatsu",
+      "bio": "Hiromi Narimatsu received her ME and Ph.D. in Engineering from the University of Electro-Communications in 2011 and 2017, respectively. She joined Nippon Telegraph and Telephone (NTT) Corporation in 2011 and is currently a Senior Research Scientist at NTT Communication Science Laboratories, Japan. Her research interests include human-human and human-robot interaction through language, emotion representation, human cognition, and computational modeling of human cognition and interaction. Dr. Narimatsu has contributed to the research community, serving as a Local/Virtual co-chair for ACII 2022. She is a member of IEEE and several prominent Japanese research societies.",
+      "tagLine": "Senior Research Scientist, Human-Robot Interaction and Emotion Representation",
+      "profilePicture": "images/image10.png",
+      "links": [],
+      "fullName": "Hiromi Narimatsu"
+    },
+    {
+      "id": "kalin_stefanov",
+      "firstName": "Kalin",
+      "lastName": "Stefanov",
+      "bio": "Kalin is an ARC DECRA Fellow at Monash University. Before his current role, he was a Research Associate and Postdoctoral Research Scholar at the University of Southern California. He received an MSc degree in Artificial Intelligence from the University of Amsterdam (Amsterdam, The Netherlands) and a PhD degree in Computer Science from KTH Royal Institute of Technology (Stockholm, Sweden). During his PhD studies, he was a Visiting Research Scholar at the University of Southern California's Institute for Creative Technologies (Los Angeles, USA) and at the National Institute of Informatics's Computer Vision and Discrete Geometry Group (Tokyo, Japan). Kalin works on Affective Computing - a subfield of Artificial Intelligence focusing on the study and development of systems that can recognise, interpret, process, and simulate human affect. In particular, Kalin is interested in the perception and production of human communicative behaviour in face-to-face interactions for the development of autonomous social systems capable to perceive and act in unstructured social environments considering the affective and motivational states of the people interacting with them.",
+      "tagLine": "ARC DECRA Fellow, Affective Computing and Social Systems",
+      "profilePicture": "images/image7.jpg",
+      "links": [],
+      "fullName": "Kalin Stefanov"
+    },
+    {
+      "id": "yasutomo_kawanishi",
+      "firstName": "Yasutomo",
+      "lastName": "Kawanishi",
+      "bio": "Yasutomo Kawanishi received the B.Eng. degree in engineering and the M.Inf. and Ph.D. degrees in informatics from Kyoto University, Japan, in 2006, 2008, and 2012, respectively. He is currently the team director of the Multimodal Data Recognition Research Team, RIKEN Guardian Robot Project. His main research interests include robot vision for environmental understanding and pattern recognition for human understanding, especially pedestrian detection, tracking, retrieval, and recognition.",
+      "tagLine": "Team Director, Robot Vision and Pattern Recognition",
+      "profilePicture": "images/image23.jpg",
+      "links": [],
+      "fullName": "Yasutomo Kawanishi"
+    }
+  ]
 }
