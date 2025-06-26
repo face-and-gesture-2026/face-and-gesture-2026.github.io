@@ -54,7 +54,7 @@ params:
           images:
                 logo: logos/biometricsCouncil.png
                 titleBackground: images/kyoto.webp # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
-                location: images/krp_building2.jpeg # source: https://www.krp.co.jp/english/
+                location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
           callToAction:
                 other:
                     # 👇 Enter the URL of your ticket shop here.
