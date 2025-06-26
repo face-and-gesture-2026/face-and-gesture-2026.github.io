@@ -11,6 +11,10 @@ languages:
             - identifier: organizers
               pageRef: /organizers
               weight: 10
+            - identifier: location
+              pageRef: /location
+              weight: 20
+              name: "Venue & Transportation"
 
 params:
     themes:
@@ -39,10 +43,18 @@ params:
             - Privacy and ethical issues of FG
           startDate: 2026-05-25
           endDate: 2026-05-29
-          location: Kyoto, Japan
+          location: Kyoto Research Park (KRP), Kyoto, Japan
+          address:
+                - Kyoto Research Park
+                - 134 Chudoji Minamimachi
+                - Shimogyo Ward
+                - Kyoto (Japan)
+          directions: |
+              FG 2026 will be located at the Kyoto Research Park, 134 Chudoji Minamimachi, Shimogyo Ward, Kyoto, Japan. ![](https://www.krp.co.jp/assets/img/english/access_to_krp/image02.jpg)
           images:
                 logo: logos/biometricsCouncil.png
                 titleBackground: images/kyoto.webp # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
+                location: images/krp_building2.jpeg # source: https://www.krp.co.jp/english/
           callToAction:
                 other:
                     # 👇 Enter the URL of your ticket shop here.
