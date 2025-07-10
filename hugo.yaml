@@ -1,6 +1,11 @@
 baseURL: '/'
 theme: 'hugo-theme-event'
 
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
 defaultContentLanguage: en
 languages:
     _merge: deep
