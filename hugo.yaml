@@ -1,6 +1,11 @@
 baseURL: '/'
 theme: 'hugo-theme-event'
 
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
 defaultContentLanguage: en
 languages:
     _merge: deep
@@ -15,6 +20,10 @@ languages:
               pageRef: /location
               weight: 20
               name: "Venue & Transportation"
+            - identifier: sponsorship
+              name: Sponsorship
+              pageRef: /sponsorship
+              weight: 30
 
 params:
     themes:
