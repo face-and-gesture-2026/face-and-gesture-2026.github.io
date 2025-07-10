@@ -19,7 +19,7 @@
         "firstName" .firstName
     }}
 
-    {{ $path := (printf "%s %s" .fullName .id) }}
+    {{ $path := (printf "%s" .fullName | hash.XxHash) }}
     {{ $page := dict
         "content" $content
         "kind" "page"
