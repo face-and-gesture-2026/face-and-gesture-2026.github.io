@@ -180,9 +180,25 @@
       "firstName": "Chirag",
       "lastName": "Raman",
       "bio": "Competition Chair for FG'26.",
-      "tagLine": "",
+      "tagLine": "Delft University of Technology, Netherlands",
       "profilePicture": "images/image27.webp",
-      "links": [],
+      "links": [
+        {
+            "title": "Personal Website",
+            "url": "https://chiragraman.com",
+            "linkType": "Company_Website"
+        },
+        {
+            "title": "Twitter",
+            "url": "https://twitter.com/chiragraman",
+            "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/chiragraman/",
+          "linkType": "LinkedIn"
+        }
+      ],
       "fullName": "Chirag Raman"
     },
     {
