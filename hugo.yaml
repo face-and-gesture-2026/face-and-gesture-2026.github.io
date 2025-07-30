@@ -13,17 +13,21 @@ languages:
         disabled: false
         menu:
           main:
-            - identifier: organizers
-              pageRef: /organizers
+            - identifier: cfp
+              name: Dates
+              pageRef: /cfp
               weight: 10
             - identifier: location
               pageRef: /location
               weight: 20
-              name: "Venue & Transportation"
+              name: Attend
+            - identifier: organizers
+              pageRef: /organizers
+              weight: 30
             - identifier: sponsorship
               name: Sponsorship
               pageRef: /sponsorship
-              weight: 30
+              weight: 40
 
 params:
     themes:
