@@ -1,11 +1,33 @@
 baseURL: '/'
 theme: 'hugo-theme-event'
 
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
 defaultContentLanguage: en
 languages:
     _merge: deep
     en:
         disabled: false
+        menu:
+          main:
+            - identifier: cfp
+              name: Authors
+              pageRef: /cfp
+              weight: 10
+            - identifier: location
+              pageRef: /location
+              weight: 20
+              name: Attend
+            - identifier: organizers
+              pageRef: /organizers
+              weight: 30
+            - identifier: sponsorship
+              name: Sponsorship
+              pageRef: /sponsorship
+              weight: 40
 
 params:
     themes:
@@ -34,10 +56,21 @@ params:
             - Privacy and ethical issues of FG
           startDate: 2026-05-25
           endDate: 2026-05-29
-          location: Kyoto, Japan
+          location: Kyoto Research Park (KRP), Kyoto, Japan
+          address:
+                - Kyoto Research Park
+                - 134 Chudoji Minamimachi
+                - Shimogyo Ward
+                - Kyoto (Japan)
+          directions: |
+              FG 2026 will be located at the Kyoto Research Park, 134 Chudoji Minamimachi, Shimogyo Ward, Kyoto, Japan. ![](https://www.krp.co.jp/assets/img/english/access_to_krp/image02.jpg)
+          map:
+                embeddableMapUrl: //umap.openstreetmap.de/en/map/fg2026_102539?scrollWheelZoom=false
           images:
-                logo: logos/biometricsCouncil.png
+                logo: logos/biometricsCouncil.webp
+                logo2: logos/IEEE-CS_LOGO.webp
                 titleBackground: images/kyoto.webp # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
+                location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
           callToAction:
                 other:
                     # 👇 Enter the URL of your ticket shop here.

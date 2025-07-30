@@ -1,0 +1,28 @@
+{{ $input := . }}
+
+
+<div class="organizer-card">
+    <a class="organizer-card__link" href="{{ $input.profileUrl }}" aria-label="{{ $input.name }}">
+        {{ with $input.avatarResource }}
+            {{ with . | images.Filter (images.Process "resize 256x fill 256x256 top") }}
+                <img
+                    class="organizer-card__avatar"
+                    src="{{ .RelPermalink }}"
+                    alt="{{ $input.name }}"
+                    width="{{ .Width }}"
+                    height="{{ .Height }}" />
+            {{- end }}
+        {{- else }}
+            {{- with resources.Get "images/shaped-image-fallback.webp" }}
+                <img
+                    class="organizer-card__avatar"
+                    src="{{ .RelPermalink }}"
+                    alt="{{ $input.name }}"
+                    width="{{ .Width }}"
+                    height="{{ .Height }}" />
+            {{- end }}
+        {{- end }}
+        <h1 class="heading">{{ $input.name }}</h1>
+        <p class="organizer-card__description">{{ $input.description }}</p>
+    </a>
+</div>

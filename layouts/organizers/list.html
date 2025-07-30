@@ -1,0 +1,336 @@
+{{ define "main" }}
+    <section class="speaker-list">
+        <div class="section">
+            {{ $pages := .Pages }}
+            {{ with $data := partial "organizers-all.html" }}
+                {{ $itemMap := dict }}
+                {{ range $item := $data.organizers }}
+                    {{ $itemMap = merge $itemMap (dict $item.id $item) }}
+                {{ end }}
+                {{ $pageMap := dict }}
+                {{ range $item := $pages }}
+                    {{ $pageMap = merge $pageMap (dict $item.Params.organizerId $item) }}
+                {{ end }}
+
+                <!-- <h1 class="heading heading--1">{{ T "organizers_page.heading" }}</h1> -->
+                <h1 class="heading heading--3">General Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.General }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Program Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.Program }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Special Session Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.SpecialSession }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Demo and Exhibition Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.DemoAndExhibition }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Publication Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.Publication }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Competition Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.Competition }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Workshops / Tutorials Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.WorkshopsTutorials }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Publicity Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.Publicity }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Website Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.Website }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Finance and Local Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.FinanceAndLocal }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Awards Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.Awards }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Sponsorship Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.Sponsorship }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Doctoral Consortium Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.DoctoralConsortium }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+            {{- end }}
+        </div>
+    </section>
+
+    <!-- {{- partial "sections/cta.html" (
+        dict
+        "eventbriteId" .Site.Params.themes.event.callToAction.eventbrite.eventId
+        "ctaUrl" .Site.Params.themes.event.callToAction.other.url
+        )
+    }} -->
+{{ end }}

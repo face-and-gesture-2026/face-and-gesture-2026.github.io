@@ -1,0 +1,10 @@
+{{ $data := dict }}
+
+{{ $path := "organizers.json" }}
+{{ with resources.Get $path }}
+    {{ $data = . | transform.Unmarshal }}
+{{ else }}
+    {{ warnf "Unable to get data resource %q." $path }}
+{{ end }}
+
+{{ return $data }}
