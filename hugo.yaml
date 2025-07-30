@@ -64,6 +64,8 @@ params:
                 - Kyoto (Japan)
           directions: |
               FG 2026 will be located at the Kyoto Research Park, 134 Chudoji Minamimachi, Shimogyo Ward, Kyoto, Japan. ![](https://www.krp.co.jp/assets/img/english/access_to_krp/image02.jpg)
+          map:
+                embeddableMapUrl: //umap.openstreetmap.de/en/map/fg2026_102539?scrollWheelZoom=false
           images:
                 logo: logos/biometricsCouncil.png
                 titleBackground: images/kyoto.webp # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
