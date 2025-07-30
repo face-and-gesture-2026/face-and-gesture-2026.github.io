@@ -14,7 +14,7 @@ languages:
         menu:
           main:
             - identifier: cfp
-              name: Dates
+              name: Authors
               pageRef: /cfp
               weight: 10
             - identifier: location
