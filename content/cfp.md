@@ -89,3 +89,6 @@ FG 2026 does not consider a paper on arXiv.org as a dual submission.
 Authors should remove author and institutional identities from the title and header areas of the paper. There should also be no acknowledgments. Authors can leave citations to their previous work unanonymized so that reviewers can ensure that all previous research has been taken into account. However, they should cite their own work in the third person (e.g., “[22] found that…”)
 
 For more information, visit: https://fg2026.ieee-biometrics.org
+
+
+The [Microsoft CMT service](https://cmt3.research.microsoft.com/) was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
