@@ -6,7 +6,8 @@ face, gesture, and body movement recognition.
 The 20th edition of FG will be held in Kyoto and return to Japan for the
 first time since 1998.
 
-**We are currently seeking corporate sponsors.**
+**We are currently seeking corporate sponsors.**<br>
+{{< download "/fg2026sponsor-info_en.pdf" >}}Download Sponsor Call{{< /download >}}
 
 Sponsors will receive the following benefits:
 
