@@ -37,10 +37,11 @@ Please note that both long and short papers will undergo the same review process
 #### Submission
 FG 2026 will use a two-round reviewing procedure. New papers can be submitted in either the first or the second round. The primary benefit of submitting in Round 1 is that submissions can be invited for resubmission to Round 2, enabling authors to address reviewer concerns and significantly improve their work.
 
-The [Microsoft CMT service](https://cmt3.research.microsoft.com/) will be used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+Paper submissions are accepted through CMT:
 
-<The URL will be posted one month prior to the deadline.>
+https://cmt3.research.microsoft.com/FG2026
 
+<br>
 
 #### Paper templates are available below:
 - [Overleaf LaTeX Template](https://www.overleaf.com/read/vtbwkbhhbxpp#35990f)
@@ -50,7 +51,7 @@ The [Microsoft CMT service](https://cmt3.research.microsoft.com/) will be used f
 #### Submissions steps
 1. Prepare your manuscripts as per the IEEE specifications using the LaTeX or Word templates for both Long and Short Papers
 2. Carefully proofread your submission
-3. Submit to the FG 2026 CMT system: <URL>
+3. Submit to the FG 2026 CMT system: https://cmt3.research.microsoft.com/FG2026
 
 **NOTE:** List all authors during initial submission. Modifying the author list after the review process is not allowed.
 
@@ -86,3 +87,8 @@ FG 2026 does not consider a paper on arXiv.org as a dual submission.
 Authors should remove author and institutional identities from the title and header areas of the paper. There should also be no acknowledgments. Authors can leave citations to their previous work unanonymized so that reviewers can ensure that all previous research has been taken into account. However, they should cite their own work in the third person (e.g., “[22] found that…”)
 
 For more information, visit: https://fg2026.ieee-biometrics.org
+
+<br>
+<br>
+
+The [Microsoft CMT service](https://cmt3.research.microsoft.com/) was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
