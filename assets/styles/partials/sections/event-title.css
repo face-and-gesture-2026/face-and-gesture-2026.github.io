@@ -1,0 +1,80 @@
+.event-title-section {
+    background-color: #1b4d6d;
+    min-height: 33.5rem;
+    height: unset;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5625rem;
+}
+
+.event-title-section_content {
+    min-height: 33.5rem;
+    height: 5.8125rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Default (Desktop) */
+    background-image:
+    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0002_KV_Geisa.webp"),
+    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0005_Skyline.webp"),
+    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0001_Title.webp"),
+    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0000_Location.webp"),
+    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0004_Logo.webp"),
+    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0006_Background.webp");
+}
+
+/* QHD stack */
+@media (min-width: 1600px) {
+  .event-title-section_content {
+    background-image:
+    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0004_KV_Geisa.webp"),
+    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0005_Skyline.webp"),
+    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0003_Title.webp"),
+    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0002_Location.webp"),
+    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0001_Logo.webp"),
+    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0006_Background.webp");
+  }
+}
+
+/* Tablet stack */
+@media (max-width: 900px) {
+  .event-title-section_content {
+    background-image:
+    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0004_KV_Geisa.webp"),
+    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0005_Skyline.webp"),
+    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0003_Title.webp"),
+    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0002_Location.webp"),
+    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0001_Logo.webp"),
+    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0006_Background.webp");
+  }
+}
+
+/* Mobile stack */
+@media (max-width: 800px) {
+  .event-title-section_content {
+    background-position: top;
+    background-image:
+    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0004_KV_Geisa.webp"),
+    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0005_Skyline.webp"),
+    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0003_Title.webp"),
+    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0002_Location.webp"),
+    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0001_Logo.webp"),
+    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0006_Background.webp");
+  }
+}
+
+.event-title-section__header,
+.event-title-section__footer {
+    padding-bottom: 1.5625rem;
+}
+
+@media (max-width: 330px) {
+    .event-title-section__header,
+    .event-title-section__footer {
+        display: none;
+    }
+}

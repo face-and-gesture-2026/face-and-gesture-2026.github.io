@@ -69,7 +69,6 @@ params:
           images:
                 logo: logos/biometricsCouncil.webp
                 logo2: logos/IEEE-CS_LOGO.webp
-                titleBackground: images/kyoto.webp # source: https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw
                 location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
           favicon: favicon.ico
           callToAction:
