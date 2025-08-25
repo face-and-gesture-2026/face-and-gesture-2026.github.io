@@ -14,7 +14,7 @@
     min-height: 33.5rem;
     height: 5.8125rem;
     width: 100%;
-    background-position: center;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
     /* Default (Desktop) */
@@ -28,7 +28,7 @@
 }
 
 /* QHD stack */
-@media (min-width: 1600px) {
+@media (min-width: 1820px) {
   .event-title-section_content {
     background-image:
     url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0004_KV_Geisa.webp"),
@@ -41,7 +41,7 @@
 }
 
 /* Tablet stack */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .event-title-section_content {
     background-image:
     url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0004_KV_Geisa.webp"),
@@ -54,7 +54,7 @@
 }
 
 /* Mobile stack */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .event-title-section_content {
     background-position: top;
     background-image:
