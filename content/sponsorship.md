@@ -30,4 +30,4 @@ Sponsors will receive the following benefits:
 Apply by **September 19, 2025**
 and contact Chie Hieida and Hiromi Narimatsu.
 
-<a href="mailto:fg2026.sponsorship@gmail.comm">fg2026.sponsorship\@gmail.com</a>
+<a href="mailto:fg2026.sponsorship@gmail.com">fg2026.sponsorship\@gmail.com</a>
