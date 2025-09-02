@@ -1,4 +1,4 @@
-## Doctoral Consortium
+# Doctoral Consortium
 
 #### Overview
 
