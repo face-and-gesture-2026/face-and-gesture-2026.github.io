@@ -35,7 +35,9 @@ Please note that both long and short papers will undergo the same review process
 
 
 #### Submission
-FG 2026 will use a two-round reviewing procedure. New papers can be submitted in either the first or the second round. The primary benefit of submitting in Round 1 is that submissions can be invited for resubmission to Round 2, enabling authors to address reviewer concerns and significantly improve their work.
+The IEEE FG 2026 will use a two-round reviewing procedure. Round 1 submissions may receive one of three decisions: accept, revise and resubmit to Round 2 or reject. Submissions that receive a reject decision in Round 1 are not eligible for resubmission to Round 2. Round 2 submissions have two possible outcomes: accept or reject. The final decision is provided without an opportunity for a rebuttal. Submissions to Round 2 may be either new papers or revised papers from Round 1. Revised papers from Round 1 are re-evaluated based on the original reviews and the authors' response. For revised submissions in round 2, we will do our best to have the same meta-reviewer and reviewers review the revised submission.
+
+New papers can be submitted in either the first or the second round. The primary benefit of submitting in Round 1 is that submissions can be invited for resubmission to Round 2, enabling authors to address reviewer concerns and significantly improve their work.
 
 Paper submissions are accepted through CMT:
 
