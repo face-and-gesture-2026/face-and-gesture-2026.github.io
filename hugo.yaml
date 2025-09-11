@@ -21,13 +21,17 @@ languages:
               name: "Doctoral Consortium"
               pageRef: /doctoral_consortium
               weight: 20
+            - identifier: workshops
+              name: Workshops
+              pageRef: /workshops
+              weight: 40
             - identifier: location
               pageRef: /location
-              weight: 30
+              weight: 50
               name: Attend
             - identifier: organizers
               pageRef: /organizers
-              weight: 40
+              weight: 60
             - identifier: sponsorship
               name: Sponsorship
               pageRef: /sponsorship
@@ -62,7 +66,7 @@ params:
             <br><br>
 
             ### Important Dates (all Pacific time)
-            #### Main Conference: May 25-29, 2026
+            #### [Main Conference](/cfp): May 25-29, 2026
             | Round 1 ||||
             |:-|:-|:-|:-|
             | Abstract submission       | September 25th,   | 2025 |
@@ -75,13 +79,13 @@ params:
             |&nbsp;||||
             | Camera Ready (for all)    | April 21st,   | 2026  |
             <br>
-            #### Workshops: May 25 or 29, 2026
+            #### [Workshops](/workshops): May 25 or 29, 2026
             ||||
             |:-|:-|:-|
             | Proposal deadline | November 13th, | 2025 |
             | Notification of acceptance&nbsp; | November 27th,&nbsp; | 2025 |
             <br>
-            #### Doctoral Consortium: May 25, 2026
+            #### [Doctoral Consortium](/doctoral_consortium): May 25, 2026
             ||||
             |:-|:-|:-|
             | Submission deadline | April 9th, | 2026 |
