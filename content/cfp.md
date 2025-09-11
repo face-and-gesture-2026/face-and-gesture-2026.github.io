@@ -89,8 +89,6 @@ FG 2026 requires authors to complete a checklist on their adherence to ethical p
 #### Anonymization policy
 Authors should remove author and institutional identities from the title and header areas of the paper. There should also be no acknowledgments. Authors can leave citations to their previous work unanonymized so that reviewers can ensure that all previous research has been taken into account. However, they should cite their own work in the third person (e.g., “[22] found that…”)
 
-For more information, visit: https://fg2026.ieee-biometrics.org
-
 <br>
 <br>
 
