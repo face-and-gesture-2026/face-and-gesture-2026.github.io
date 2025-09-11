@@ -83,6 +83,9 @@ Conference 25-29 May, 2026
 #### arXiv Policy
 FG 2026 does not consider a paper on arXiv.org as a dual submission.
 
+#### Ethics statement
+FG 2026 requires authors to complete a checklist on their adherence to ethical principles at the time of submission. An explicit ethics statement must be included in the paper depending on your answers to the checklist. For more details on the specific guidelines, authors should refer to the [ethics guidlines](https://docs.google.com/document/d/1r0uWqoERCr_pRlPszh6CtD_3z2gnCe8XdBa-3Le9lpM/edit?usp=sharing).
+
 #### Anonymization policy
 Authors should remove author and institutional identities from the title and header areas of the paper. There should also be no acknowledgments. Authors can leave citations to their previous work unanonymized so that reviewers can ensure that all previous research has been taken into account. However, they should cite their own work in the third person (e.g., “[22] found that…”)
 
