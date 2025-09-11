@@ -21,6 +21,10 @@ languages:
               name: "Doctoral Consortium"
               pageRef: /doctoral_consortium
               weight: 20
+            - identifier: tutorials
+              name: Tutorials
+              pageRef: /tutorials
+              weight: 30
             - identifier: workshops
               name: Workshops
               pageRef: /workshops
@@ -84,6 +88,12 @@ params:
             |:-|:-|:-|
             | Proposal deadline | November 13th, | 2025 |
             | Notification of acceptance&nbsp; | November 27th,&nbsp; | 2025 |
+            <br>
+            #### [Tutorials](/tutorials): May 25 or 29, 2026
+            ||||
+            |:-|:-|:-|
+            | Proposal deadline | January 13th, | 2026 |
+            | Notification of acceptance&nbsp; | January 27th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
             <br>
             #### [Doctoral Consortium](/doctoral_consortium): May 25, 2026
             ||||
