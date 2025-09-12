@@ -25,21 +25,25 @@ languages:
               name: Tutorials
               pageRef: /tutorials
               weight: 30
+            - identifier: demos
+              name: "Demos"
+              pageRef: /demos
+              weight: 40
             - identifier: workshops
               name: Workshops
               pageRef: /workshops
-              weight: 40
+              weight: 50
             - identifier: location
               pageRef: /location
-              weight: 50
+              weight: 60
               name: Attend
             - identifier: organizers
               pageRef: /organizers
-              weight: 60
+              weight: 70
             - identifier: sponsorship
               name: Sponsorship
               pageRef: /sponsorship
-              weight: 50
+              weight: 80
 
 params:
     themes:
@@ -100,6 +104,13 @@ params:
             |:-|:-|:-|
             | Submission deadline | April 9th, | 2026 |
             | Notification of acceptance&nbsp; | April 16th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+            |||||
+            #### [Demos](/demos):
+            ||||
+            |:-|:-|:-|
+            | Submission deadline: | April 9, | 2026 (Proposal and Supplemental Material) |
+            | Notification of acceptance: | April 16, | 2026 |
+            | Camera Ready Deadline: | April 21, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
           startDate: 2026-05-25
           endDate: 2026-05-29
           location: Kyoto Research Park (KRP), Kyoto, Japan
