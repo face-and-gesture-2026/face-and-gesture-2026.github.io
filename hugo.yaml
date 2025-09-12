@@ -14,7 +14,7 @@ languages:
         menu:
           main:
             - identifier: cfp
-              name: Authors
+              name: CfP
               pageRef: /cfp
               weight: 10
             - identifier: doctoral_consortium
