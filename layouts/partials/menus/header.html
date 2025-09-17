@@ -1,0 +1,44 @@
+{{ $input := . }}
+
+<div class="header-menu">
+        <a
+            {{- if $input.context.IsHome }}
+                class="header-menu__link header-menu__link--active"
+            {{- else }}
+                class="header-menu__link"
+            {{- end }}
+            href="{{ site.Home.RelPermalink }}">
+            {{ $input.homeLabel | default "Home" }}
+        </a>
+    {{- $currentNode := $input.context }}
+    {{- range $input.menu }}
+        {{- $item := . }}
+    
+            {{ with $item.Params }}
+                <div class="dropdown">
+                    <button class="dropbtn">{{- or $item.Name (T (printf "menu.%s" $item.Identifier)) | safeHTML }}
+                        <!-- <i class="fa fa-caret-down"></i> -->
+                    </button>
+                    <div class="dropdown__menu">
+                        {{- range .entries }}
+                            {{ warnf "%#v" . }}
+                                <a
+                                    href="/{{ .identifier }}">
+                                    {{- or .name (T (printf ".%s" .identifier)) | safeHTML }}
+                                </a>
+                        {{- end }}
+                    </div>
+                </div>
+            {{- else }} 
+                <a
+                    href="{{ $item.URL }}"
+                    {{- if or ($currentNode.IsMenuCurrent .Menu .) ($currentNode.HasMenuCurrent .Menu .) }}
+                        class="header-menu__link header-menu__link--active" aria-current="page"
+                    {{- else }}
+                        class="header-menu__link"
+                    {{- end }}>
+                    {{- or $item.Name (T (printf "menu.%s" $item.Identifier)) | safeHTML }}
+                </a>
+            {{- end }}
+    {{- end }}
+</div>

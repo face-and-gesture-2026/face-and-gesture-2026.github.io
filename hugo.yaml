@@ -14,25 +14,26 @@ languages:
         menu:
           main:
             - identifier: cfp
-              name: CfP
+              name: Authors
               pageRef: /cfp
+              params:
+                entries:
+                  - identifier: cfp
+                    name: Call for Papers
+                    pageRef: /cfp
+                  - identifier: doctoral_consortium
+                    name: "Doctoral Consortium"
+                    pageRef: /doctoral_consortium
+                  - identifier: tutorials
+                    name: Tutorials
+                    pageRef: /tutorials
+                  - identifier: demos
+                    name: "Demos"
+                    pageRef: /demos
+                  - identifier: workshops
+                    name: Workshops
+                    pageRef: /workshops
               weight: 10
-            - identifier: doctoral_consortium
-              name: "Doctoral Consortium"
-              pageRef: /doctoral_consortium
-              weight: 20
-            - identifier: tutorials
-              name: Tutorials
-              pageRef: /tutorials
-              weight: 30
-            - identifier: demos
-              name: "Demos"
-              pageRef: /demos
-              weight: 40
-            - identifier: workshops
-              name: Workshops
-              pageRef: /workshops
-              weight: 50
             - identifier: location
               pageRef: /location
               weight: 60

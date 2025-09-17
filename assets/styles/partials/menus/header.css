@@ -1,0 +1,86 @@
+/* overwrite previous setting of overflow-x: hidden */
+.page-header__content{
+    overflow: visible !important;
+}
+
+.header-menu {
+    all: unset;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.dropbtn {
+    all: unset;
+    cursor: pointer;
+}
+
+.header-menu__link .dropbtn{
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    text-wrap: nowrap;
+
+    color: var(--color-secondary-darker);
+}
+
+.header-menu__link:hover {
+    color: var(--color-primary-darkest);
+}
+
+.header-menu__link--active {
+    color: var(--color-primary-darkest);
+}
+
+.dropdown {
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    text-wrap: nowrap;
+
+    color: var(--color-secondary-darker);
+    display: flex;
+}
+
+.dropdown:hover .dropbtn{
+    color: var(--color-primary-darkest);
+}
+.dropdown:hover .dropdown__menu { display: block; }
+
+.dropdown { 
+  position: relative; 
+  display: inline-block; 
+}
+.dropdown__menu {
+  display: none;
+  position: absolute;    /* <-- key */
+  top: 100%;             /* below the summary */
+  left: 0;
+  min-width: 12rem;
+  padding: .75rem 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: .5rem;
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+  list-style: none;
+  z-index: 9999;         /* above header background */
+}
+
+/* Links inside the dropdown */
+.dropdown__menu a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown__menu a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown__menu {
+  display: block;
+}
