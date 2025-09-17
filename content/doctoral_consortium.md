@@ -45,7 +45,7 @@ There will be no papers published from the Doctoral Consortium in the proceeding
 The students selected to participate in the Doctoral Consortium may be considered for financial support. However, the availability and extent of financial support are subject to the availability of funds and are not guaranteed. Applicants should be prepared to attend FG’26 without financial support in the event that funds are not available. It is important to note that the lunch session with senior mentors will be fully covered by the conference anyway, and no expenses associated with lunch will be incurred by the Doctoral Consortium participants or mentors.
 
 
-#### Important Dates
+#### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 
 ||||
 |:-|:-|:-|

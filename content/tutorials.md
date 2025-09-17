@@ -38,7 +38,7 @@ For additional information and queries regarding the tutorial proposal
 procedure, please contact the Tutorial Co-chairs: <a href="mailto:shiro.kumano@ntt.com">Shiro Kumano</a> and <a href="mailto:kniinuma@fujitsu.com">Koichiro Niinuma</a>.
 
 
-#### Important Dates
+#### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 
 ||||
 |:-|:-|:-|

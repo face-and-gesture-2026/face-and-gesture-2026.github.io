@@ -28,7 +28,7 @@ https://cmt3.research.microsoft.com/FG2026
 For additional information and queries regarding the workshop proposal procedure, please contact the Workshop Co-chairs: <a href="mailto:shiro.kumano@ntt.com">Shiro Kumano</a> and <a href="mailto:kniinuma@fujitsu.com">Koichiro Niinuma</a>.
 
 
-#### Important Dates
+#### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 
 ||||
 |:-|:-|:-|

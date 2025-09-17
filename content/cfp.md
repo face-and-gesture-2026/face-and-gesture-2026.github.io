@@ -65,7 +65,7 @@ Several awards will be given out to the best papers from FG 2026, including (1) 
 A selection of the best relevant papers from FG 2026 will be invited to contribute to a special issue of the IEEE Transactions on Biometrics, Behavior, and Identity Science (IEEE TBIOM), subject to approval by the journal (pending).
 
 
-#### Important Dates (all Pacific time)
+#### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 | Round 1 |||||
 |:-|:-|:-|:-|:-|
 | Abstract submission       | Thursday, | September 25th,   | 2025 |

@@ -45,7 +45,7 @@ Demonstration presentations that have been accepted, accompanied by a one-page p
 Submission link: https://cmt3.research.microsoft.com/FG2026/
 
 
-#### Important Dates
+#### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 |||||
 |:-|:-|:-|:-|
 | Submission deadline: | | | (One-page proposal and |
