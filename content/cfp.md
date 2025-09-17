@@ -33,6 +33,8 @@ The main difference between the two is in the size of the contributions, rather 
 
 Please note that both long and short papers will undergo the same review process. Rejected long papers will NOT be considered for acceptance as short papers, except for rare cases when reviewers unanimously make this recommendation. Both long and short papers can be accepted for oral or poster presentation.
 
+Supplementary materials are optional and can be submitted with your paper (as pdf or zip). The deadline for all supplementary materials is the same as the paper submission deadline.
+
 
 #### Submission
 The IEEE FG 2026 will use a two-round reviewing procedure. Round 1 submissions may receive one of three decisions: accept, revise and resubmit to Round 2 or reject. Submissions that receive a reject decision in Round 1 are not eligible for resubmission to Round 2. Round 2 submissions have two possible outcomes: accept or reject. The final decision is provided without an opportunity for a rebuttal. Submissions to Round 2 may be either new papers or revised papers from Round 1. Revised papers from Round 1 are re-evaluated based on the original reviews and the authors' response. For revised submissions in round 2, we will do our best to have the same meta-reviewer and reviewers review the revised submission.
