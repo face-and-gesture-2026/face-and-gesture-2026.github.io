@@ -57,7 +57,9 @@ https://cmt3.research.microsoft.com/FG2026
 2. Carefully proofread your submission
 3. Submit to the FG 2026 CMT system: https://cmt3.research.microsoft.com/FG2026
 
-**NOTE:** List all authors during initial submission. Modifying the author list after the review process is not allowed.
+**NOTE:**<br>
+a) List all authors during initial submission. The list of authors must be finalized by the abstract submission deadline and cannot be modified thereafter. Authors' order may be modified by the full paper submission deadline.<br>
+b) Authors may update the abstract and title until the full paper submission deadline. However, the overall topic and core content of the paper must remain consistent.
 
 Papers presented at FG 2026 will be sent for inclusion into the IEEE Xplore digital library, including workshop papers. If a paper is accepted, it is assumed that the author will register and attend the conference to present the paper. Papers that are not presented will not be published in IEEE Xplore.
 
