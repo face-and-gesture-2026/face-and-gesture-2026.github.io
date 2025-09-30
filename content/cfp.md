@@ -73,7 +73,8 @@ A selection of the best relevant papers from FG 2026 will be invited to contribu
 | Round 1 |||||
 |:-|:-|:-|:-|:-|
 | Abstract submission       | Thursday, | September 25th,   | 2025 |
-| Paper submission          | Thursday, | October 2nd,      | 2025 |
+| <span style="color: #D64933;">Paper submission</span>          | ~~Thursday,~~ | ~~October 2nd,~~  | ~~2025~~ |
+| <span style="color: #D64933;">Extended</span>                 | <span style="color: #D64933;">Monday,</span>   | <span style="color: #D64933;">October 6th,</span>      | <span style="color: #D64933;">2025</span> |
 | Notifications to authors  | Thursday, | December 11th,    | 2025 |
 
 
