@@ -27,7 +27,7 @@ Sponsors will receive the following benefits:
 - 1 complimentary conference pass
 
 #### Application & Contact
-Apply by **September 19, 2025**
+Apply by **December 19, 2025**
 and contact Chie Hieida and Hiromi Narimatsu.
 
 <a href="mailto:fg2026.sponsorship@gmail.com">fg2026.sponsorship\@gmail.com</a>
