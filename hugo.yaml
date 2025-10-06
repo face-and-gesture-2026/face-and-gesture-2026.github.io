@@ -27,6 +27,9 @@ languages:
                   - identifier: tutorials
                     name: Tutorials
                     pageRef: /tutorials
+                  - identifier: special_session
+                    name: "Special Sessions"
+                    pageRef: /special_session
                   - identifier: demos
                     name: "Demos"
                     pageRef: /demos
