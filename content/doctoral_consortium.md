@@ -49,9 +49,9 @@ The students selected to participate in the Doctoral Consortium may be considere
 
 ||||
 |:-|:-|:-|
-| Submission deadline: | April 9, | 2026 |
-| Notification of acceptance: | April 16, | 2026 |
-| Doctoral consortium date: | May 25, | 2026 |
+| Submission deadline:               | April 9,         | 2026 |
+| Notification of acceptance: &nbsp; | April 16, &nbsp; | 2026 |
+| Doctoral consortium date:          | May 25,          | 2026 |
 
 <br>
 

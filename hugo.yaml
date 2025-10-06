@@ -91,41 +91,53 @@ params:
             #### [Main Track](/cfp): May 25-29, 2026
             | Round 1 ||||
             |:-|:-|:-|:-|
-            | Abstract submission       | September 25th,   | 2025 |
-            | <span style="color: #D64933;">Paper submission</span>        | ~~October 2nd,~~  | ~~2025~~ |
-            | <span style="color: #D64933;">Extended</span>                | <span style="color: #D64933;">October 6th,</span>      | <span style="color: #D64933;">2025</span> |
-            | Notifications to authors  | December 11th,    | 2025 |
+            | Abstract submission                                   | September 25th,   | 2025 |
+            | <span style="color: #D64933;">Paper submission</span> | ~~October 2nd,~~  | ~~2025~~ |
+            | <span style="color: #D64933;">Extended</span>         | <span style="color: #D64933;">October 6th,</span>      | <span style="color: #D64933;">2025</span> |
+            | Notifications to authors                              | December 11th,    | 2025 |
             | **Round 2** ||||
-            | Abstract submission       | January 9th,  | 2026 (only for round 2 new submissions) |
-            | Paper submission          | January 15th, | 2026  |
+            | Abstract submission                                   | January 9th,      | 2026 (only for round 2 new submissions) |
+            | Paper submission                                      | January 15th,     | 2026 |
             | Notifications to authors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | April 2nd,    | 2026  |
             |&nbsp;||||
-            | Camera Ready (for all)    | April 21st,   | 2026  |
+            | Camera Ready (for all)                                | April 21st,       | 2026 |
             <br>
             #### [Workshops](/workshops): May 25 or 29, 2026
             ||||
             |:-|:-|:-|
-            | Proposal deadline | November 13th, | 2025 |
-            | Notification of acceptance&nbsp; | November 27th,&nbsp; | 2025 |
+            | Proposal deadline                 | November 13th, | 2025 |
+            | Notification of acceptance&nbsp;  | November 27th,&nbsp; | 2025 |
+            <br>
+            #### [Special Sessions](/special_session):
+            ||||
+            |:-|:-|:-|
+            | Proposal deadline                 | November 15th, | 2025 |
+            | Notification of acceptance&nbsp;  | November 31st, &nbsp; | 2025 |
             <br>
             #### [Tutorials](/tutorials): May 25 or 29, 2026
             ||||
             |:-|:-|:-|
-            | Proposal deadline | January 13th, | 2026 |
-            | Notification of acceptance&nbsp; | January 27th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+            | Proposal deadline                 | January 13th, | 2026 |
+            | Notification of acceptance&nbsp;  | January 27th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+            <br>
+            #### [Panels](/special_session):
+            ||||
+            |:-|:-|:-|
+            | Proposal deadline                 | March 10th, | 2026 |
+            | Notification of acceptance&nbsp;  | March 20th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
             <br>
             #### [Doctoral Consortium](/doctoral_consortium): May 25, 2026
             ||||
             |:-|:-|:-|
-            | Submission deadline | April 9th, | 2026 |
-            | Notification of acceptance&nbsp; | April 16th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+            | Submission deadline               | April 9th, | 2026 |
+            | Notification of acceptance&nbsp;  | April 16th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
             |||||
             #### [Demos](/demos):
             ||||
             |:-|:-|:-|
-            | Submission deadline: | April 9, | 2026 (Proposal and Supplemental Material) |
-            | Notification of acceptance: | April 16, | 2026 |
-            | Camera Ready Deadline: | April 21, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+            | Submission deadline               | April 9, | 2026 (Proposal and Supplemental Material) |
+            | Notification of acceptance&nbsp;  | April 16, | 2026 |
+            | Camera Ready Deadline             | April 21, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
           startDate: 2026-05-25
           endDate: 2026-05-29
           location: Kyoto Research Park (KRP), Kyoto, Japan

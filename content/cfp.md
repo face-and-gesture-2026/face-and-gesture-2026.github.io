@@ -16,6 +16,7 @@ The 20th IEEE International Conference on Automatic Face and Gesture Recognition
 - Bias mitigation, interpretability, and ethical considerations
 - Real-world applications and deployment studies
 
+<br>
 
 ### Paper format and submission
 #### Format
@@ -72,20 +73,20 @@ A selection of the best relevant papers from FG 2026 will be invited to contribu
 #### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 | Round 1 |||||
 |:-|:-|:-|:-|:-|
-| Abstract submission       | Thursday, | September 25th,   | 2025 |
-| <span style="color: #D64933;">Paper submission</span>          | ~~Thursday,~~ | ~~October 2nd,~~  | ~~2025~~ |
-| <span style="color: #D64933;">Extended</span>                 | <span style="color: #D64933;">Monday,</span>   | <span style="color: #D64933;">October 6th,</span>      | <span style="color: #D64933;">2025</span> |
-| Notifications to authors  | Thursday, | December 11th,    | 2025 |
+| Abstract submission                                                   | Thursday, &nbsp; | September 25th, &nbsp; | 2025 |
+| <span style="color: #D64933;">Paper submission</span>               | ~~Thursday,~~    | ~~October 2nd,~~       | ~~2025~~ |
+| <span style="color: #D64933;">Extended</span>                       | <span style="color: #D64933;">Monday,</span> | <span style="color: #D64933;">October 6th,</span> | <span style="color: #D64933;">2025</span> |
+| Notifications to authors &nbsp;                                       | Thursday,        | December 11th,         | 2025 |
 
 
 | Round 2 |||||
 |:-|:-|:-|:-|:-|
-| Abstract submission       | Friday,   | January 9th,  | 2026 (only for round 2 new submissions) |
-| Paper submission          | Thursday, | January 15th, | 2026  |
-| Notifications to authors  | Thursday, | April 2nd,    | 2026  |
-| Camera Ready (for all)    | Tuesday,  | April 21st,   | 2026  |
+| Abstract submission             | Friday,          | January 9th,                             | 2026 (only for round 2 new submissions) |
+| Paper submission                | Thursday, &nbsp; | January 15th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026  |
+| Notifications to authors &nbsp; | Thursday,        | April 2nd,                               | 2026  |
+| Camera Ready (for all)          | Tuesday,         | April 21st,                              | 2026  |
 
-Conference 25-29 May, 2026
+**Conference 25-29 May, 2026**
 
 #### arXiv Policy
 FG 2026 does not consider a paper on arXiv.org as a dual submission.
