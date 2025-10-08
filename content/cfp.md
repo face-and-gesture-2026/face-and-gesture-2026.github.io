@@ -73,10 +73,10 @@ A selection of the best relevant papers from FG 2026 will be invited to contribu
 #### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 | Round 1 |||||
 |:-|:-|:-|:-|:-|
-| Abstract submission                                                   | Thursday, &nbsp; | September 25th, &nbsp; | 2025 |
-| <span style="color: #D64933;">Paper submission</span>               | ~~Thursday,~~    | ~~October 2nd,~~       | ~~2025~~ |
-| <span style="color: #D64933;">Extended</span>                       | <span style="color: #D64933;">Monday,</span> | <span style="color: #D64933;">October 6th,</span> | <span style="color: #D64933;">2025</span> |
-| Notifications to authors &nbsp;                                       | Thursday,        | December 11th,         | 2025 |
+| ~~Abstract submission~~         | ~~Thursday,~~ &nbsp; | ~~September 25th,~~ &nbsp; | ~~2025~~ |
+| ~~Paper submission~~            | ~~Thursday,~~        | ~~October 2nd,~~           | ~~2025~~ |
+| ~~Extended~~                    | ~~Monday,~~          | ~~October 6th,~~           | ~~2025~~ |
+| Notifications to authors &nbsp; | Thursday,            | December 11th,             | 2025 |
 
 
 | Round 2 |||||
