@@ -52,6 +52,7 @@ languages:
 params:
     themes:
         event:
+          sessionizeId: anything-but-test
           title: 'The 20th IEEE International Conference on Automatic Face and Gesture Recognition'
           slogan: FG 2026 # overwrite template string
           shortTitle: FG 2026 # overwrite title in header menu
