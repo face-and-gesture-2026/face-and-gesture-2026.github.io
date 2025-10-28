@@ -21,18 +21,21 @@ languages:
                   - identifier: cfp
                     name: Call for Papers
                     pageRef: /cfp
-                  - identifier: doctoral_consortium
-                    name: "Doctoral Consortium"
-                    pageRef: /doctoral_consortium
-                  - identifier: tutorials
-                    name: Tutorials
-                    pageRef: /tutorials
-                  - identifier: special_session
-                    name: "Special Sessions"
-                    pageRef: /special_session
+                  - identifier: competition
+                    name: Competitions
+                    pageRef: /competition
                   - identifier: demos
                     name: "Demos"
                     pageRef: /demos
+                  - identifier: doctoral_consortium
+                    name: "Doctoral Consortium"
+                    pageRef: /doctoral_consortium
+                  - identifier: special_session
+                    name: "Special Sessions"
+                    pageRef: /special_session
+                  - identifier: tutorials
+                    name: Tutorials
+                    pageRef: /tutorials
                   - identifier: workshops
                     name: Workshops
                     pageRef: /workshops
@@ -117,6 +120,12 @@ params:
             |:-|:-|:-|
             | Proposal deadline                 | November 15th, | 2025 |
             | Notification of acceptance&nbsp;  | November 31st, &nbsp; | 2025 |
+            <br>
+            #### [Competitions](/competition):
+            ||||
+            |:-|:-|:-|
+            | Proposal deadline                 | November 21st, | 2025 |
+            | Notification of acceptance&nbsp;  | November 28th, | 2025 |
             <br>
             #### [Tutorials](/tutorials): May 25 or 29, 2026
             ||||
