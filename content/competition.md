@@ -58,7 +58,7 @@ Please follow the structure of, and adapt, the [Overleaf template](https://www.o
 <br>
 
 #### Contact and Inquiries
-For questions or advice (e.g., about platforms or logistics), please contact the FG 2026 Competition Chairs Chirag Raman, TU Delft, The Netherlands and <a href="mailto:jyoti.joshi@monash.edu">Jyoti Joshi Dhall</a>, Monash University, Kroop AI, Australia.
+For questions or advice (e.g., about platforms or logistics), please contact the FG 2026 Competition Chairs <a href="mailto:c.a.raman@tudelft.nl">Chirag Raman</a>, TU Delft, The Netherlands and <a href="mailto:jyoti.joshi@monash.edu">Jyoti Joshi Dhall</a>, Monash University, Kroop AI, Australia.
 
 We look forward to your innovative competition proposals and to showcasing the next frontier of face and gesture analysis!
 
