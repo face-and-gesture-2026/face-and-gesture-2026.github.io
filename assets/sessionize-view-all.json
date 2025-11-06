@@ -30,6 +30,23 @@
       "fullName": "Yukie Nagai",
       "categoryItems": [],
       "questionAnswers": []
+    },
+    {
+      "id": "iain-matthews",
+      "firstName": "Iain",
+      "lastName": "Matthews",
+      "bio": "Iain Matthews is an experienced research director with respected contributions in both industry and academia. Iain received a BEng degree in electronic engineering and a PhD in computer science from the University of East Anglia in the UK. He moved to the USA to join the Robotics Institute at Carnegie Mellon University. In 2006 he spent two years in New Zealand at the visual effects company Weta Digital contributing to the FACETS facial motion capture system while working on the movies Avatar and Tintin, and was awarded a Scientific and Engineering Award (a technical Oscar) for this work in 2017. He joined the newly formed Disney Research in Pittsburgh in 2008 to build the computer vision group and in 2013 was promoted to Associate Director of the Pittsburgh lab. Prior to joining Epic Games he spent a couple of years at Oculus Research / Facebook Reality Labs working on social VR/AR.\nIain also holds a courtesy faculty appointment at the Robotics Institute at Carnegie Mellon University and an Honorary Professor position at the University of East Anglia. He has published over 140 academic papers and been issued more than 25 US patents.",
+      "tagLine": "Director of Research Science, Epic Games",
+      "profilePicture": "images/iainmatthews.webp",
+      "isTopSpeaker": true,
+      "links": [{
+        "title": "Twitter",
+        "url": "https://x.com/iainmatthews",
+        "linkType": "Twitter"}],
+      "sessions": [],
+      "fullName": "Iain Matthews",
+      "categoryItems": [],
+      "questionAnswers": []
     }
   ],
   "categories": [
