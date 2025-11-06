@@ -156,11 +156,11 @@ params:
           location: Kyoto Research Park (KRP), Kyoto, Japan
           address:
                 - Kyoto Research Park
-                - 134 Chudoji Minamimachi
+                - 90-94 Chudoji Awata-cho
                 - Shimogyo Ward
-                - Kyoto (Japan)
+                - Kyoto 600-8815 (Japan)
           directions: |
-              FG 2026 will be located at the Kyoto Research Park, 134 Chudoji Minamimachi, Shimogyo Ward, Kyoto, Japan. ![](https://www.krp.co.jp/assets/img/english/access_to_krp/image02.jpg)
+              FG 2026 will be located at the West Area of Kyoto Research Park, 90-94 Chudoji Awata-cho, Shimogyo Ward, Kyoto 600-8815, Japan. ![](https://www.krp.co.jp/assets/img/english/access_to_krp/image02.jpg)
           map:
                 embeddableMapUrl: //umap.openstreetmap.de/en/map/fg2026_102539?scrollWheelZoom=false
           images:
