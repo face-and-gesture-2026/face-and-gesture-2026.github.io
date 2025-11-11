@@ -11,7 +11,7 @@ Workshop proposals should include the following information:
 - List of organizers including affiliation, email address, and a short bio
 - Tentative length of the workshop (half-day or full-day)
 - Style of the workshop and related activities, e.g., poster/oral paper presentations, invited talks, round tables, competition, hackathon, etc 
-- Tentative paper submission and review schedule (Ideally, the camera-ready deadline will coincide with the main conference deadline on April 2)
+- Tentative paper submission and review schedule (Ideally, the camera-ready deadline will coincide with the main conference deadline on April 21)
 - Planned advertisement, website hosting, potential sponsorships
 - Paper submission procedure (submission website) if applicable
 - Paper review procedure (single/double-blind, internal/external,
