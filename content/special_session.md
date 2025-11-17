@@ -25,8 +25,10 @@ A proposal must include the following information:
 ||||
 |:-|:-|:-|
 | **Special Session** | | |
-| &nbsp;&nbsp; Proposals due                | November 15, &nbsp;   | 2025 |
-| &nbsp;&nbsp; Proposal notification &nbsp; | November 30,          | 2025 |
+| &nbsp;&nbsp; Proposals due                | ~~November 15,~~      | ~~2025~~ |
+|                                           | November 30, &nbsp;   | 2025 |
+| &nbsp;&nbsp; Proposal notification &nbsp; | ~~November 30,~~      | ~~2025~~ |
+|                                           | December  7,          | 2025 |
 | **Panel** | | |
 | &nbsp;&nbsp;  Proposals due               | March 10,             | 2026 |
 | &nbsp;&nbsp;  Proposal notification       | March 20,             | 2026 |
