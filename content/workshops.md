@@ -33,7 +33,7 @@ For additional information and queries regarding the workshop proposal procedure
 ||||
 |:-|:-|:-|
 | Workshop proposals due:            | ~~November 13~~,     | ~~2025~~ |
-|                                    | November 20,         | 2025 |
+|                                    | ~~November 20~~,     | ~~2025~~ |
 | Notification of acceptance: &nbsp; | ~~November 27~~,     | ~~2025~~ |
 |                                    | December 4,          | 2025 |
 | Workshop date:                     | May 25 or 29, &nbsp; | 2026 |
