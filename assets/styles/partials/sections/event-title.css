@@ -20,9 +20,9 @@
     /* Default (Desktop) */
     background-image:
     url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0002_KV_Geisa.webp"),
+    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0000_Location.webp"),
     url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0005_Skyline.webp"),
     url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0001_Title.webp"),
-    url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0000_Location.webp"),
     url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0004_Logo.webp"),
     url("/images/FG2026_Header_1400x536_Desktop/FG2026_Header_1400x536_Desktop_0006_Background.webp");
 }
@@ -32,9 +32,9 @@
   .event-title-section_content {
     background-image:
     url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0004_KV_Geisa.webp"),
+    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0002_Location.webp"),
     url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0005_Skyline.webp"),
     url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0003_Title.webp"),
-    url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0002_Location.webp"),
     url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0001_Logo.webp"),
     url("/images/FG2026_Header_2560x536_QHD/FG2026_Header_2560x536_QHD_0006_Background.webp");
   }
@@ -45,9 +45,9 @@
   .event-title-section_content {
     background-image:
     url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0004_KV_Geisa.webp"),
+    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0002_Location.webp"),
     url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0005_Skyline.webp"),
     url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0003_Title.webp"),
-    url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0002_Location.webp"),
     url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0001_Logo.webp"),
     url("/images/FG2026_Header_900x600_Tablet/FG2026_Header_900x600_Tablet_0006_Background.webp");
   }
@@ -59,9 +59,9 @@
     background-position: top;
     background-image:
     url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0004_KV_Geisa.webp"),
+    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0002_Location.webp"),
     url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0005_Skyline.webp"),
     url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0003_Title.webp"),
-    url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0002_Location.webp"),
     url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0001_Logo.webp"),
     url("/images/FG2026_Header_800x500_Phone/FG2026_Header_800x500_Phone_0006_Background.webp");
   }
