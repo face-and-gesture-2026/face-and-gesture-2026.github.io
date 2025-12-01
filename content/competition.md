@@ -33,8 +33,8 @@ Please follow the structure of, and adapt, the [Overleaf template](https://www.o
 #### Important Dates (Tentative)
 | Milestone | Date |
 |:-|:-|
-| Competition proposal submission deadline  | November 21, 2025
-| Acceptance notification to organizers     | November 28 2025 |
+| Competition proposal submission deadline  | ~~November 21, 2025~~ |
+| Acceptance notification to organizers     | ~~November 28, 2025~~ |
 | **For Standard Competitions:** ||
 |    Competition launch (data release)      | Start January 2025 |
 |    Submission deadline (Test Results)     | Mid Feb 2026 |
