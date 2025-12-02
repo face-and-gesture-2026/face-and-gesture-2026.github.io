@@ -12,6 +12,7 @@
   "Awards": ["itir_ertugrul", "abhinav_dhall"],
   "Sponsorship": ["chie_hieida", "hiromi_narimatsu"],
   "DoctoralConsortium": ["kalin_stefanov", "yasutomo_kawanishi"],
+  "BroadeningParticipation": ["umur_ciftci"],
   "organizers": [
     {
       "id": "daigo_muramatsu",
@@ -350,6 +351,16 @@
       "profilePicture": "images/image23.webp",
       "links": [],
       "fullName": "Yasutomo Kawanishi"
+    },
+    {
+      "id": "umur_ciftci",  
+      "firstName": "Umur Aybars",
+      "lastName": "Ciftci",
+      "bio": "",
+      "tagLine": "Binghamtom University, USA",
+      "profilePicture": "images/image32.webp",
+      "links": [],
+      "fullName": "Umur A. Ciftci"
     }
   ]
 }

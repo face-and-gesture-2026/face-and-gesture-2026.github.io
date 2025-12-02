@@ -323,6 +323,30 @@
                     {{ end }}
                 {{ end }}
                 </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3">Broadening Participation Chairs</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.BroadeningParticipation }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
             {{- end }}
         </div>
     </section>
