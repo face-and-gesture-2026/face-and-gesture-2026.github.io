@@ -12,7 +12,7 @@
   "Awards": ["itir_ertugrul", "abhinav_dhall"],
   "Sponsorship": ["chie_hieida", "hiromi_narimatsu"],
   "DoctoralConsortium": ["kalin_stefanov", "yasutomo_kawanishi"],
-  "BroadeningParticipation": ["umur_ciftci"],
+  "BroadeningParticipation": ["umur_ciftci", "micol_spitale"],
   "organizers": [
     {
       "id": "daigo_muramatsu",
@@ -361,6 +361,16 @@
       "profilePicture": "images/image32.webp",
       "links": [],
       "fullName": "Umur A. Ciftci"
+    },
+    {
+      "id": "micol_spitale",
+      "firstName": "Micol Spitale",
+      "lastName": "Spitale",
+      "bio": "Micol Spitale is an Assistant Professor at the Department of Electronics, Information and Bioengineering at the Politecnico di Milano. In recent years, her research has been focused on the field of Social Signal Processing, Human-Robot Interaction, and Affective Computing, exploring ways to develop robots that are socio-emotionally adaptive in different contexts with the goal of having a positive impact on the society.",
+      "tagLine": "Politecnico di Milano, Italy",
+      "profilePicture": "images/image33.webp",
+      "links": [],
+      "fullName": "Micol Spitale"
     }
   ]
 }
