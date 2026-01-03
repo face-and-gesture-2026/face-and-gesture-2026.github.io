@@ -1,0 +1,18 @@
+{{ $group := .Get "name" | default (print "tabs-" .Ordinal) }}
+<div class="tabs-container" id="{{ $group }}">
+    {{ .Inner }}
+</div>
+
+<script>
+    (function () {
+        var container = document.getElementById('{{ $group }}');
+        var inputs = container.querySelectorAll('.tab-input');
+        if (inputs.length > 0) {
+            var checked = false;
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].checked) { checked = true; break; }
+            }
+            if (!checked) inputs[0].checked = true;
+        }
+    })();
+</script>

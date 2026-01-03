@@ -1,0 +1,8 @@
+{{ $title := .Get "title" }}
+{{ $id := print "tab-" (.Get "name" | default (anchorize $title)) "-" .Ordinal }}
+{{ $group := .Parent.Get "name" | default (print "tabs-" .Parent.Ordinal) }}
+<input type="radio" name="{{ $group }}" id="{{ $id }}" class="tab-input" {{ if .Get "active" }}checked{{ end }}>
+<label for="{{ $id }}" class="tab-label">{{ $title }}</label>
+<div class="tab-content">
+    {{ .Inner | markdownify }}
+</div>
