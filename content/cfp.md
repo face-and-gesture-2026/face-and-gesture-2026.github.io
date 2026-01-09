@@ -82,8 +82,9 @@ A selection of the best relevant papers from FG 2026 will be invited to contribu
 | Round 2 |||||
 |:-|:-|:-|:-|:-|
 | Abstract submission             | ~~Friday,~~      | ~~January 9th,~~                         | ~~2026~~ |
-| Extended                        | Monday,          | Sunday 25th,                             | 2026 (only for round 2 new submissions) |
-| Paper submission                | Thursday, &nbsp; | January 15th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026  |
+| Extended                        | Sunday,          | January 25th,                             | 2026 (only for round 2 new submissions) |
+| Paper submission                | ~~Thursday,~~ &nbsp; | ~~January 15th,~~&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | ~~2026~~ |
+| Extended                        | Sunday,          | January 25th,                            | 2026  |
 | Notifications to authors &nbsp; | Thursday,        | April 2nd,                               | 2026  |
 | Camera Ready (for all)          | Tuesday,         | April 21st,                              | 2026  |
 
