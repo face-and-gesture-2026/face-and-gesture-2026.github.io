@@ -72,7 +72,7 @@ We look forward to your innovative competition proposals and to showcasing the n
 
   {{< tab title="Accepted Competitions" >}}
 #### [The BlEmoRe Competition on Multimodal Blended Emotion Recognition](https://www.blemore.tech)
-Organizers: Tim Lachmann, Philipp Mueller, Teimuraz Saghinadze, Michal Balazia, Alexandra Israelsson, Petri Laukka
+Organizers: Tim Lachmann, Philipp Müller, Teimuraz Saghinadze, Michal Balazia, Alexandra Israelsson, Petri Laukka
 
 Humans often experience multiple emotions simultaneously, such as feeling both sadness and anger when facing an unjust loss or happiness and surprise at a birthday party. However, emotion recognition research has largely focused on single emotions due to limited datasets and a lack of awareness. The BlEmoRe competition aims to bridge this gap by advancing the recognition of multimodal blended emotional expressions.
 
