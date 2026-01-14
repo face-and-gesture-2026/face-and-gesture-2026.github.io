@@ -1,4 +1,8 @@
-# Call for Competitions — FG 2026
+# Competitions
+
+{{< tabs name="competition-details" >}}
+  {{< tab title="Call for Competitions" >}}
+
 We invite proposals for competitions to be held in conjunction with the 2026 IEEE International Conference on Automatic Face and Gesture Recognition (FG 2026), which will be held in Kyoto, Japan. The competitions provide a forum for challenging, stimulating, and benchmarking cutting‑edge research in face, gesture, and related visual‑computing tasks. We solicit competition proposals on any topic of relevance to the FG community, especially from emerging directions or novel application domains related to face and gesture analysis.
 
 Interdisciplinary topics relevant to a significant cross-section of the community (e.g., those linking FG to health, accessibility, robotics, human–machine interaction, or social good) are particularly welcome.
@@ -63,4 +67,18 @@ For questions or advice (e.g., about platforms or logistics), please contact the
 
 We look forward to your innovative competition proposals and to showcasing the next frontier of face and gesture analysis!
 
+  {{< /tab >}}
 
+
+  {{< tab title="Accepted Competitions" >}}
+#### [The BlEmoRe Competition on Multimodal Blended Emotion Recognition](https://www.blemore.tech)
+Organizers: Tim Lachmann, Philipp Mueller, Teimuraz Saghinadze, Michal Balazia, Alexandra Israelsson, Petri Laukka
+
+Humans often experience multiple emotions simultaneously, such as feeling both sadness and anger when facing an unjust loss or happiness and surprise at a birthday party. However, emotion recognition research has largely focused on single emotions due to limited datasets and a lack of awareness. The BlEmoRe competition aims to bridge this gap by advancing the recognition of multimodal blended emotional expressions.
+
+#### [Micro-Expression Grand Challenge (MEGC) 2026: Micro-Expression Visual-Question-Answering from Short to Long Videos](https://megc2026.github.io/challenge.html)
+Organizers: Xinqi Fan, Adrian Davison, Jingting Li, John See, Su-Jing Wang, Moi Hoon Yap
+
+Information on this year's Grand Challenge competition will be available soon.
+  {{< /tab >}}
+{{< /tabs >}}
