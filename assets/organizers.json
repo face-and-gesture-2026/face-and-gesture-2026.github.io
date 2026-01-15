@@ -5,7 +5,7 @@
   "DemoAndExhibition": ["kevin_elhaddad", "katsutoshi_masai"],
   "Publication": ["miao_cheng", "joseph_robinson"],
   "Competition": ["chirag_raman", "jyoti_joshi"],
-  "WorkshopsTutorials": ["shiro_kumano", "koichiro_niinuma"],
+  "WorkshopsTutorials": ["norimichi_ukita", "koichiro_niinuma"],
   "Publicity": ["marwa_mahmoud", "ryo_yonetani"],
   "Website": ["felix_dollack", "matthias_norden"],
   "FinanceAndLocal": ["shohei_nobuhara", "yuta_nakashima"],
@@ -213,14 +213,14 @@
       "fullName": "Jyoti Joshi"
     },
     {
-      "id": "shiro_kumano",
-      "firstName": "Shiro",
-      "lastName": "Kumano",
-      "bio": "Dr. Shiro Kumano received his Ph.D. in Information Science and Technology from the University of Tokyo, Japan, in 2009. He served as an Honorary Research Associate at University College London, U.K., from 2016 to 2017, and is currently a Senior Research Scientist at Nippon Telegraph and Telephone (NTT) Communication Science Laboratories, NTT Corporation, Japan, as well as a Visiting Associate Professor at the University of Tsukuba, Japan. His research interests span affective computing, computer vision, cognitive science, and mathematical psychology. Dr. Kumano has contributed significantly to the research community, serving as General Co-Chair of ACII 2021 and 2022, Blue Sky Paper Chair for ICMI 2024, Sponsorship Co-Chair for ACII 2019 and 2024, and Web Co-Chair for MVA 2015, Senior Program Committee Member for ACII (2017, 2019), ICMI (2018, 2020, 2022-24), and AAAI (2022), among other roles. He has also been an Associate Editor of IEEE TAFFC since 2024 and an Executive Board Member of the Association for the Advancement of Affective Computing (AAAC) since 2024 Dr. Kumano is a member of IEEE, AAAC and other Japanese research societies.",
-      "tagLine": "University of Tsukuba, Japan",
+      "id": "norimichi_ukita",
+      "firstName": "Norimichi",
+      "lastName": "Ukita",
+      "bio": "Norimichi Ukita is a Professor in the Graduate School of Engineering at Toyota Technological Institute, Japan (TTI-J). He received the B.E. and M.E. degrees in Information Engineering from Okayama University, Japan, in 1996 and 1998, respectively, and the Ph.D. degree in Informatics from Kyoto University, Japan, in 2001, under the supervision of Dr. Takashi Matsuyama. After five years as an Assistant Professor at NAIST, he was promoted to Associate Professor in 2007 and moved to TTI-J in 2016. He was a research scientist in Precursory Research for Embryonic Science and Technology, Japan Science and Technology Agency (JST), from 2002 to 2006. He was a Visiting Research Scientist at Carnegie Mellon University, working with Dr. Takeo Kanade, from 2007 to 2009. He was also a Visiting Researcher at the Advanced Telecommunications Research Institute International during 2011–2017, a Visiting Professor at NAIST during 2016–2017, and a Guest Professor at the Cybermedia Center of Osaka University. He currently serves as an Adjoint Professor at Toyota Technological Institute at Chicago (TTIC). He served as the General Chair of MVA2019 and MVA2021; the Program Chair of ACCV2026, SNL2022, and MVA2017; and an Area Chair for CVPR, ICCV, ECCV, NeurIPS, AAAI, and many other conferences. He also serves as an Area Editor of IEEE TPAMI and several other journals. He received the IEICE Excellent Paper Award in 1999. He was the winner of the NTIRE 2018 challenge on image super-resolution, achieved first place in the PIRM 2018 Perceptual SR Challenge, received Best Poster Awards at MVA2019 and MVA2025, and received the Best Practical Paper Award at MVA2021.",
+      "tagLine": "Toyota Technological Institute, Japan",
       "profilePicture": "images/image9.webp",
       "links": [],
-      "fullName": "Shiro Kumano"
+      "fullName": "Norimichi Ukita"
     },
     {
       "id": "koichiro_niinuma",
