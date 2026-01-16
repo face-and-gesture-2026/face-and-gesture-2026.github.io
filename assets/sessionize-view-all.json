@@ -47,6 +47,20 @@
       "fullName": "Iain Matthews",
       "categoryItems": [],
       "questionAnswers": []
+    },
+    {
+      "id": "shunsuke-saito",
+      "firstName": "Shunsuke",
+      "lastName": "Saito",
+      "bio": "Shunsuke Saito is a Research Scientist at Meta Reality Labs Research in Pittsburgh, where he leads the effort on next generation digital humans. He obtained his PhD degree at the University of Southern California. His research lies in the intersection of computer graphics, computer vision and machine learning, especially centered around digital human, 3D reconstruction, and performance capture. His work has been published in SIGGRAPH, SIGGRAPH Asia, NeurIPS, ICLR, ECCV, ICCV and CVPR, three of which have been nominated for CVPR Best Paper Award (2019, 2021) and ECCV Best Paper Award (2024). His real-time volumetric teleportation work also won Best in Show award in SIGGRAPH 2020 Real-time Live!.",
+      "tagLine": "Research Scientist, Meta Reality Labs Research",
+      "profilePicture": "images/shunsukesaito.webp",
+      "isTopSpeaker": true,
+      "links": [{}],
+      "sessions": [],
+      "fullName": "Shunsuke Saito",
+      "categoryItems": [],
+      "questionAnswers": []
     }
   ],
   "categories": [
