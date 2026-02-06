@@ -42,6 +42,6 @@ procedure, please contact the Tutorial Co-chairs: <a href="mailto:shiro.kumano@n
 
 ||||
 |:-|:-|:-|
-| Tutorial proposals due:            | January 13,          | 2026 |
-| Notification of acceptance: &nbsp; | January 27           | 2026 |
+| ~~Tutorial proposals due:~~            | ~~January 13,~~  | ~~2026~~ |
+| ~~Notification of acceptance:~~ &nbsp; | ~~January 27,~~  | ~~2026~~ |
 | Tutorial date:                     | May 25 or 29, &nbsp; | 2026 |
