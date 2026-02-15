@@ -79,6 +79,11 @@ Humans often experience multiple emotions simultaneously, such as feeling both s
 #### [Micro-Expression Grand Challenge (MEGC) 2026: Micro-Expression Visual-Question-Answering from Short to Long Videos](https://megc2026.github.io/challenge.html)
 Organizers: Xinqi Fan, Adrian Davison, Jingting Li, John See, Su-Jing Wang, Moi Hoon Yap
 
-Information on this year's Grand Challenge competition will be available soon.
+Facial micro-expressions (MEs) are involuntary movements of the face that occur spontaneously when a person experiences an emotion but attempts to suppress or repress the facial expression, typically found in a high-stakes environment. MEGC 2026 introduces two tasks:
+- (1) ME-VQA, a ME visual question answering task using short video clips; and
+- (2) ME-LVQA, a new micro-expression long video-question-answering task requiring participants to use long ME videos and provide natural-language answers.
+
+The competition leverages spontaneous ME datasets, provides baselines, submissions through Codabench, unified evaluation metrics, and aims to advance subtle facial behaviour understanding, temporal reasoning, and interpretable vision–language modelling.
+
   {{< /tab >}}
 {{< /tabs >}}
