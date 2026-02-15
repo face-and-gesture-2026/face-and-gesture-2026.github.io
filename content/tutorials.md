@@ -8,7 +8,7 @@ Accepted tutorials will be held on either May 25 or May 29, 2026, in the same ve
 
 #### Submission Procedure
 
-Tutorial proposals should be submitted via email to <a href="mailto:shiro.kumano@ntt.com">Shiro Kumano</a> and <a href="mailto:kniinuma@fujitsu.com">Koichiro Niinuma</a>. The title of the email should be: **Tutorial proposal for IEEE FG 2026**. The proposal should consist of a PDF file appended to the email, and include the following information:
+Tutorial proposals should be submitted via email to <a href="mailto:ukita@toyota-ti.ac.jp">Norimichi Ukita</a> and <a href="mailto:kniinuma@fujitsu.com">Koichiro Niinuma</a>. The title of the email should be: **Tutorial proposal for IEEE FG 2026**. The proposal should consist of a PDF file appended to the email, and include the following information:
 
 + Title
 + Proposer’s contact information and short CV
@@ -35,7 +35,7 @@ Tutorial proposals will be evaluated on the basis of their estimated benefit for
 #### Contact
 
 For additional information and queries regarding the tutorial proposal
-procedure, please contact the Tutorial Co-chairs: <a href="mailto:shiro.kumano@ntt.com">Shiro Kumano</a> and <a href="mailto:kniinuma@fujitsu.com">Koichiro Niinuma</a>.
+procedure, please contact the Tutorial Co-chairs: <a href="mailto:ukita@toyota-ti.ac.jp">Norimichi Ukita</a> and <a href="mailto:kniinuma@fujitsu.com">Koichiro Niinuma</a>.
 
 
 #### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
