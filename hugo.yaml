@@ -175,6 +175,8 @@ params:
         logo2: logos/IEEE-CS_LOGO.webp
         location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
       favicon: favicon.ico
+      featuredSessions:
+        - "shunsuke_keynote"
       callToAction:
         other:
           # 👇 Enter the URL of your ticket shop here.
