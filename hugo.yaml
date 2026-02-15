@@ -1,186 +1,186 @@
-baseURL: '/'
-theme: 'hugo-theme-event'
+baseURL: "/"
+theme: "hugo-theme-event"
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
+  goldmark:
+    renderer:
+      unsafe: true
 
 defaultContentLanguage: en
 languages:
-    _merge: deep
-    en:
-        disabled: false
-        menu:
-          main:
-            - identifier: cfp
-              name: Authors
-              pageRef: /cfp
-              params:
-                entries:
-                  - identifier: cfp
-                    name: Call for Papers
-                    pageRef: /cfp
-                  - identifier: competition
-                    name: Competitions
-                    pageRef: /competition
-                  - identifier: demos
-                    name: "Demos"
-                    pageRef: /demos
-                  - identifier: doctoral_consortium
-                    name: "Doctoral Consortium"
-                    pageRef: /doctoral_consortium
-                  - identifier: special_session
-                    name: "Special Sessions"
-                    pageRef: /special_session
-                  - identifier: tutorials
-                    name: Tutorials
-                    pageRef: /tutorials
-                  - identifier: workshops
-                    name: Workshops
-                    pageRef: /workshops
-              weight: 10
-            - identifier: location
-              pageRef: /location
-              weight: 60
-              name: Attend
-            - identifier: organizers
-              pageRef: /organizers
-              weight: 70
-            - identifier: sponsorship
-              name: Sponsorship
-              pageRef: /sponsorship
-              weight: 80
+  _merge: deep
+  en:
+    disabled: false
+    menu:
+      main:
+        - identifier: cfp
+          name: Authors
+          pageRef: /cfp
+          params:
+            entries:
+              - identifier: cfp
+                name: Call for Papers
+                pageRef: /cfp
+              - identifier: competition
+                name: Competitions
+                pageRef: /competition
+              - identifier: demos
+                name: "Demos"
+                pageRef: /demos
+              - identifier: doctoral_consortium
+                name: "Doctoral Consortium"
+                pageRef: /doctoral_consortium
+              - identifier: special_session
+                name: "Special Sessions"
+                pageRef: /special_session
+              - identifier: tutorials
+                name: Tutorials
+                pageRef: /tutorials
+              - identifier: workshops
+                name: Workshops
+                pageRef: /workshops
+          weight: 10
+        - identifier: location
+          pageRef: /location
+          weight: 60
+          name: Attend
+        - identifier: organizers
+          pageRef: /organizers
+          weight: 70
+        - identifier: sponsorship
+          name: Sponsorship
+          pageRef: /sponsorship
+          weight: 80
 
 params:
-    themes:
-        event:
-          sessionizeId: anything-but-test
-          title: 'The 20th IEEE International Conference on Automatic Face and Gesture Recognition'
-          slogan: FG 2026 # overwrite template string
-          shortTitle: FG 2026 # overwrite title in header menu
-          description: |
-            The IEEE conference series on Automatic Face and Gesture Recognition is the premier international forum for research in image and video-based face, gesture, and body movement recognition.
-            It is co-sponsored by [IEEE Biometrics Council](https://ieee-biometrics.org/) and [IEEE Computer Society](https://www.computer.org/).
-            Its broad scope includes advances in fundamental computer vision, pattern recognition, and computer graphics;
-            machine learning techniques relevant to face, gesture, and body motion;
-            interdisciplinary research on behavioral analysis;
-            new algorithms and applications.
-            Topics of interest include but are not limited to:
+  themes:
+    event:
+      sessionizeId: anything-but-test
+      title: "The 20th IEEE International Conference on Automatic Face and Gesture Recognition"
+      slogan: FG 2026 # overwrite template string
+      shortTitle: FG 2026 # overwrite title in header menu
+      description: |
+        The IEEE conference series on Automatic Face and Gesture Recognition is the premier international forum for research in image and video-based face, gesture, and body movement recognition.
+        It is co-sponsored by [IEEE Biometrics Council](https://ieee-biometrics.org/) and [IEEE Computer Society](https://www.computer.org/).
+        Its broad scope includes advances in fundamental computer vision, pattern recognition, and computer graphics;
+        machine learning techniques relevant to face, gesture, and body motion;
+        interdisciplinary research on behavioral analysis;
+        new algorithms and applications.
+        Topics of interest include but are not limited to:
 
-            - Face recognition & biometrics
-            - Face analysis and synthesis
-            - Body action and activity recognition
-            - Gesture recognition, analysis, and synthesis
-            - Affective computing and multi-modal interaction
-            - Psychological and behavioral analysis
-            - Perceptual and cognitive aspects of non-verbal interaction
-            - Databases and tools for FG
-            - Technologies and applications related to FG
-            - Privacy and ethical issues of FG
+        - Face recognition & biometrics
+        - Face analysis and synthesis
+        - Body action and activity recognition
+        - Gesture recognition, analysis, and synthesis
+        - Affective computing and multi-modal interaction
+        - Psychological and behavioral analysis
+        - Perceptual and cognitive aspects of non-verbal interaction
+        - Databases and tools for FG
+        - Technologies and applications related to FG
+        - Privacy and ethical issues of FG
 
-            <br><br>
+        <br><br>
 
-            #### FG Steering Committee Statement on Broadening Participation
-            The FG community is strongly committed to addressing issues related to diversity, equity, and inclusion at our conference. Diversity has many dimensions, including gender, race, ethnicity, nation of origin, age, disabilities, religious belief, sexual orientation, socioeconomic status, and cultural background. There is no place for hatred and discrimination in the FG community or elsewhere.
+        #### FG Steering Committee Statement on Broadening Participation
+        The FG community is strongly committed to addressing issues related to diversity, equity, and inclusion at our conference. Diversity has many dimensions, including gender, race, ethnicity, nation of origin, age, disabilities, religious belief, sexual orientation, socioeconomic status, and cultural background. There is no place for hatred and discrimination in the FG community or elsewhere.
 
-            For FG 2026, the BP Chairs are working with other members of the organizing committee to help foster a more inclusive, diverse, and equitable conference. Specifically, we will encourage the following:
-            - improved diversity and inclusion in workshop and tutorial organizers and invited speakers by including diversity, equity, and inclusivity as part of the evaluation criteria;
-            - the submission of workshop and tutorial proposals that examine problems in equity, diversity, and inclusion from a technical perspective;
-            - networking events and support for affinity groups that are specifically aimed at building and nurturing networks in communities that are currently not well represented at FG;
-            - support for students to attend FG from communities that do not traditionally attend through travel grants and waived registration fees.
+        For FG 2026, the BP Chairs are working with other members of the organizing committee to help foster a more inclusive, diverse, and equitable conference. Specifically, we will encourage the following:
+        - improved diversity and inclusion in workshop and tutorial organizers and invited speakers by including diversity, equity, and inclusivity as part of the evaluation criteria;
+        - the submission of workshop and tutorial proposals that examine problems in equity, diversity, and inclusion from a technical perspective;
+        - networking events and support for affinity groups that are specifically aimed at building and nurturing networks in communities that are currently not well represented at FG;
+        - support for students to attend FG from communities that do not traditionally attend through travel grants and waived registration fees.
 
-            FG'26 is committed to supporting students from communities that do not traditionally attend FG through registration and travel support. IEEE Biometrics Council makes a number of grants available for this purpose. Allocation is based on a combination of need, contribution to the conference, where you are traveling from, the community(ies) you identify with, and advisor support.
+        FG'26 is committed to supporting students from communities that do not traditionally attend FG through registration and travel support. IEEE Biometrics Council makes a number of grants available for this purpose. Allocation is based on a combination of need, contribution to the conference, where you are traveling from, the community(ies) you identify with, and advisor support.
 
-            <br><br>
+        <br><br>
 
-            ### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
-            #### [Main Track](/cfp): May 25-29, 2026
-            | Round 1 ||||
-            |:-|:-|:-|:-|
-            | ~~Abstract submission~~                               | ~~September 25th,~~ | ~~2025~~ |
-            | ~~Paper submission~~                                  | ~~October 2nd,~~    | ~~2025~~ |
-            | ~~Extended~~                                          | ~~October 6th,~~    | ~~2025~~ |
-            | ~~Notifications to authors~~                          | ~~December 11th,~~  | ~~2025~~ |
-            | ~~Revisions~~                                         | ~~January 25th,~~   | ~~2026~~ |
-            | **Round 2** ||||
-            | ~~Abstract submission~~                               | ~~January 9th,~~    | ~~2026~~ (only for round 2 new submissions) | |
-            | ~~Paper submission~~                                  | ~~January 15th,~~   | ~~2026~~ |
-            | ~~Extended submission~~                               | ~~January 25th,~~   | ~~2026 (abstract and paper)~~ |
-            | Notifications to authors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | April 2nd,   | 2026 |
-            |&nbsp;||||
-            | Camera Ready (for all)                                | April 21st,         | 2026 |
-            <br>
-            #### [Workshops](/workshops): May 25 or 29, 2026
-            ||||
-            |:-|:-|:-|
-            | ~~Proposal deadline~~             | ~~November 13th~~, | ~~2025~~ |
-            |                                   | ~~November 20th~~, | ~~2025~~ |
-            | ~~Notification of acceptance~~&nbsp;  | ~~November 27th~~,&nbsp; | ~~2025~~ |
-            |                                   | ~~December 3rd,&nbsp;~~ | ~~2025~~ |
-            <br>
-            #### [Special Sessions](/special_session):
-            ||||
-            |:-|:-|:-|
-            | ~~Proposals due~~                 | ~~November 15th,~~    | ~~2025~~ |
-            |                                   | ~~November 22,~~      | ~~2025~~ |
-            | ~~Notification of acceptance~~&nbsp;  | ~~November 30th,~~    | ~~2025~~ |
-            |                                   | ~~December  7th,~~ &nbsp; | ~~2025~~ |
-            <br>
-            #### [Competitions](/competition):
-            ||||
-            |:-|:-|:-|
-            | ~~Proposal deadline~~               | ~~November 21st,~~ | ~~2025~~ |
-            | ~~Notification of acceptance~~&nbsp;    | ~~November 28th,~~ | ~~2025~~ |
-            |                                     | ~~December  4th,~~ | ~~2025~~ |
-            <br>
-            #### [Tutorials](/tutorials): May 25 or 29, 2026
-            ||||
-            |:-|:-|:-|
-            | ~~Proposal deadline~~                 | ~~January 13th,~~ | ~~2026~~ |
-            | ~~Notification of acceptance~~&nbsp;  | ~~January 27th,~~&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | ~~2026~~ |
-            <br>
-            #### [Panels](/special_session):
-            ||||
-            |:-|:-|:-|
-            | Proposal deadline                 | March 10th, | 2026 |
-            | Notification of acceptance&nbsp;  | March 20th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
-            <br>
-            #### [Doctoral Consortium](/doctoral_consortium): May 25, 2026
-            ||||
-            |:-|:-|:-|
-            | Submission deadline               | April 9th, | 2026 |
-            | Notification of acceptance&nbsp;  | April 16th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
-            |||||
-            #### [Demos](/demos):
-            ||||
-            |:-|:-|:-|
-            | Submission deadline               | April 9, | 2026 (Proposal and Supplemental Material) |
-            | Notification of acceptance&nbsp;  | April 16, | 2026 |
-            | Camera Ready Deadline             | April 21, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
-          startDate: 2026-05-25
-          endDate: 2026-05-29
-          location: Kyoto Research Park (KRP), Kyoto, Japan
-          address:
-                - Kyoto Research Park
-                - 90-94 Chudoji Awata-cho
-                - Shimogyo Ward
-                - Kyoto 600-8815 (Japan)
-          directions: |
-              FG 2026 will be located at the West Area of Kyoto Research Park, 90-94 Chudoji Awata-cho, Shimogyo Ward, Kyoto 600-8815, Japan. ![](https://www.krp.co.jp/assets/img/english/access_to_krp/image02.jpg)
-          map:
-                embeddableMapUrl: //umap.openstreetmap.de/en/map/fg2026_102539?scrollWheelZoom=false
-          images:
-                logo: logos/biometricsCouncil.webp
-                logo2: logos/IEEE-CS_LOGO.webp
-                location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
-          favicon: favicon.ico
-          callToAction:
-                other:
-                    # 👇 Enter the URL of your ticket shop here.
-                    url:
-                enableBanner: false
-          colors:
-                primary: '#102F4B' # dark blue
-                primaryLighter: '#154065' # blue
-                track: '#154065' # blue
+        ### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
+        #### [Main Track](/cfp): May 25-29, 2026
+        | Round 1 ||||
+        |:-|:-|:-|:-|
+        | ~~Abstract submission~~                               | ~~September 25th,~~ | ~~2025~~ |
+        | ~~Paper submission~~                                  | ~~October 2nd,~~    | ~~2025~~ |
+        | ~~Extended~~                                          | ~~October 6th,~~    | ~~2025~~ |
+        | ~~Notifications to authors~~                          | ~~December 11th,~~  | ~~2025~~ |
+        | ~~Revisions~~                                         | ~~January 25th,~~   | ~~2026~~ |
+        | **Round 2** ||||
+        | ~~Abstract submission~~                               | ~~January 9th,~~    | ~~2026~~ (only for round 2 new submissions) | |
+        | ~~Paper submission~~                                  | ~~January 15th,~~   | ~~2026~~ |
+        | ~~Extended submission~~                               | ~~January 25th,~~   | ~~2026 (abstract and paper)~~ |
+        | Notifications to authors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | April 2nd,   | 2026 |
+        |&nbsp;||||
+        | Camera Ready (for all)                                | April 21st,         | 2026 |
+        <br>
+        #### [Workshops](/workshops): May 25 or 29, 2026
+        ||||
+        |:-|:-|:-|
+        | ~~Proposal deadline~~             | ~~November 13th~~, | ~~2025~~ |
+        |                                   | ~~November 20th~~, | ~~2025~~ |
+        | ~~Notification of acceptance~~&nbsp;  | ~~November 27th~~,&nbsp; | ~~2025~~ |
+        |                                   | ~~December 3rd,&nbsp;~~ | ~~2025~~ |
+        <br>
+        #### [Special Sessions](/special_session):
+        ||||
+        |:-|:-|:-|
+        | ~~Proposals due~~                 | ~~November 15th,~~    | ~~2025~~ |
+        |                                   | ~~November 22,~~      | ~~2025~~ |
+        | ~~Notification of acceptance~~&nbsp;  | ~~November 30th,~~    | ~~2025~~ |
+        |                                   | ~~December  7th,~~ &nbsp; | ~~2025~~ |
+        <br>
+        #### [Competitions](/competition):
+        ||||
+        |:-|:-|:-|
+        | ~~Proposal deadline~~               | ~~November 21st,~~ | ~~2025~~ |
+        | ~~Notification of acceptance~~&nbsp;    | ~~November 28th,~~ | ~~2025~~ |
+        |                                     | ~~December  4th,~~ | ~~2025~~ |
+        <br>
+        #### [Tutorials](/tutorials): May 25 or 29, 2026
+        ||||
+        |:-|:-|:-|
+        | ~~Proposal deadline~~                 | ~~January 13th,~~ | ~~2026~~ |
+        | ~~Notification of acceptance~~&nbsp;  | ~~January 27th,~~&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | ~~2026~~ |
+        <br>
+        #### [Panels](/special_session):
+        ||||
+        |:-|:-|:-|
+        | Proposal deadline                 | March 10th, | 2026 |
+        | Notification of acceptance&nbsp;  | March 20th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+        <br>
+        #### [Doctoral Consortium](/doctoral_consortium): May 25, 2026
+        ||||
+        |:-|:-|:-|
+        | Submission deadline               | April 9th, | 2026 |
+        | Notification of acceptance&nbsp;  | April 16th,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+        |||||
+        #### [Demos](/demos):
+        ||||
+        |:-|:-|:-|
+        | Submission deadline               | April 9, | 2026 (Proposal and Supplemental Material) |
+        | Notification of acceptance&nbsp;  | April 16, | 2026 |
+        | Camera Ready Deadline             | April 21, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2026 |
+      startDate: 2026-05-25
+      endDate: 2026-05-29
+      location: Kyoto Research Park (KRP), Kyoto, Japan
+      address:
+        - Kyoto Research Park
+        - 90-94 Chudoji Awata-cho
+        - Shimogyo Ward
+        - Kyoto 600-8815 (Japan)
+      directions: |
+        FG 2026 will be located at the West Area of Kyoto Research Park, 90-94 Chudoji Awata-cho, Shimogyo Ward, Kyoto 600-8815, Japan. ![](https://www.krp.co.jp/assets/img/english/access_to_krp/image02.jpg)
+      map:
+        embeddableMapUrl: //umap.openstreetmap.de/en/map/fg2026_102539?scrollWheelZoom=false
+      images:
+        logo: logos/biometricsCouncil.webp
+        logo2: logos/IEEE-CS_LOGO.webp
+        location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
+      favicon: favicon.ico
+      callToAction:
+        other:
+          # 👇 Enter the URL of your ticket shop here.
+          url:
+        enableBanner: false
+      colors:
+        primary: "#102F4B" # dark blue
+        primaryLighter: "#154065" # blue
+        track: "#154065" # blue
