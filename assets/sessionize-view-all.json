@@ -104,9 +104,34 @@
           "sort": 4
         },
         {
+          "id": 4375,
+          "name": "Demo",
+          "sort": 5
+        },
+        {
           "id": 4376,
           "name": "Poster",
-          "sort": 5
+          "sort": 6
+        },
+        {
+          "id": 4377,
+          "name": "Competitions",
+          "sort": 7
+        },
+        {
+          "id": 4378,
+          "name": "Doctoral Consortium",
+          "sort": 8
+        },
+        {
+          "id": 4379,
+          "name": "Special Session",
+          "sort": 9
+        },
+        {
+          "id": 4380,
+          "name": "Tutorial",
+          "sort": 10
         }
       ],
       "sort": 0,
