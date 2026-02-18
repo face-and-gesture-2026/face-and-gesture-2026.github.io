@@ -1,0 +1,4 @@
+# Broadening Participation (BP) Travel Grants
+FG 2026 will offer a limited number of Broadening Participation (BP) Travel Grants, supported by the IEEE Biometrics Council, to foster a more diverse and inclusive research community.
+The grants are intended to support authors of accepted papers who self-identify as members of underrepresented or marginalized groups and who lack sufficient funding to attend the conference.
+Support will be provided in the form of travel reimbursement. Detailed eligibility criteria, application instructions, and deadlines will be circulated via CMT to authors after paper acceptance notifications.

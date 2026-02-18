@@ -40,10 +40,18 @@ languages:
                 name: Workshops
                 pageRef: /workshops
           weight: 10
-        - identifier: location
-          pageRef: /location
+        - identifier: travel_grant
+          pageRef: /travel_grant
           weight: 60
           name: Attend
+          params:
+            entries:
+              - identifier: travel_grant
+                name: Travel Grants
+                pageRef: /travel_grant
+              - identifier: location
+                name: Location
+                pageRef: /location
         - identifier: organizers
           pageRef: /organizers
           weight: 70
