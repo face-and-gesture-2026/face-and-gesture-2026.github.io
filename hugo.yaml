@@ -187,7 +187,6 @@ params:
         - "shunsuke_keynote"
       callToAction:
         other:
-          # 👇 Enter the URL of your ticket shop here.
           url: /registration
         enableBanner: false
       colors:
