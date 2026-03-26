@@ -36,7 +36,7 @@ Author Registration Deadline is **April 21, 2026.**
 
 
 ### Cancellation Policy
-All refund/cancellation requests must be submitted in writing to the following email address fg2026@kadinche.com.
+All refund/cancellation requests must be submitted in writing to the following email address <a href="mailto:fg2026@kadinche.com">fg2026\@kadinche.com</a>.
 
 No refund requests will be accepted for the sole registration associated with a Paper ID.
 Otherwise, the following policies apply.
@@ -45,6 +45,6 @@ Otherwise, the following policies apply.
 - No refunds will be issued for any reason on or after May 20.
 
 ## Substitution Policy
-All requests to substitute another person on an existing registration must be submitted in writing to the following email address fg2026@kadinche.com, no later than May 19, 2026.
+All requests to substitute another person on an existing registration must be submitted in writing to the following email address <a href="mailto:fg2026@kadinche.com">fg2026\@kadinche.com</a>, no later than May 19, 2026.
 After this date, no changes in registration are possible.
 

@@ -126,7 +126,7 @@ password that was used for previous conferences. Verify that your contact inform
 
 Access the [IEEE Support Center](https://supportcenter.ieee.org/app/answers/list/st/4/kw/PDF%20eXpress/page/1) for IEEE PDF eXpress.
 
-If you do not find an answer to your question on the IEEE Support Center, please email [PDFSupport@ieee.org](PDFSupport@ieee.org).
+If you do not find an answer to your question on the IEEE Support Center, please email <a href="mailto:PDFSupport@ieee.org">PDFSupport\@ieee.org</a>.
 
 Once validated, download the PDF eXpress-certified PDF for submission.
 
