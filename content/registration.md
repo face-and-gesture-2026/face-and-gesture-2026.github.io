@@ -1,5 +1,5 @@
 # Registration
-Registration Link: [FG 2026 Registration](https://fg.confit.atlas.jp/)
+<span style="color: red;">Registration Link: [FG 2026 Registration](https://fg.confit.atlas.jp/)</span>
 
 **Please note that all dates and times on this page are in Japan Standard Time (JST).**
 
