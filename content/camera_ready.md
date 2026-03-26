@@ -2,9 +2,11 @@
 
 IEEE FG 2026 (Conference ID: 67764)
 
-Please follow the instructions below to prepare, validate, and submit your final camera-ready paper and the IEEE Electronic Copyright Form. Both must be completed and uploaded to the FG 2026 CMT site by **21 April 2026 (11:59 pm AoE)**. 
+**Please note that all dates and times on this page are in Japan Standard Time (JST).**
 
-All accepted (main conference) papers MUST have at least one full (non-student) registration by **21 April 2026 (11:59 pm AoE)**. A student author can register at the student rate only if another co-author has registered at the full rate. A student registration does not cover a paper. Papers without a valid registration by this deadline will not be included in the proceedings.
+Please follow the instructions below to prepare, validate, and submit your final camera-ready paper and the IEEE Electronic Copyright Form. Both must be completed and uploaded to the FG 2026 CMT site by **21 April 2026 (11:59 pm JST)**.
+
+All accepted (main conference) papers MUST have at least one full (non-student) registration by **21 April 2026 (11:59 pm JST)**. A student author can register at the student rate only if another co-author has registered at the full rate. A student registration does not cover a paper. Papers without a valid registration by this deadline will not be included in the proceedings.
 
 One full (member or non-member) registration covers 1 main conference paper + 1 workshop paper. Workshop papers can also be covered by a student registration. Workshop registrations are valid for 1 day on the selected workshop date and also cover 1 workshop paper. No social events are included in the workshop registration.
 
