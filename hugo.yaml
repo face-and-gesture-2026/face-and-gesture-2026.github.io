@@ -52,6 +52,9 @@ languages:
               - identifier: location
                 name: Location
                 pageRef: /location
+              - identifier: local_info
+                name: Local Information
+                pageRef: /local_info
         - identifier: organizers
           pageRef: /organizers
           weight: 70
