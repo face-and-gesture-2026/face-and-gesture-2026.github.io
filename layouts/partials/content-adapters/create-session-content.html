@@ -58,10 +58,11 @@
             {{ with resources.Get $url }}
                 {{ $content := dict "mediaType" .MediaType.Type "value" .Content }}
                 {{ $params := dict "alt" $speaker.fullName }}
+                {{/* Section resource: used by sessions list and home.html (avatar-{sessionId}-{speakerId}.*) */}}
                 {{ $resource := dict
                     "content" $content
                     "params" $params
-                    "path" (printf "%s/avatar-%s.%s" $path $speaker.id .MediaType.SubType)
+                    "path" (printf "avatar-%s-%s.%s" $sessionId $speaker.id .MediaType.SubType)
                 }}
                 {{ $resources = $resources | append $resource }}
             {{ else }}
