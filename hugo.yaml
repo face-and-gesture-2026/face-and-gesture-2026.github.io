@@ -21,6 +21,9 @@ languages:
               - identifier: cfp
                 name: Call for Papers
                 pageRef: /cfp
+              - identifier: camera_ready
+                name: Camera Ready Instructions
+                pageRef: /camera_ready
               - identifier: competition
                 name: Competitions
                 pageRef: /competition
