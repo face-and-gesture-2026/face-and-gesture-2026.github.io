@@ -1,7 +1,7 @@
 # Registration
 Registration Link: [FG 2026 Registration](https://fg.confit.atlas.jp/)
 
-Please note that all dates and times on this page are in Japan Standard Time (JST).
+**Please note that all dates and times on this page are in Japan Standard Time (JST).**
 
 | Category                   | Early registration              | Late registration    |
 |:---------------------------|:--------------------------------|:---------------------|
