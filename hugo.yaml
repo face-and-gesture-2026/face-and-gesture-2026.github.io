@@ -62,6 +62,10 @@ languages:
           name: Program
           pageRef: /sessions
           weight: 65
+        - identifier: awards
+          name: Awards
+          pageRef: /awards
+          weight: 66
         - identifier: organizers
           pageRef: /organizers
           weight: 70
