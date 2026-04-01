@@ -18,7 +18,7 @@ We strongly encourage submissions in all areas related to face and gesture analy
 All submissions will undergo a peer-review process. Anonymous submission is not mandatory, and the submission materials should include the following:
 
 ##### Proposal (Mandatory)
-A one-page proposal (including references) formatted according to the standard IEEE FG 2026 guidelines.
+**A one-page proposal (including references)** formatted according to the standard IEEE FG 2026 guidelines.
 
 This proposal should provide a comprehensive description of the demonstrated system and articulate the novelty and significance of the contribution to the FG community. Special emphasis should be placed on detailing the specific demonstration scenarios for the system. This should encompass how the audience will engage with the demo, the range of functionalities it offers, user scenarios, interface design, interaction options, and more.
 
