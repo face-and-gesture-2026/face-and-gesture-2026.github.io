@@ -199,6 +199,7 @@ params:
       favicon: favicon.ico
       featuredSessions:
         - "shunsuke_keynote"
+        - "patrizio_special_tutorial"
       callToAction:
         other:
           url: /registration
