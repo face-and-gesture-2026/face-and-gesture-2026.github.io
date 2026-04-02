@@ -29,6 +29,21 @@
       "status": null,
       "isInformed": false,
       "isConfirmed": true
+    },
+    {
+      "id": "patrizio_special_tutorial",
+      "title": "Training for Associate Editors, Reviewers, and Authors",
+      "description": "This presentation outlines best practices for associate editors, reviewers, and authors involved in the scholarly publication pipeline. It provides practical guidance to support each stage of manuscript handling and evaluation. The presentation will also address several sensitive but crucial topics, including effective review management, sound and transparent decision‑making, plagiarism prevention, the responsible use of AI in publications, and adherence to ethical standards throughout the editorial process.\n\n**Target audience:** The intended audience includes associate editors, reviewers, and authors, who are directly involved in managing, evaluating, and contributing scholarly manuscripts.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": true,
+      "speakers": ["patrizio-campisi"],
+      "categoryItems": [4380],
+      "roomId": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": true
     }
   ],
   "speakers": [
@@ -74,6 +89,20 @@
       "links": [{}],
       "sessions": [],
       "fullName": "Shunsuke Saito",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "patrizio-campisi",
+      "firstName": "Patrizio",
+      "lastName": "Campisi",
+      "bio": "Patrizio Campisi is Full Professor with the Department of Applied Electronics at the Università degli Studi \"Roma TRE\", Roma, Italy. He is a Marie Curie Fellow (June 2010 - June 2014). He received the “Laurea” degree (\"summa cum laude\") in Electronic Engineering from the Università degli Studi di Roma \"La Sapienza\", Roma, Italy and the Ph.D. degree in Electrical Engineering from the Università degli Studi \"Roma TRE\", Roma, Italy. His research interests are in the area of digital signal and image processing with applications to secure multimedia communications. Specifically, he has been working on secure biometric recognition (on-line signature, keystroke, EEG, vein patterns, template protection), digital watermarking for images, video, and stereo images, image deconvolution, image restoration, image analysis, stereo image analysis and enhancement, quality assessment of stereo images, texture coding, synthesis, and classification, video processing, blind equalization of data signals, and secure communications. He also serves as Vice President for Publication of the IEEE Biometrics Council.",
+      "tagLine": "Roma Tre University, Rome, Italy",
+      "profilePicture": "images/patriziocampisi.webp",
+      "isTopSpeaker": false,
+      "links": [{}],
+      "sessions": [],
+      "fullName": "Patrizio Campisi",
       "categoryItems": [],
       "questionAnswers": []
     }
