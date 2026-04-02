@@ -1,0 +1,48 @@
+{{ $sponsorsByTier := .sponsors }}
+{{ $tiers := slice "platinum" "gold" "silver" }}
+
+{{ $hasAny := false }}
+{{ range $tier := $tiers }}
+    {{ range $sponsor := (index $sponsorsByTier $tier) }}
+        {{ if and $sponsor.logo $sponsor.url }}
+            {{ $hasAny = true }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ if $hasAny }}
+    <div class="section-container">
+        <section class="section section--short our-sponsors">
+            <h1 class="heading heading--highlighted heading--centered">
+                {{ T "sponsors_section.heading" }}
+            </h1>
+            <h2 class="heading heading--2 heading--centered">
+                {{ T "sponsors_section.subheading" }}
+            </h2>
+            {{ range $tier := $tiers }}
+                {{ $validSponsors := slice }}
+                {{ range $sponsor := (index $sponsorsByTier $tier) }}
+                    {{ if and $sponsor.logo $sponsor.url }}
+                        {{ $validSponsors = $validSponsors | append $sponsor }}
+                    {{ end }}
+                {{ end }}
+                {{ if gt (len $validSponsors) 0 }}
+                    <h3 class="our-sponsors__tier-heading">{{ $tier | title }} Sponsor</h3>
+                    <ul class="our-sponsors__list our-sponsors__list--{{ $tier }}">
+                        {{ range $sponsor := $validSponsors }}
+                            <li class="our-sponsors__list-item">
+                                {{- partial "sponsor-card.html" (dict
+                                    "companyUrl" $sponsor.url
+                                    "logoResource" $sponsor.logo
+                                    "name" $sponsor.name
+                                    "tier" $tier
+                                    )
+                                }}
+                            </li>
+                        {{- end }}
+                    </ul>
+                {{ end }}
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

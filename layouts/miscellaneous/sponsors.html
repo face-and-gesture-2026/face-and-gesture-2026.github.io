@@ -1,0 +1,82 @@
+{{ define "main" }}
+    {{ $event := .Site.Params.themes.event }}
+
+
+    <section class="sponsors">
+        <div class="section">
+            {{ $tiers := slice "platinum" "gold" "silver" }}
+            {{ $hasAny := false }}
+            {{ range $tier := $tiers }}
+                {{ range $sponsor := (index $event.sponsors $tier) }}
+                    {{ if and $sponsor.logo $sponsor.url }}
+                        {{ $hasAny = true }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            {{ if $hasAny }}
+                <h1 class="heading heading--1">
+                    {{- T "sponsors_page.heading_sponsors" }}
+                </h1>
+                {{ range $tier := $tiers }}
+                    {{ $validSponsors := slice }}
+                    {{ range $sponsor := (index $event.sponsors $tier) }}
+                        {{ if and $sponsor.logo $sponsor.url }}
+                            {{ $validSponsors = $validSponsors | append $sponsor }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if gt (len $validSponsors) 0 }}
+                        <h2 class="heading heading--2 sponsors__tier-heading">{{ $tier | title }} Sponsor</h2>
+                        <ul class="sponsors__list sponsors__list--{{ $tier }}">
+                            {{ range $sponsor := $validSponsors }}
+                                <li class="sponsors__list-item">
+                                    {{- partial "sponsor-card.html" (
+                                        dict
+                                        "companyUrl" $sponsor.url
+                                        "logoResource" $sponsor.logo
+                                        "name" $sponsor.name
+                                        "tier" $tier
+                                        )
+                                    }}
+                                </li>
+                            {{- end }}
+                        </ul>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            {{ $validPartners := slice }}
+            {{ range $partner := $event.partners }}
+                {{ if and $partner.logo $partner.url }}
+                    {{ $validPartners = $validPartners | append $partner }}
+                {{ end }}
+            {{- end }}
+
+            {{ if gt (len $validPartners) 0 }}
+                <h1 class="heading heading--1">
+                    {{- T "sponsors_page.heading_partners" }}
+                </h1>
+                <ul class="sponsors__list">
+                    {{ range $partner := $validPartners }}
+                        <li class="sponsors__list-item">
+                            {{- partial "sponsor-card.html" (
+                                dict
+                                "profileUrl" $partner.url
+                                "logoResource" $partner.logo
+                                "name" $partner.name
+                                )
+                            }}
+                        </li>
+                    {{- end }}
+                </ul>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- {{- partial "sections/cta.html" (
+        dict
+        "eventbriteId" $event.callToAction.eventbrite.eventId
+        "ctaUrl" $event.callToAction.other.url
+        )
+    }} -->
+{{ end }}

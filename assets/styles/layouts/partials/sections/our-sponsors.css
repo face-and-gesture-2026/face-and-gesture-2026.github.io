@@ -1,0 +1,34 @@
+.our-sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-sponsors__list {
+    all: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1.4rem;
+}
+
+.our-sponsors__list-item {
+    flex: 0 0 auto;
+    margin-bottom: 1.875rem;
+    box-sizing: border-box;
+}
+
+.our-sponsors__tier-heading {
+    width: 100%;
+    text-align: center;
+    margin: 1.5rem 0 0.5rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-primary);
+}
