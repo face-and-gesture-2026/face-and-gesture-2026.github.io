@@ -57,8 +57,5 @@ The students selected to participate in the Doctoral Consortium may be considere
 
 #### Questions?
 
-For questions and queries, please contact the Doctoral Consortium Chairs:
-
-<a href="mailto:yasutomo.kawanishi@riken.jp">Yasutomo Kawanishi</a>, RIKEN, Japan
-
-<a href="mailto:kalin.stefanov@monash.edu">Kalin Stefanov</a>, Monash University, Australia
+For questions and queries, please contact the <a href="mailto:fg2026-drcs@googlegroups.com">Doctoral Consortium Chairs</a>:</br>
+Yasutomo Kawanishi, RIKEN, Japan and Kalin Stefanov, Monash University, Australia

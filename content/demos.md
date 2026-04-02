@@ -57,8 +57,4 @@ Submission link: https://cmt3.research.microsoft.com/FG2026/
 
 #### Contact
 
-For additional information and queries, please contact the Demo and Exhibition Chairs:
-
-<a href="mailto:masai@ait.kyushu-u.ac.jp">Katsutoshi Masai</a>
-and
-<a href="mailto:kevin.elhaddad@umons.ac.be">Kevin ElHaddad</a>
+For additional information and queries, please contact the <a href="mailto:fg2026-decs@googlegroups.com">Demo and Exhibition Chairs</a>:</br> Katsutoshi Masai and Kevin ElHaddad

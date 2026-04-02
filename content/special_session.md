@@ -39,7 +39,7 @@ A proposal must include the following information:
 
 <br>
 
-All proposals should be sent to the FG 2026 Special Session & Panel Chairs:<br> <a href="mailto:yusq@sustech.edu.cn">Shiqi Yu</a> and <a href="mailto:matteo.ferrara@unibo.it">Matteo Ferrara</a>
+All proposals should be sent to the FG 2026 <a href="mailto:fg2026-sscs@googlegroups.com">Special Session & Panel Chairs</a>:<br> Shiqi Yu and Matteo Ferrara.
 
 We look forward to your proposals and contributions to FG 2026!
 

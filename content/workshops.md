@@ -28,7 +28,7 @@ https://cmt3.research.microsoft.com/FG2026
 
 #### Contact
 
-For additional information and queries regarding the workshop proposal procedure, please contact the Workshop Co-chairs: <a href="mailto:ukita@toyota-ti.ac.jp">Norimichi Ukita</a> and <a href="mailto:kniinuma@fujitsu.com">Koichiro Niinuma</a>.
+For additional information and queries regarding the workshop proposal procedure, please contact the <a href="mailto:fg2026-wtcs@googlegroups.com">Workshop Co-chairs</a>: Norimichi Ukita and Koichiro Niinuma.
 
 
 #### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
