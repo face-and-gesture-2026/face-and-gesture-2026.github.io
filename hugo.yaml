@@ -200,6 +200,15 @@ params:
       featuredSessions:
         - "shunsuke_keynote"
         - "patrizio_special_tutorial"
+      sponsors:
+        silver:
+          - name: "Wing-AI Lab"
+            logo: logos/wingailab.webp
+            url: https://wing-ailab.com
+        gold:
+          - name: "IR-Advanced Longuistic Technologies Inc."
+            logo: logos/ir-alt.webp
+            url: https://ir-alt.co.jp/
       callToAction:
         other:
           url: /registration
