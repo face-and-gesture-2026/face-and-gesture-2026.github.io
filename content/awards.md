@@ -14,7 +14,8 @@ The main requirement is a nomination statement (maximum one page, PDF) describin
 
 Nominations may be submitted by any member of the face and gesture research community.
 
-Nominations should be emailed to the FG 2026 Awards Chairs: <a href="mailto:i.onalertugrul@uu.nl">Itir Onal Ertugrul</a> and <a href="mailto:abhinav.dhall@monash.edu">Abhinav Dhall</a>. Please expect a confirmation of receipt.
+Nominations should be emailed to the FG 2026 <a href="mailto:fg2026-acs@googlegroups.com">Awards Chairs</a>:</br>
+Itir Onal Ertugrul and Abhinav Dhall. Please expect a confirmation of receipt.
 
 ### Selection Process
 The FG 2026 Awards Committee will review all nominations and decide whether to grant the award. The Committee may decide to present more than one award.

@@ -29,4 +29,4 @@ Sponsors will receive the following benefits:
 #### Application & Contact
 For sponsorship applications or inquiries, please contact Chie Hieida and Hiromi Narimatsu.
 
-<a href="mailto:fg2026.sponsorship@gmail.com">fg2026.sponsorship\@gmail.com</a>
+<a href="mailto:fg2026-spcs@googlegroups.com">fg2026-spcs@googlegroups.com</a>
