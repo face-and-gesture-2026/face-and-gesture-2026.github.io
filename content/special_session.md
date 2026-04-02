@@ -85,4 +85,8 @@ We invite submissions addressing, but not limited to, the following topics:
 #### Submission instruction
 When you create a submission of Round 2 at the [submission system CMT](https://cmt3.research.microsoft.com/FG2026), you can choose your preferred special session from the Subject Areas.
   {{< /tab >}}
+
+  {{< tab title="Accepted Panels" >}}
+    Coming soon...
+  {{< /tab >}}
 {{< /tabs >}}
