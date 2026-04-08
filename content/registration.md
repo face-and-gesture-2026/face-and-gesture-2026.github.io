@@ -17,7 +17,7 @@
 | Non-Member                 | JPY 40,000                      | JPY &nbsp;55,000     |
 
 - IEEE Student Member, Student Non-Member, IEEE Member, and Non-Member registrations include admission to all technical sessions, Welcome Reception (May 25) and Banquet (May 27), and Refreshments during Breaks.
-- Workshop only (IEEE Member) and Workshop only (Non-Member) registrations represent 1-day registrations that include entry to all workshops and short courses on a selected workshop day. These 1-day registrations do not cover attendance at the main FG 2025 conference or any social events.
+- Workshop only (IEEE Member) and Workshop only (Non-Member) registrations represent 1-day registrations that include entry to all workshops, competitions and short courses on a selected workshop day. These 1-day registrations do not cover attendance at the main FG 2025 conference or any social events.
 
 If you are not already a member, you can [join IEEE](https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join) and enjoy reduced registration rates, among many other benefits and resources the IEEE offers. The [IEEE Biometrics Council](https://ieee-biometrics.org/) membership is free for IEEE members; you can add it to your membership at any time.
 
@@ -27,8 +27,8 @@ For registration-related queries, please contact: FG2026 Secretariat c/o Kadinch
 ### Author registration
 Author Registration Deadline is **April 21, 2026.**
 
-- Each IEEE Member and Non-Member Registration may be used to cover one Main Conference Paper and one Workshop Paper.
-- Each IEEE Student Member, Student Non-Member, and Workshop-only Registration may be used to cover one Workshop Paper.
+- Each IEEE Member and Non-Member Registration may be used to cover one Main Conference Paper and one Workshop Paper or Competition Paper.
+- Each IEEE Student Member, Student Non-Member, and Workshop-only Registration may be used to cover one Workshop Paper or Competition Paper.
 - All accepted main conference papers MUST have at least one IEEE Member or Non-Member Registration completed no later than the Author Registration Deadline. IEEE Student Member and Student Non-Member Registration cannot be used to cover main conference papers.
 - Authors may purchase a “One Additional Paper” ticket to cover each additional paper.</br>For example:
   - 1 IEEE Member or Non-Member registration + 2 “One Additional Paper” tickets can cover 1 Main Conference Paper + 1 Workshop Paper + 2 additional Main Conference and/or Workshop papers.
