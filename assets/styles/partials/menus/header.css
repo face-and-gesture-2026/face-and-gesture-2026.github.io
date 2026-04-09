@@ -1,4 +1,8 @@
 /* overwrite previous setting of overflow-x: hidden */
+.page-header {
+    z-index: 50;
+}
+
 .page-header__content{
     overflow: visible !important;
 }

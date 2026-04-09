@@ -234,13 +234,33 @@
   "rooms": [
     {
       "id": 215,
-      "name": "Green Room",
+      "name": "Buzzhall",
       "sort": 0
     },
     {
       "id": 216,
-      "name": "Restaurant",
+      "name": "Banquet hall",
+      "sort": 1
+    },
+    {
+      "id": 217,
+      "name": "B4 R1",
       "sort": 2
+    },
+    {
+      "id": 218,
+      "name": "B4 R2a",
+      "sort": 3
+    },
+    {
+      "id": 219,
+      "name": "B4 R2b",
+      "sort": 4
+    },
+    {
+      "id": 220,
+      "name": "B4 R3",
+      "sort": 5
     }
   ]
 }
