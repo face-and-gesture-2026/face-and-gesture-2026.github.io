@@ -73,6 +73,10 @@ languages:
           name: Sponsorship
           pageRef: /sponsorship
           weight: 80
+        - identifier: faq
+          name: FAQ
+          pageRef: /faq
+          weight: 90
 
 params:
   themes:
