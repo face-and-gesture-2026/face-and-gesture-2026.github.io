@@ -51,17 +51,17 @@ Use one of the following notices, depending on the employment status of all auth
 
 - Crown government authors only (UK, Canada, Australia):
 
-> `978-X-XXXX-XXXX-X/26/$31.00 ©2026 Crown`
+> `979-8-3315-7231-0/26/$31.00 ©2026 Crown`
 
 
 - European Union authors only:
 
-> `978-X-XXXX-XXXX-X/26/$31.00 ©2026 European Union`
+> `979-8-3315-7231-0/26/$31.00 ©2026 European Union`
 
 
 - All other papers:
 
-> `978-X-XXXX-XXXX-X/26/$31.00 ©2026 IEEE`
+> `979-8-3315-7231-0/26/$31.00 ©2026 IEEE`
 
 ---
 
