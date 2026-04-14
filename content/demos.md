@@ -48,9 +48,10 @@ Submission link: https://cmt3.research.microsoft.com/FG2026/
 #### Important Dates (all [AoE](https://time.is/Anywhere_on_Earth))
 |||||
 |:-|:-|:-|:-|
-| Submission deadline: | | | (One-page proposal and |
-|                                   | April 9,        | 2026 &nbsp; | Supplemental Material)|
-| Notification of acceptance:&nbsp; | April 16,&nbsp; | 2026 ||
+| Submission deadline:              | ~~April 9~~, | ~~2026~~ | (One-page proposal and |
+|                                   | April 17,    | 2026 &nbsp; | Supplemental Material)|
+| Notification of acceptance:&nbsp; | ~~April 16,~~&nbsp; | ~~2026~~ ||
+|                                   | April 20,       | 2026 ||
 | Camera Ready Deadline:            | April 21,       | 2026 ||
 
 <br>
