@@ -148,7 +148,16 @@ On the camera-ready submission page:
 
 File naming requirement:
 - Name your PDF as XXX.pdf, where XXX is your three-digit paper ID
-  - Example: paper ID 20 → 020.pdf
+  - **Example: paper ID 20 → 020.pdf**
+
+- For workshop papers, please include the workshop name before the paper ID:
+  - SD-FGA
+  - TrustFA
+  - MFM-FE
+  - FME
+  - EmpAI
+  - BEAT
+  - **Example: paper ID 10 for SD-FGA workshop → SD-FGA_010.pdf**
 
 Upload the PDF eXpress-validated file and submit.
 
