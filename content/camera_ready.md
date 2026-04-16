@@ -147,8 +147,8 @@ On the camera-ready submission page:
   - Any author changes must be approved and applied by the Program and Publication Chairs
 
 File naming requirement:
-- Name your PDF as XXX.pdf, where XXX is your three-digit paper ID
-  - **Example: paper ID 20 → 020.pdf**
+- Name your PDF as XXX.pdf and the supplementary file if applicable as XXX_supp.pdf, where XXX is your three-digit paper ID
+  - **Example: paper ID 20 → 020.pdf; supplementary file → 020_supp.pdf**
 
 - For workshop papers, please include the workshop name before the paper ID:
   - SD-FGA
