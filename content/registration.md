@@ -1,6 +1,8 @@
 # Registration
 <span style="color: red;">Registration Link: [FG 2026 Registration](https://fg.confit.atlas.jp/)</span>
 
+For registration-related queries, please contact: FG2026 Secretariat c/o Kadinche Corporation (fg2026@kadinche.com).
+
 **Please note that all dates and times on this page are in Japan Standard Time (JST).**
 
 | Category                   | Early registration              | Late registration    |
@@ -20,8 +22,6 @@
 - Workshop only (IEEE Member) and Workshop only (Non-Member) registrations represent 1-day registrations that include entry to all workshops, competitions and short courses on a selected workshop day. These 1-day registrations do not cover attendance at the main FG 2025 conference or any social events.
 
 If you are not already a member, you can [join IEEE](https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join) and enjoy reduced registration rates, among many other benefits and resources the IEEE offers. The [IEEE Biometrics Council](https://ieee-biometrics.org/) membership is free for IEEE members; you can add it to your membership at any time.
-
-For registration-related queries, please contact: FG2026 Secretariat c/o Kadinche Corporation (fg2026@kadinche.com).
 
 
 ### Author registration
