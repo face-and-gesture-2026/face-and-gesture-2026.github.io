@@ -9,3 +9,8 @@ including at least one valid full registration by the author registration deadli
 If an exception is approved and the authors are unable to attend in person,
 the paper may instead be presented in person by an approved proxy presenter.
 Authors facing exceptional circumstances should contact the organizers as early as possible.
+
+### Visa
+Visa letters will be issued after completing the registration.
+Please make sure to register and select the option that you need a visa letter.
+For inquiries about Visa letters, please contact fg2026@kadinche.com
