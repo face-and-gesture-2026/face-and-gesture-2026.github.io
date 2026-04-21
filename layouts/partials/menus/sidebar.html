@@ -7,9 +7,11 @@
         {{- $item := . }}
             {{ with $item.Params }}
                 {{- range .entries }}
+                {{- $entryUrl := or .url .pageRef (printf "/%s" .identifier) }}
                 <li class="sidebar-menu__item">
                     <a
-                    href="/{{ .identifier }}"
+                    href="{{ $entryUrl }}"
+                    {{- with .url }} target="_blank" rel="noopener noreferrer"{{- end }}
                     class="sidebar-menu__link"
                     aria-label="{{- or (T (printf " menu.%s" $item.Identifier)) .Name }}">
                     {{- or .name (T (printf ".%s" .identifier)) | safeHTML }}

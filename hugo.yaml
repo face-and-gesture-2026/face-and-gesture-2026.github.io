@@ -57,7 +57,7 @@ languages:
                 pageRef: /location
               - identifier: local_info
                 name: Local Information
-                pageRef: /local_info
+                url: https://kyoto.travel/en/
         - identifier: Program
           name: Program
           pageRef: /sessions

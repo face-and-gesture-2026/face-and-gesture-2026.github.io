@@ -22,8 +22,10 @@
                     <div class="dropdown__menu">
                         {{- range .entries }}
                             {{ warnf "%#v" . }}
+                            {{- $entryUrl := or .url .pageRef (printf "/%s" .identifier) }}
                                 <a
-                                    href="/{{ .identifier }}">
+                                    href="{{ $entryUrl }}"
+                                    {{- with .url }} target="_blank" rel="noopener noreferrer"{{- end }}>
                                     {{- or .name (T (printf ".%s" .identifier)) | safeHTML }}
                                 </a>
                         {{- end }}
