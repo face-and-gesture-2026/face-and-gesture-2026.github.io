@@ -27,9 +27,9 @@ If you are not already a member, you can [join IEEE](https://www.ieee.org/member
 ### Author registration
 Author Registration Deadline is **April 21, 2026.**
 
-- Each IEEE Member and Non-Member Registration may be used to cover one Main Conference Paper and one Workshop Paper or Competition Paper.
+- Each IEEE Member and Non-Member Registration may be used to cover one Main Conference Paper or one Demo Paper and one Workshop Paper or Competition Paper.
 - Each IEEE Student Member, Student Non-Member, and Workshop-only Registration may be used to cover one Workshop Paper or Competition Paper.
-- All accepted main conference papers MUST have at least one IEEE Member or Non-Member Registration completed no later than the Author Registration Deadline. IEEE Student Member and Student Non-Member Registration cannot be used to cover main conference papers.
+- All accepted main conference and demo papers MUST have at least one IEEE Member or Non-Member Registration completed no later than the Author Registration Deadline. IEEE Student Member and Student Non-Member Registration cannot be used to cover main conference or demo papers.
 - Authors may purchase a “One Additional Paper” ticket to cover each additional paper.</br>For example:
   - 1 IEEE Member or Non-Member registration + 2 “One Additional Paper” tickets can cover 1 Main Conference Paper + 1 Workshop Paper + 2 additional Main Conference and/or Workshop papers.
   - 1 Workshop only, IEEE Student Member, or Student Non-Member Registration + 3 “One Additional Paper” tickets can cover 4 Workshop Papers.
