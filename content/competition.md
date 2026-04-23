@@ -41,15 +41,15 @@ Please follow the structure of, and adapt, the [Overleaf template](https://www.o
 | Acceptance notification to organizers     | ~~November 28, 2025~~ |
 |                                           | ~~December 4, 2025~~  |
 | **For Standard Competitions:** ||
-|    Competition launch (data release)      | Start January 2025 |
-|    Submission deadline (Test Results)     | Mid Feb 2026 |
-|    Result evaluation and feedback         | Start March 2026 |
-|    Paper Submission                       | Mid March 2026 |
+|    Competition launch (data release)      | ~~Start January 2025~~ |
+|    Submission deadline (Test Results)     | ~~Mid Feb 2026~~ |
+|    Result evaluation and feedback         | ~~Start March 2026~~ |
+|    Paper Submission                       | ~~Mid March 2026~~ |
 | **For Live Demo and Entrepreneurial Competitions:** ||
-|    Competition Launch                     | Mid January 2026 |
-|    Demo and pitch submissions             | Mid Feb 2026 |
-|    Notification of results                | Start March 2026 |
-|    Paper submissions                      | Mid March 2026 |
+|    Competition Launch                     | ~~Mid January 2026~~ |
+|    Demo and pitch submissions             | ~~Mid Feb 2026~~ |
+|    Notification of results                | ~~Start March 2026~~ |
+|    Paper submissions                      | ~~Mid March 2026~~ |
 
 <br>
 
