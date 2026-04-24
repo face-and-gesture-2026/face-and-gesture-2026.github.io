@@ -31,6 +31,21 @@
       "isConfirmed": true
     },
     {
+      "id": "matthews_keynote",
+      "title": "Face, Body, Interaction: The Future of Digital Humans?",
+      "description": "Do we still need explicit representations for faces and bodies? As diffusion and vision-language models generate ever more convincing video of people, the temptation is to declare the parameterization era over. Pixels are the representation we have the most data for, but not necessarily the right abstraction for real-time, interactive, and controllable characters. In this keynote I will argue that interaction — not fidelity — is the key requirement for impactful digital human applications, and explore what that implies for implicit vs. explicit approaches.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": true,
+      "speakers": ["iain-matthews"],
+      "categoryItems": [4371],
+      "roomId": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": true
+    },
+    {
       "id": "patrizio_special_tutorial",
       "title": "Training for Associate Editors, Reviewers, and Authors",
       "description": "This presentation outlines best practices for associate editors, reviewers, and authors involved in the scholarly publication pipeline. It provides practical guidance to support each stage of manuscript handling and evaluation. The presentation will also address several sensitive but crucial topics, including effective review management, sound and transparent decision‑making, plagiarism prevention, the responsible use of AI in publications, and adherence to ethical standards throughout the editorial process.\n\n**Target audience:** The intended audience includes associate editors, reviewers, and authors, who are directly involved in managing, evaluating, and contributing scholarly manuscripts.",
@@ -65,7 +80,7 @@
       "id": "iain-matthews",
       "firstName": "Iain",
       "lastName": "Matthews",
-      "bio": "Iain Matthews is an experienced research director with respected contributions in both industry and academia. Iain received a BEng degree in electronic engineering and a PhD in computer science from the University of East Anglia in the UK. He moved to the USA to join the Robotics Institute at Carnegie Mellon University. In 2006 he spent two years in New Zealand at the visual effects company Weta Digital contributing to the FACETS facial motion capture system while working on the movies Avatar and Tintin, and was awarded a Scientific and Engineering Award (a technical Oscar) for this work in 2017. He joined the newly formed Disney Research in Pittsburgh in 2008 to build the computer vision group and in 2013 was promoted to Associate Director of the Pittsburgh lab. Prior to joining Epic Games he spent a couple of years at Oculus Research / Facebook Reality Labs working on social VR/AR.\nIain also holds a courtesy faculty appointment at the Robotics Institute at Carnegie Mellon University and an Honorary Professor position at the University of East Anglia. He has published over 140 academic papers and been issued more than 25 US patents.",
+      "bio": "Iain Matthews has spent two decades building systems at the intersection of computer vision, graphics, and machine learning for digital humans. He most recently led a Research team at Epic Games, shipping real-time ML systems for facial animation, body deformation, and character pipelines in Unreal Engine and MetaHuman. Earlier, he created the facial motion capture system used on Avatar and Tintin at Weta Digital, for which he received a Scientific and Engineering Academy Award in 2017. Iain holds a PhD in computer vision from the University of East Anglia and was faculty in the Robotics Institute at Carnegie Mellon University, where he retains an adjunct appointment. He also served as Associate Director of Disney Research Pittsburgh. He has published over 140 papers and holds more than two dozen US patents.",
       "tagLine": "Director of Research Science, Epic Games",
       "profilePicture": "images/iainmatthews.webp",
       "isTopSpeaker": true,
