@@ -204,6 +204,7 @@ params:
         location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
       favicon: favicon.ico
       featuredSessions:
+        - "matthews_keynote"
         - "shunsuke_keynote"
         - "patrizio_special_tutorial"
       sponsors:
