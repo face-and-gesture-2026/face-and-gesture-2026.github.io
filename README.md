@@ -109,3 +109,6 @@ For technical issues with the website, please:
 3. Open an issue in this repository
 
 For conference-related inquiries, please contact the organizing committee.
+
+### Dev Notes:
+- Program override in layouts/sessions/list.html
