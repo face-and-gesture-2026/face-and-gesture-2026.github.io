@@ -1,0 +1,323 @@
+{{- define "main" }}
+    {{/*
+    {{- $scheduledSessionPages := sort (where .Pages "Params.isScheduled" true) ".Params.startsAt" "asc" }}
+    {{- $sessionsGroupedByDay := $scheduledSessionPages.GroupByParamDate "date" "2006-01-02" "asc" }}
+    {{- $calendarEvents := slice }}
+    {{- range $scheduledSessionPages }}
+        {{- $speakerNames := slice }}
+        {{- $eventClasses := slice }}
+        {{- range .Params.speakers }}
+            {{- $speakerNames = $speakerNames | append .fullName }}
+        {{- end }}
+        {{- range .Params.categories }}
+            {{- $eventClasses = $eventClasses | append (printf "program-category-%s" (. | urlize)) }}
+        {{- end }}
+        {{- if eq (len $eventClasses) 0 }}
+            {{- $eventClasses = $eventClasses | append "program-category-general" }}
+        {{- end }}
+        {{- if .Params.isServiceSession }}
+            {{- $eventClasses = $eventClasses | append "program-event--service" }}
+        {{- end }}
+        {{- $roomName := "" }}
+        {{- with .Params.room }}
+            {{- $roomName = .name }}
+        {{- end }}
+        {{- $startText := .Params.startsAt | time.Format "2006-01-02T15:04:05" }}
+        {{- $endText := "" }}
+        {{- if and .Params.endsAt (not .Params.endsAt.IsZero) }}
+            {{- $endText = .Params.endsAt | time.Format "2006-01-02T15:04:05" }}
+        {{- end }}
+        {{- $calendarEvents = $calendarEvents | append (dict
+            "id" .Params.sessionId
+            "title" .Title
+            "start" $startText
+            "end" $endText
+            "url" .RelPermalink
+            "roomSort" $roomName
+            "classNames" $eventClasses
+            "extendedProps" (dict
+                "detailUrl" .RelPermalink
+                "description" (.Plain | default "")
+                "room" $roomName
+                "track" (or .Params.track "General")
+                "speakers" $speakerNames
+                "categories" (.Params.categories | default (slice))
+                "isServiceSession" .Params.isServiceSession
+            )
+        ) }}
+    {{- end }}
+
+    <header class="section-container">
+        <div class="section section--long program-calendar-intro">
+            <div class="program-calendar-intro__copy">
+                <p class="program-calendar-intro__eyebrow">Program</p>
+                <h1 class="heading heading--1">Program Schedule</h1>
+                <p class="program-calendar-intro__lead">
+                    Browse the conference program as a week overview or drill into a single day.
+                </p>
+            </div>
+
+            <div class="program-calendar-intro__meta">
+                <p>
+                    {{ .Site.Params.themes.event.startDate | time.Format ":date_medium" }}
+                    to
+                    {{ .Site.Params.themes.event.endDate | time.Format ":date_medium" }}
+                </p>
+                <p>{{ .Site.Params.themes.event.location }}</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="section-container section-container--dimmed">
+        {{- if gt (len $scheduledSessionPages) 0 }}
+            <section class="section section--long program-calendar-page">
+                <div class="program-calendar-shell">
+                    <div class="program-calendar-toolbar">
+                        <div class="program-calendar-view-switch" role="toolbar" aria-label="Program calendar controls">
+                            <button class="program-calendar-view-button is-active" type="button" data-calendar-view="timeGridWeek">
+                                Week
+                            </button>
+                            <button class="program-calendar-view-button" type="button" data-calendar-view="timeGridDay">
+                                Day
+                            </button>
+                        </div>
+
+                        {{- if gt (len $sessionsGroupedByDay) 1 }}
+                            <div class="program-calendar-day-controls is-hidden">
+                                <button type="button" class="program-calendar-nav-button" data-calendar-nav="prev" aria-label="Previous program day">
+                                    Previous
+                                </button>
+                                <label class="program-calendar-day-picker" for="program-day-picker">
+                                    <span>Focus day</span>
+                                    <select id="program-day-picker" class="select">
+                                        {{- range $index, $group := $sessionsGroupedByDay }}
+                                            <option value="{{ $group.Key }}">
+                                                Day {{ add $index 1 }} · {{ $group.Key | time.Format ":date_medium" }}
+                                            </option>
+                                        {{- end }}
+                                    </select>
+                                </label>
+                                <button type="button" class="program-calendar-nav-button" data-calendar-nav="next" aria-label="Next program day">
+                                    Next
+                                </button>
+                            </div>
+                        {{- end }}
+                    </div>
+
+                    <div class="program-calendar-layout">
+                        <div class="program-calendar-board">
+                            <div id="program-calendar" data-testid="program-calendar"></div>
+                            <script id="program-calendar-data" data-testid="program-calendar-data" type="application/json">{{ $calendarEvents | jsonify | safeHTML }}</script>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.global.min.js"></script>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const calendarElement = document.getElementById('program-calendar');
+                        const dataElement = document.getElementById('program-calendar-data');
+                        const viewButtons = document.querySelectorAll('[data-calendar-view]');
+                        const dayPicker = document.getElementById('program-day-picker');
+                        const dayControls = document.querySelector('.program-calendar-day-controls');
+                        const previousDayButton = document.querySelector('[data-calendar-nav="prev"]');
+                        const nextDayButton = document.querySelector('[data-calendar-nav="next"]');
+
+                        if (!calendarElement || !dataElement || !window.FullCalendar) {
+                            return;
+                        }
+
+                        const rawEvents = JSON.parse(dataElement.textContent || '[]');
+                        const events = typeof rawEvents === 'string' ? JSON.parse(rawEvents) : rawEvents;
+                        if (!events.length) {
+                            return;
+                        }
+
+                        const startDates = events
+                            .map((event) => new Date(event.start))
+                            .filter((date) => !Number.isNaN(date.getTime()))
+                            .sort((left, right) => left.getTime() - right.getTime());
+                        const endDates = events
+                            .map((event) => event.end ? new Date(event.end) : null)
+                            .filter((date) => date && !Number.isNaN(date.getTime()));
+
+                        const initialDate = startDates[0];
+                        const initialView = window.matchMedia('(max-width: 960px)').matches ? 'timeGridDay' : 'timeGridWeek';
+                        const minHour = Math.max(0, Math.min(...startDates.map((date) => date.getHours())) - 1);
+                        const maxHourSource = endDates.length ? endDates : startDates;
+                        const maxHour = Math.min(24, Math.max(...maxHourSource.map((date) => date.getHours() + 1)));
+
+                        function formatLocalDateKey(value) {
+                            const year = value.getFullYear();
+                            const month = String(value.getMonth() + 1).padStart(2, '0');
+                            const day = String(value.getDate()).padStart(2, '0');
+                            return `${year}-${month}-${day}`;
+                        }
+
+                        const availableDays = dayPicker ? Array.from(dayPicker.options).map(function(option) {
+                            return option.value;
+                        }) : [];
+
+                        function syncDayNavigation(currentDate) {
+                            if (!dayPicker || !previousDayButton || !nextDayButton || !currentDate || !availableDays.length) {
+                                return;
+                            }
+
+                            const currentKey = formatLocalDateKey(currentDate);
+                            const currentIndex = availableDays.indexOf(currentKey);
+
+                            previousDayButton.disabled = currentIndex <= 0;
+                            nextDayButton.disabled = currentIndex === -1 || currentIndex >= availableDays.length - 1;
+                        }
+
+                        function syncViewButtons(activeView) {
+                            viewButtons.forEach(function(button) {
+                                const isActive = button.dataset.calendarView === activeView;
+                                button.classList.toggle('is-active', isActive);
+                                button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+                            });
+
+                            if (dayControls) {
+                                dayControls.classList.toggle('is-hidden', activeView !== 'timeGridDay');
+                            }
+                        }
+
+                        function syncDayPicker(currentDate) {
+                            if (!dayPicker || !currentDate) {
+                                return;
+                            }
+
+                            const currentKey = formatLocalDateKey(currentDate);
+                            const matchingOption = Array.from(dayPicker.options).find((option) => option.value === currentKey);
+                            if (matchingOption) {
+                                dayPicker.value = currentKey;
+                            }
+
+                            syncDayNavigation(currentDate);
+                        }
+
+                        const calendar = new FullCalendar.Calendar(calendarElement, {
+                            initialDate: initialDate,
+                            initialView: initialView,
+                            events: events,
+                            views: {
+                                timeGridWeek: {
+                                    weekends: false,
+                                },
+                            },
+                            allDaySlot: false,
+                            nowIndicator: true,
+                            height: 'auto',
+                            expandRows: true,
+                            eventMinHeight: 40,
+                            eventShortHeight: 20,
+                            slotMinTime: `${String(minHour).padStart(2, '0')}:00:00`,
+                            slotMaxTime: `${String(maxHour).padStart(2, '0')}:00:00`,
+                            headerToolbar: {
+                                start: 'title',
+                                center: '',
+                                end: '',
+                            },
+                            eventTimeFormat: {
+                                hour: 'numeric',
+                                hour12: false,
+                                minute: '2-digit',
+                                meridiem: false,
+                            },
+                            slotLabelFormat: {
+                                hour: '2-digit',
+                                hour12: false,
+                                minute: '2-digit',
+                            },
+                            eventOrder: 'roomSort,title',
+                            eventOrderStrict: true,
+                            datesSet: function(info) {
+                                syncViewButtons(info.view.type);
+                                syncDayPicker(info.start);
+                            },
+                        });
+
+                        calendar.render();
+                        syncViewButtons(initialView);
+                        syncDayPicker(initialDate);
+
+                        viewButtons.forEach(function(button) {
+                            button.addEventListener('click', function() {
+                                const targetView = button.dataset.calendarView || 'timeGridWeek';
+                                const focusDate = dayPicker && dayPicker.value ? dayPicker.value : calendar.getDate();
+                                calendar.changeView(targetView, focusDate);
+                                syncViewButtons(targetView);
+                            });
+                        });
+
+                        if (dayPicker) {
+                            dayPicker.addEventListener('change', function() {
+                                const targetDate = dayPicker.value;
+                                const activeView = calendar.view.type === 'timeGridDay' ? 'timeGridDay' : calendar.view.type;
+                                calendar.changeView(activeView, targetDate);
+                            });
+                        }
+
+                        if (previousDayButton) {
+                            previousDayButton.addEventListener('click', function() {
+                                if (!dayPicker) {
+                                    return;
+                                }
+
+                                const currentIndex = availableDays.indexOf(dayPicker.value);
+                                if (currentIndex > 0) {
+                                    calendar.changeView('timeGridDay', availableDays[currentIndex - 1]);
+                                }
+                            });
+                        }
+
+                        if (nextDayButton) {
+                            nextDayButton.addEventListener('click', function() {
+                                if (!dayPicker) {
+                                    return;
+                                }
+
+                                const currentIndex = availableDays.indexOf(dayPicker.value);
+                                if (currentIndex > -1 && currentIndex < availableDays.length - 1) {
+                                    calendar.changeView('timeGridDay', availableDays[currentIndex + 1]);
+                                }
+                            });
+                        }
+                    });
+                </script>
+            </section>
+        {{- else }}
+            <div class="section nothing-scheduled-section">
+                <h1 class="heading heading--highlighted heading--centered nothing-scheduled-section__heading">
+                    {{ T "sessions_page.heading_no_sessions" }}
+                </h1>
+                <h2 class="heading heading--2 heading--centered nothing-scheduled-section__heading">
+                    {{ T "sessions_page.heading_come_back_soon" }}
+                </h2>
+            </div>
+        {{- end }}
+    </div>
+    */}}
+
+    {{/*
+    <header class="section-container">
+        <div class="section section--long program-calendar-intro">
+            <div class="program-calendar-intro__copy">
+                <p class="program-calendar-intro__eyebrow">Program</p>
+                <h1 class="heading heading--1">Program Schedule</h1>
+            </div>
+        </div>
+    </header>
+    */}}
+
+    <div class="section-container section-container--dimmed">
+        <section class="section section--long program-calendar-page">
+            <iframe
+                title="Face and Gesture 2026 Program Schedule"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnX2t9wZn8GUFG2JWYfwSkEoXypgnkGLS7Wi73f_vtQ3t-gJuvS-t7sLmat2HdiPxisCZ29EsiRLXk/pubhtml?widget=true&amp;headers=false"
+                style="width: 100%; min-height: 80vh; border: 0;"
+                loading="lazy">
+            </iframe>
+        </section>
+    </div>
+{{- end }}
