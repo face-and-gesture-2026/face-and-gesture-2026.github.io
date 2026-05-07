@@ -33,6 +33,9 @@ languages:
               - identifier: doctoral_consortium
                 name: "Doctoral Consortium"
                 pageRef: /doctoral_consortium
+              - identifier: presenter_instructions
+                name: Presenter Instructions
+                pageRef: /presenter_instructions
               - identifier: special_session
                 name: "Special Sessions"
                 pageRef: /special_session
