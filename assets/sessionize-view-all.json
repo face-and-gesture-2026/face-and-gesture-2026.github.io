@@ -59,6 +59,21 @@
       "status": null,
       "isInformed": false,
       "isConfirmed": true
+    },
+    {
+      "id": "nagai_keynote",
+      "title": "Beyond Face and Gesture: Brain–Body–Social Dynamics in Human Interaction",
+      "description": "Human social interaction emerges not only through facial expressions and body gestures, but also through dynamic coupling among the brain, body, and social environment. While recent advances in affective computing and social signal processing have enabled increasingly accurate recognition of observable behaviors, understanding internal states such as stress and emotion requires going beyond surface-level analysis.\n\nIn this talk, I will present our recent studies on parent–child interaction that combine neural and physiological sensing with subjective assessments. I will discuss how neural and physiological activities are dynamically coupled through social interactions and how these dynamics relate to subjective feelings of stress. Finally, I will argue for a new direction in neuro-inspired AI that estimates and models the embodied nature of human emotional experiences beyond the static assessment of facial and gesture signals.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": true,
+      "speakers": ["yukie-nagai"],
+      "categoryItems": [4371],
+      "roomId": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": true
     }
   ],
   "speakers": [

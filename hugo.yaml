@@ -33,6 +33,9 @@ languages:
               - identifier: doctoral_consortium
                 name: "Doctoral Consortium"
                 pageRef: /doctoral_consortium
+              - identifier: presenter_instructions
+                name: Presenter Instructions
+                pageRef: /presenter_instructions
               - identifier: special_session
                 name: "Special Sessions"
                 pageRef: /special_session
@@ -204,6 +207,7 @@ params:
         location: images/krp_building.webp # source: https://note.com/nikken/n/ndc406f6933ad
       favicon: favicon.ico
       featuredSessions:
+        - nagai_keynote
         - "matthews_keynote"
         - "shunsuke_keynote"
         - "patrizio_special_tutorial"
