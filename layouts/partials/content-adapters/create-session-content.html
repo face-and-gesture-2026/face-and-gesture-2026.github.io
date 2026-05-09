@@ -25,7 +25,14 @@
     {{ end }}
     {{ $isScheduled := not $date.IsZero }}
     {{ $room := index (where $input.sessionize.rooms "id" .roomId) 0 }}
-    {{ $content := dict "mediaType" "text/markdown" "value" .description }}
+    {{ $rawDescription := .description | default "" }}
+    {{ $embedUrl := "" }}
+    {{ $descriptionValue := $rawDescription }}
+    {{ if in $rawDescription "<iframe" }}
+        {{ $embedUrl = replaceRE `(?s).*<iframe[^>]*\ssrc="([^"]+)"[^>]*>.*` "$1" $rawDescription }}
+        {{ $descriptionValue = "" }}
+    {{ end }}
+    {{ $content := dict "mediaType" "text/markdown" "value" $descriptionValue }}
     {{ $speakers := where $input.sessionize.speakers "id" "in" .speakers }}
     {{ $sessionTrack := index (where $trackCategoryItems "id" "in" .categoryItems) 0 }}
     {{ $sessionCategories := where $otherCategoryItems "id" "in" .categoryItems }}
@@ -45,6 +52,7 @@
         "track" $sessionTrack.name
         "isScheduled" $isScheduled
         "categories" $sessionCategoryNames
+        "embedUrl" $embedUrl
     }}
     {{ $path := (printf "%s %s" .title $sessionId) }}
     {{ $page := dict

@@ -28,6 +28,7 @@
                 -}}
             </div>
         </section>
+        {{- if not page.Params.embedUrl }}
         <section class="section" aria-label="Speaker of the session">
             <h1 class="heading heading--2">{{ T "sessions_page.speaker" }}</h1>
             <ul class="carousel single-session-speaker-list" role="list">
@@ -76,7 +77,21 @@
                 {{- end }}
             </ul>
         </section>
+        {{- end }}
     </div>
+
+    {{- if page.Params.embedUrl }}
+    <div class="section-container section-container--dimmed">
+        <section class="section section--long program-calendar-page">
+            <iframe
+                title="{{ page.Title }}"
+                src="{{ page.Params.embedUrl }}"
+                style="width: 100%; min-height: 80vh; border: 0;"
+                loading="lazy"
+            ></iframe>
+        </section>
+    </div>
+    {{- end }}
 
     {{- $sameTrackSessions := slice }}
     {{ range where .Site.RegularPages "Section" "sessions" }}
