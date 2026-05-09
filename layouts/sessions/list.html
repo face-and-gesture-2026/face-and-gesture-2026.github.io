@@ -1,6 +1,11 @@
 {{- define "main" }}
-    {{/*
-    {{- $scheduledSessionPages := sort (where .Pages "Params.isScheduled" true) ".Params.startsAt" "asc" }}
+    {{- $allScheduledPages := sort (where .Pages "Params.isScheduled" true) ".Params.startsAt" "asc" }}
+    {{- $scheduledSessionPages := slice }}
+    {{- range $allScheduledPages }}
+        {{- if not (strings.Contains .Params.sessionId "_keynote") }}
+            {{- $scheduledSessionPages = $scheduledSessionPages | append . }}
+        {{- end }}
+    {{- end }}
     {{- $sessionsGroupedByDay := $scheduledSessionPages.GroupByParamDate "date" "2006-01-02" "asc" }}
     {{- $calendarEvents := slice }}
     {{- range $scheduledSessionPages }}
@@ -297,7 +302,6 @@
             </div>
         {{- end }}
     </div>
-    */}}
 
     {{/*
     <header class="section-container">
@@ -308,7 +312,6 @@
             </div>
         </div>
     </header>
-    */}}
 
     <div class="section-container section-container--dimmed">
         <section class="section section--long program-calendar-page">
@@ -320,4 +323,5 @@
             </iframe>
         </section>
     </div>
+    */}}
 {{- end }}
