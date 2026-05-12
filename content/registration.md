@@ -1,5 +1,7 @@
 # Registration
-<span style="color: red;">Registration Link: [FG 2026 Registration](https://fg.confit.atlas.jp/)</span>
+<span style="color: red;">Registration Link: ~~[FG 2026 Registration]()~~ </span> Registration is now closed.
+
+We have reached the maximum capacity of the venue. Therefore, we are no longer accepting new registrations. Thank you for your interest and understanding.
 
 For registration-related queries, please contact: FG2026 Secretariat c/o Kadinche Corporation (fg2026@kadinche.com).
 
