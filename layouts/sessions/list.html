@@ -32,6 +32,10 @@
         {{- if and .Params.endsAt (not .Params.endsAt.IsZero) }}
             {{- $endText = .Params.endsAt | time.Format "2006-01-02T15:04:05" }}
         {{- end }}
+        {{- $calendarDescription := .Plain | default "" }}
+        {{- if .Params.embedUrl }}
+            {{- $calendarDescription = "(Click for details)" }}
+        {{- end }}
         {{- $calendarEvents = $calendarEvents | append (dict
             "id" .Params.sessionId
             "title" .Title
@@ -42,7 +46,7 @@
             "classNames" $eventClasses
             "extendedProps" (dict
                 "detailUrl" .RelPermalink
-                "description" (.Plain | default "")
+                "description" $calendarDescription
                 "room" $roomName
                 "track" (or .Params.track "General")
                 "speakers" $speakerNames
@@ -59,6 +63,9 @@
                 <h1 class="heading heading--1">Program Schedule</h1>
                 <p class="program-calendar-intro__lead">
                     Browse the conference program as a week overview or drill into a single day.
+                </p>
+                <p class="program-calendar-intro__lead">
+                    Click on the calendar events to view more details.
                 </p>
             </div>
 
@@ -236,6 +243,30 @@
                             },
                             eventOrder: 'roomSort,title',
                             eventOrderStrict: true,
+                            eventContent: function(info) {
+                                const content = document.createElement('div');
+                                content.className = 'program-calendar-event';
+
+                                const time = document.createElement('div');
+                                time.className = 'program-calendar-event__time';
+                                time.textContent = info.timeText;
+                                content.appendChild(time);
+
+                                const title = document.createElement('div');
+                                title.className = 'program-calendar-event__title';
+                                title.textContent = info.event.title;
+                                content.appendChild(title);
+
+                                const descriptionText = info.event.extendedProps.description || '';
+                                if (descriptionText) {
+                                    const description = document.createElement('div');
+                                    description.className = 'program-calendar-event__description';
+                                    description.textContent = descriptionText;
+                                    content.appendChild(description);
+                                }
+
+                                return { domNodes: [content] };
+                            },
                             datesSet: function(info) {
                                 syncViewButtons(info.view.type);
                                 syncDayPicker(info.start);
