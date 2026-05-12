@@ -272,13 +272,45 @@
 }
 
 .fc .fc-event-main {
+    align-content: flex-start;
+    align-items: flex-start;
     display: grid;
     gap: 0.2rem;
     padding: 0.4rem 0.5rem;
 }
 
+.program-calendar-event {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: grid;
+    gap: 0.2rem;
+}
+
+.program-calendar-event__time {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.program-calendar-event__title {
+    font-size: 0.88rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.program-calendar-event__description {
+    display: -webkit-box;
+    font-size: 0.76rem;
+    line-height: 1.35;
+    opacity: 0.96;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
 .fc .fc-timegrid-event-short .fc-event-main {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     gap: 0.35rem;
     min-height: 3rem;
@@ -325,6 +357,34 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.fc .fc-timegrid-event-short .program-calendar-event {
+    align-items: flex-start;
+    display: flex;
+    gap: 0.35rem;
+    min-width: 0;
+}
+
+.fc .fc-timegrid-event-short .program-calendar-event__time {
+    flex: 0 0 auto;
+    font-size: 0.64rem;
+    margin: 0;
+}
+
+.fc .fc-timegrid-event-short .program-calendar-event__title {
+    display: block;
+    flex: 1 1 auto;
+    font-size: 0.78rem;
+    line-height: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fc .fc-timegrid-event-short .program-calendar-event__description {
+    display: none;
 }
 
 @media (max-width: 1100px) {
