@@ -28,7 +28,7 @@
                 -}}
             </div>
         </section>
-        {{- if not page.Params.embedUrl }}
+        {{- if and (not page.Params.embedUrl) page.Params.speakerIds }}
         <section class="section" aria-label="Speaker of the session">
             <h1 class="heading heading--2">{{ T "sessions_page.speaker" }}</h1>
             <ul class="carousel single-session-speaker-list" role="list">
