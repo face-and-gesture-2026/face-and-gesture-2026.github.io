@@ -15,7 +15,8 @@
                     "Publicity" "fg2026-publicitycs@googlegroups.com"
                     "Website" "fg2026-webcs@googlegroups.com"
                     "FinanceAndLocal" "fg2026-flcs@googlegroups.com"
-                    "Awards" "fg2026-acs@googlegroups.com"
+                    "Best Paper Awards" "fg2026-acs@googlegroups.com"
+                    "Impact Awards" ""
                     "Sponsorship" "fg2026-spcs@googlegroups.com"
                     "DoctoralConsortium" "fg2026-drcs@googlegroups.com"
                     "BroadeningParticipation" "fg2026-bpc@googlegroups.com"
@@ -269,9 +270,33 @@
                 </menu>
                 </br>
                 </br>
-                <h1 class="heading heading--3 organizer-section-heading">Awards Chairs{{ with index $sectionEmails "Awards" }}<a class="organizer-section-heading__email" href="mailto:{{ . }}">{{ . }}</a>{{ end }}</h1>
+                <h1 class="heading heading--3 organizer-section-heading">Best Paper Awards Chair{{ with index $sectionEmails "Best Paper Awards" }}<a class="organizer-section-heading__email" href="mailto:{{ . }}">{{ . }}</a>{{ end }}</h1>
                 <menu class="speaker-list__menu">
-                {{ range $id := $data.Awards }}
+                {{ range $id := $data.BestPaperAward }}
+                    {{ $organizer := index $itemMap $id }}
+                    {{ $orgPage := index $pageMap $id }}
+                    {{ if $organizer }}
+                        <li class="speaker-list__item">
+                            {{- partial "organizer-card.html" (
+                                dict
+                                "profileUrl" $orgPage.RelPermalink
+                                "avatarResource" ($orgPage.Resources.GetMatch "avatar.*")
+                                "name" $orgPage.Title
+                                "description" $orgPage.Params.tagLine
+                                "linkedinUrl" $orgPage.Params.linkedinUrl
+                                "xUrl" $orgPage.Params.xUrl
+                                "companyUrl" $orgPage.Params.company
+                                )
+                            }}
+                        </li>
+                    {{ end }}
+                {{ end }}
+                </menu>
+                </br>
+                </br>
+                <h1 class="heading heading--3 organizer-section-heading">Impact Awards Chair{{ with index $sectionEmails "Awards" }}<a class="organizer-section-heading__email" href="mailto:{{ . }}">{{ . }}</a>{{ end }}</h1>
+                <menu class="speaker-list__menu">
+                {{ range $id := $data.ImpactAward }}
                     {{ $organizer := index $itemMap $id }}
                     {{ $orgPage := index $pageMap $id }}
                     {{ if $organizer }}
