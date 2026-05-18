@@ -152,7 +152,7 @@
 }
 
 .program-calendar-board {
-    overflow: hidden;
+    overflow: visible;
     padding: 1rem;
 }
 
@@ -294,13 +294,17 @@
 }
 
 .program-calendar-event__title {
+    display: -webkit-box;
     font-size: 0.88rem;
     font-weight: 700;
     line-height: 1.35;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
 }
 
 .program-calendar-event__description {
-    display: -webkit-box;
+    display: none;
     font-size: 0.76rem;
     line-height: 1.35;
     opacity: 0.96;
