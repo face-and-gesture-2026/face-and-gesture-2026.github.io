@@ -2,9 +2,7 @@
     {{- $allScheduledPages := sort (where .Pages "Params.isScheduled" true) ".Params.startsAt" "asc" }}
     {{- $scheduledSessionPages := slice }}
     {{- range $allScheduledPages }}
-        {{- if and (not (strings.Contains .Params.sessionId "_keynote")) (not (strings.Contains .Params.sessionId "_tutorial")) }}
-            {{- $scheduledSessionPages = $scheduledSessionPages | append . }}
-        {{- end }}
+        {{- $scheduledSessionPages = $scheduledSessionPages | append . }}
     {{- end }}
     {{- $sessionsGroupedByDay := $scheduledSessionPages.GroupByParamDate "date" "2006-01-02" "asc" }}
     {{- $calendarEvents := slice }}
