@@ -10,7 +10,7 @@
       "isPlenumSession": false,
       "speakers": [],
       "categoryItems": [4374],
-      "roomId": 217,
+      "roomId": 215,
       "status": null,
       "isInformed": false,
       "isConfirmed": true
@@ -25,7 +25,7 @@
       "isPlenumSession": false,
       "speakers": [],
       "categoryItems": [4374, 4377],
-      "roomId": 218,
+      "roomId": 217,
       "status": null,
       "isInformed": false,
       "isConfirmed": true
@@ -40,7 +40,7 @@
       "isPlenumSession": false,
       "speakers": [],
       "categoryItems": [4374],
-      "roomId": 218,
+      "roomId": 217,
       "status": null,
       "isInformed": false,
       "isConfirmed": true
@@ -512,7 +512,7 @@
     },
     {
       "id": 220,
-      "name": "B4 R3",
+      "name": "B4 R2a-b",
       "sort": 5
     }
   ]
