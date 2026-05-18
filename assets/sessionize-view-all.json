@@ -151,6 +151,21 @@
       "isConfirmed": true
     },
     {
+      "id": "patrizio_special_tutorial",
+      "title": "Training for Associate Editors, Reviewers, and Authors",
+      "description": "This presentation outlines best practices for associate editors, reviewers, and authors involved in the scholarly publication pipeline. It provides practical guidance to support each stage of manuscript handling and evaluation. The presentation will also address several sensitive but crucial topics, including effective review management, sound and transparent decision‑making, plagiarism prevention, the responsible use of AI in publications, and adherence to ethical standards throughout the editorial process.\n\n**Target audience:** The intended audience includes associate editors, reviewers, and authors, who are directly involved in managing, evaluating, and contributing scholarly manuscripts.",
+      "startsAt": "2026-05-28T11:50:00+09:00",
+      "endsAt": "2026-05-28T13:20:00+09:00",
+      "isServiceSession": false,
+      "isPlenumSession": true,
+      "speakers": ["patrizio-campisi"],
+      "categoryItems": [4380],
+      "roomId": 215,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": true
+    },
+    {
       "id": "main-day3",
       "title": "Main Conference - Day 3",
       "description": "<div class=\"section-container section-container--dimmed\"><section class=\"section section--long program-calendar-page\"><iframe title=\"Face and Gesture 2026 Program Schedule\" src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRnX2t9wZn8GUFG2JWYfwSkEoXypgnkGLS7Wi73f_vtQ3t-gJuvS-t7sLmat2HdiPxisCZ29EsiRLXk/pubhtml?widget=true&amp;headers=false#gid=1009348500\" style=\"width: 100%; min-height: 80vh; border: 0;\" loading=\"lazy\"></iframe></section></div>",

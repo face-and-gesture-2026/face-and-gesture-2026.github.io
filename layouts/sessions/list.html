@@ -2,7 +2,7 @@
     {{- $allScheduledPages := sort (where .Pages "Params.isScheduled" true) ".Params.startsAt" "asc" }}
     {{- $scheduledSessionPages := slice }}
     {{- range $allScheduledPages }}
-        {{- if not (strings.Contains .Params.sessionId "_keynote") }}
+        {{- if and (not (strings.Contains .Params.sessionId "_keynote")) (not (strings.Contains .Params.sessionId "_tutorial")) }}
             {{- $scheduledSessionPages = $scheduledSessionPages | append . }}
         {{- end }}
     {{- end }}
