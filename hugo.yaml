@@ -220,6 +220,28 @@ params:
           - name: "IR-Advanced Longuistic Technologies Inc."
             logo: logos/ir-alt.webp
             url: https://ir-alt.co.jp/
+        other:
+          - name: "Meet Kyoto"
+            logo: logos/mice.webp
+            url: https://meetkyoto.jp/en/
+          - name: "MICE Fund"
+            logo: logos/mice_l.webp
+            url: https://meetkyoto.jp/en/
+          - name: "TAF Foundation"
+            logo: logos/TAF.webp
+            url: https://www.taf.or.jp/
+          - name: "SECOM Foundation"
+            logo: logos/SECOM.webp
+            url: https://www.secomzaidan.jp/
+          - name: "Tateishi Foundation"
+            logo: logos/tateishi.webp
+            url: https://www.tateisi-f.org/
+          - name: "Kashima Foundation"
+            logo: logos/kashima.webp
+            url: https://www.kajima-f.or.jp/en/
+          - name: "Kayamori Foundation"
+            logo: logos/kayamori.webp
+            url: https://www.kayamorif.or.jp/
       callToAction:
         other:
           url: /registration
