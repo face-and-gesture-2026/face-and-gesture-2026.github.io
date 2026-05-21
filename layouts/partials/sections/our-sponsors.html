@@ -1,5 +1,5 @@
 {{ $sponsorsByTier := .sponsors }}
-{{ $tiers := slice "platinum" "gold" "silver" }}
+{{ $tiers := slice "platinum" "gold" "silver" "other"}}
 
 {{ $hasAny := false }}
 {{ range $tier := $tiers }}
@@ -27,7 +27,11 @@
                     {{ end }}
                 {{ end }}
                 {{ if gt (len $validSponsors) 0 }}
+                    {{ if eq $tier "other" }}
+                    <h3 class="our-sponsors__tier-heading">{{ $tier | title }} Supporters</h3>
+                    {{ else }}
                     <h3 class="our-sponsors__tier-heading">{{ $tier | title }} Sponsor</h3>
+                    {{ end }}
                     <ul class="our-sponsors__list our-sponsors__list--{{ $tier }}">
                         {{ range $sponsor := $validSponsors }}
                             <li class="our-sponsors__list-item">

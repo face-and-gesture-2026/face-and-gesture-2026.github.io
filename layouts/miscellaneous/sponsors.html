@@ -4,7 +4,7 @@
 
     <section class="sponsors">
         <div class="section">
-            {{ $tiers := slice "platinum" "gold" "silver" }}
+            {{ $tiers := slice "platinum" "gold" "silver" "other" }}
             {{ $hasAny := false }}
             {{ range $tier := $tiers }}
                 {{ range $sponsor := (index $event.sponsors $tier) }}
