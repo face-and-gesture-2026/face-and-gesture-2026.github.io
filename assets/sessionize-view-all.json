@@ -5,7 +5,7 @@
       "title": "1st Workshop on Behavior and Emotion Analysis through wearable Technology (BEAT)",
       "description": "Wearable movement and physiology sensors offer lightweight, non-invasive, and ecologically valid means to monitor human activity, affective state, and social behavior. With the rise of commercially deployed devices and new wearable foundation models, opportunities for scalable human behavior analysis continue to grow. The 1st Workshop on Behavioral and Emotion Analysis through wearable Technology (BEAT) aims to foster collaboration between researchers from various backgrounds (ML, HCI, biomedical engineering) around the topic of wearable devices for human behavioral analysis. Challenges such as resource efficiency, irregularly sampled data, multimodal fusion, and privacy-preserving AI will be addressed. We welcome contributions spanning various application domains, namely Affective Computing, Mobile Health, Action Recognition, Social Interaction, and HRI.",
       "startsAt": "2026-05-25T09:00:00+09:00",
-      "endsAt": "2026-05-25T17:00:00+09:00",
+      "endsAt": "2026-05-25T15:15:00+09:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [],
@@ -50,7 +50,7 @@
       "title": "Doctoral Consortium",
       "description": "",
       "startsAt": "2026-05-25T09:00:00+09:00",
-      "endsAt": "2026-05-25T17:00:00+09:00",
+      "endsAt": "2026-05-25T13:45:00+09:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [],
@@ -200,7 +200,7 @@
       "title": "4th Workshop on learning with few or no annotated face, body and gesture data",
       "description": "One of the main limitations of Deep Learning is that it requires large-scale annotated datasets to train efficient models. Gathering face, body or gesture data and annotating them can be very time consuming and laborious. This is particularly the case in areas where experts from the field are required, like in the medical domain. In such a case, using crowdsourcing may not be suitable, also due to privacy concerns and regulations. The goal of this 4th edition of the workshop is to explore approaches to overcome such limitations by investigating ways to learn from few annotated data, to transfer knowledge from similar domains or problems, to generate synthetic data, or to benefit from the community to gather novel large-scale annotated datasets.",
       "startsAt": "2026-05-29T13:30:00+09:00",
-      "endsAt": "2026-05-29T17:00:00+09:00",
+      "endsAt": "2026-05-29T17:30:00+09:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [],
@@ -215,7 +215,7 @@
       "title": "From Generation to Authentication: First Workshop on Trustworthy Face Avatars (TrustFA)",
       "description": "TrustFA 2026 (From Generation to Authentication: First Workshop on Trustworthy Face Avatars) brings together researchers and practitioners working at the intersection of photo-realistic face avatar and robust authentication to make avatar technologies safer, more reliable, and more accountable. As face reenactment, 2D/3D avatar generation, and real-time facial animation rapidly mature and the raise of new concerns around impersonation, deepfakes, and privacy, this workshop will highlight advances in trustworthy generation, detection and verification, watermarking and traceability, secure capture and control, evaluation protocols and datasets, and emerging applications in telepresence, AR/VR, and human–computer interaction. The program will feature invited talks and contributed presentations, fostering discussion and new collaborations on building face avatar systems people can trust.",
       "startsAt": "2026-05-29T09:00:00+09:00",
-      "endsAt": "2026-05-29T12:30:00+09:00",
+      "endsAt": "2026-05-29T12:00:00+09:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [],
@@ -242,7 +242,7 @@
     },
     {
       "id": "deepfake-tutorial",
-      "title": "Deep Fake Tutorial",
+      "title": "'Seeing Isn't Believing': A Multimodal Dive into Deepfakes",
       "description": "",
       "startsAt": "2026-05-29T09:00:00+09:00",
       "endsAt": "2026-05-29T12:30:00+09:00",
@@ -257,10 +257,10 @@
     },
     {
       "id": "eventbasedcar-tutorial",
-      "title": "Event-based Camera Tutorial",
+      "title": "Face and Gesture Recognition Using Event-Based Cameras",
       "description": "",
       "startsAt": "2026-05-29T13:30:00+09:00",
-      "endsAt": "2026-05-29T17:00:00+09:00",
+      "endsAt": "2026-05-29T16:30:00+09:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [],
@@ -527,7 +527,7 @@
     },
     {
       "id": 220,
-      "name": "B4 R2a-b",
+      "name": "B4 R2",
       "sort": 5
     }
   ]
