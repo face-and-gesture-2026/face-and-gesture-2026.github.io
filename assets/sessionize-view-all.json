@@ -199,7 +199,7 @@
       "id": "lfa-fg_workshop",
       "title": "4th Workshop on learning with few or no annotated face, body and gesture data",
       "description": "One of the main limitations of Deep Learning is that it requires large-scale annotated datasets to train efficient models. Gathering face, body or gesture data and annotating them can be very time consuming and laborious. This is particularly the case in areas where experts from the field are required, like in the medical domain. In such a case, using crowdsourcing may not be suitable, also due to privacy concerns and regulations. The goal of this 4th edition of the workshop is to explore approaches to overcome such limitations by investigating ways to learn from few annotated data, to transfer knowledge from similar domains or problems, to generate synthetic data, or to benefit from the community to gather novel large-scale annotated datasets.",
-      "startsAt": "2026-05-29T13:30:00+09:00",
+      "startsAt": "2026-05-29T14:00:00+09:00",
       "endsAt": "2026-05-29T17:30:00+09:00",
       "isServiceSession": false,
       "isPlenumSession": false,
